@@ -1,0 +1,492 @@
+[
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": null,
+    "section_title": null,
+    "breadcrumb": "(문서 서두)",
+    "page_start": 1,
+    "page_end": 3,
+    "char_count": 1887,
+    "text": "INTERNATIONAL COUNCIL FOR HARMONISATION OF TECHNICAL REQUIREMENTS FOR PHARMACEUTICALS FOR HUMAN USE ICH HARMONISED GUIDELINE GENERAL CONSIDERATIONS FOR CLINICAL STUDIES E8(R1) Final version Adopted on 6 October 2021 This Guideline has been developed by the appropriate ICH Expert Working Group and has been subject to consultation by the regulatory parties, in accordance with the ICH Process. At Step 4 of the Process the final draft is recommended for adoption to the regulatory bodies of ICH regions. E8(R1) Document History E8 Code History Date E8 Approval by the Steering Committee under Step 4 17 July 1997 and recommendation for adoption by ICH regulatory bodies. Revision of E8 Code History Date E8(R1) Adoption by the Regulatory Members of the ICH 6 October 2021 Assembly under Step 4. Legal notice: This document is protected by copyright and may, with the exception of the ICH logo, be used, reproduced, incorporated into other works, adapted, modified, translated or distributed under a public license provided that ICH's copyright in the document is acknowledged at all times. In case of any adaption, modification or translation of the document, reasonable steps must be taken to clearly label, demarcate or otherwise identify that changes were made to or based on the original document. Any impression that the adaption, modification or translation of the original document is endorsed or sponsored by the ICH must be avoided. The document is provided \"as is\" without warranty of any kind. In no event shall the ICH or the authors of the original document be liable for any claim, damages or other liability arising from the use of the document. The above-mentioned permissions do not apply to content supplied by third parties. Therefore, for documents where the copyright vests in a third party, permission for reproduction must be obtained from this copyright holder. i"
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "1",
+    "section_title": "OBJECTIVES OF THIS DOCUMENT",
+    "breadcrumb": "1 OBJECTIVES OF THIS DOCUMENT",
+    "page_start": 7,
+    "page_end": 7,
+    "char_count": 3283,
+    "text": "Clinical studies of medicinal products are conducted to provide information that can ultimately improve access to safe and effective products with meaningful impact on patients, while protecting those participating in the studies. This document provides guidance on the clinical development lifecycle, including designing quality into clinical studies, considering the broad range of clinical study designs and data sources used. The ICH document \"General Considerations for Clinical Studies\" is intended to: 1. Describe internationally accepted principles and practices in the design and conduct of clinical studies that will ensure the protection of study participants and facilitate acceptance of data and results by regulatory authorities 2. Provide guidance on the consideration of quality in the design and conduct of clinical studies across the product lifecycle, including the identification, during study planning, of factors that are critical to the quality of the study, and the management of risks to those factors during study conduct 3. Provide an overview of the types of clinical studies performed during the product lifecycle, and describe study design elements that support the identification of quality factors critical to ensuring the protection of study participants, the integrity of the data, the reliability of results, and the ability of the studies to meet their objectives 4. Provide a guide to the ICH efficacy documents to facilitate user's access General principles are described in Section 2 of this document, followed by a discussion of designing quality into clinical studies in Section 3. A broad overview of drug development planning and the information provided by different types of studies needed to progress development through the lifecycle of the product is given in Section 4. In Section 5, important elements of clinical study design are described that reflect the variety of designs used in drug development as well as the range of data sources available. Section 6 addresses study conduct, ensuring the safety of study participants, and study reporting. Some considerations for identifying factors that are critical to the quality of a study are provided in Section 7. The ICH Efficacy guidelines are an integrated set of guidance covering the planning, design, conduct, safety, analysis, and reporting of clinical studies. ICH E8 provides an overall introduction to clinical development, designing quality into clinical studies and focusing on those factors critical to the quality of the studies. The guidelines should be considered and used in an integrated, holistic way rather than focusing on only one guideline or subsection. For the purposes of this document, a clinical study is meant to refer to a study of one or more medicinal products in humans, conducted at any point in a product’s lifecycle, both prior to and following marketing authorisation. The focus is on clinical studies to support regulatory decisions, recognizing these studies may also inform health policy decisions, clinical practice guidelines, or other actions. The term \"drug\" should be considered synonymous with therapeutic, preventative, or diagnostic medicinal products. The term “drug approval” refers to obtaining marketing authorisation for the drug."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "2.1",
+    "section_title": "Protection of Clinical Study Participants",
+    "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
+    "page_start": 8,
+    "page_end": 8,
+    "char_count": 1434,
+    "text": "Important principles of ethical conduct of clinical studies and the protection of participants, including special populations, have their origins in the Declaration of Helsinki and should be observed in the conduct of all human clinical investigations. These principles are stated in other ICH guidelines, in particular, ICH E6-Good Clinical Practice. As further described in the E6 guideline, the investigator and sponsor have responsibilities for the protection of study participants together with the Institutional Review Board/Independent Ethics Committee. The confidentiality of information that could identify participants should be protected in accordance with the applicable regulatory and legal requirement(s). Before initiating a clinical study, sufficient information should be available to ensure that the drug is acceptably safe for the planned study in humans. Emerging non-clinical, clinical, and pharmaceutical quality data should be reviewed and evaluated, as they become available, by qualified experts to assess the potential implications for the safety of study participants. Ongoing and future studies should be appropriately adjusted as needed, to take new knowledge into consideration and to protect study participants. Throughout drug development, care should be taken to ensure all study procedures and assessments are necessary from a scientific viewpoint and do not place undue burden on study participants."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "2.2",
+    "section_title": "Scientific Approach in Clinical Study Design, Planning, Conduct, Analysis, and",
+    "breadcrumb": "2 GENERAL PRINCIPLES > 2.2 Scientific Approach in Clinical Study Design, Planning, Conduct, Analysis, and",
+    "page_start": 8,
+    "page_end": 9,
+    "char_count": 2830,
+    "text": "Reporting The essence of clinical research is to ask important questions and answer them with appropriate studies. The primary objectives of any study should reflect the research questions and be clear and explicitly stated. Clinical studies should be designed, planned, conducted, analysed, and reported according to sound scientific principles to achieve their objectives. Quality of a clinical study is considered in this document as fitness for purpose. The purpose of a clinical study is to generate reliable information to answer the research questions and support decision making while protecting study participants. The quality of the information generated should therefore be sufficient to support good decision making. Quality by design in clinical research sets out to ensure that the quality of a study is driven proactively by designing quality into the study protocol and processes. This involves the use of a prospective, multidisciplinary approach to promote the quality of protocol and process design in a manner proportionate to the risks involved, and clear communication of how this will be achieved. Across the product lifecycle, different types of studies will be conducted with different objectives and designs and may involve different data sources. For purposes of this guideline, development planning is considered to cover the entire product lifecycle (Section 4). The Annex provides a broad categorisation of study type by objective within the different stages of drug development. Studies should be rigorously designed to address the study objectives with careful attention to the design elements, such as the choice of study population and response variables and the use of methods to minimize biases in the findings (Section 5). The cardinal logic behind serially conducted studies is that the results of prior studies should inform the plan of later studies. Emerging data will frequently prompt a modification of the development strategy. For example, results of a confirmatory study may suggest a need for additional human pharmacology studies. The availability of multi-regional data as a result of the increased globalisation of drug development programmes, facilitated by the harmonisation of ICH Guidelines, minimises the need to conduct individual studies in different regions. The results of a study are often used in regulatory submissions in multiple regions, and the design should also consider the relevance of the study results for regions other than the one(s) in which the study is conducted. Further guidance is provided by ICH E5 Ethnic Factors, ICH E6, and ICH E17 Multi-Regional Clinical Trials. Early engagement with regulatory authorities to understand local/regional requirements and expectations is encouraged and will facilitate the ability to design quality into the study."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "2.3",
+    "section_title": "Patient Input into Drug Development",
+    "breadcrumb": "2 GENERAL PRINCIPLES > 2.3 Patient Input into Drug Development",
+    "page_start": 9,
+    "page_end": 9,
+    "char_count": 758,
+    "text": "Consulting with patients and/or patient organisations during drug development can help to ensure that patients’ perspectives are captured. The views of patients (or of their caregivers/parents) can be valuable throughout all phases of drug development. Involving patients early in the design of a study is likely to increase trust in the study, facilitate recruitment, and promote adherence. Patients also provide their perspective of living with a condition, which may contribute to the determination, for example, of endpoints that are meaningful to patients, selection of the appropriate population and duration of the study, and use of acceptable comparators. This ultimately supports the development of drugs that are better tailored to patients’ needs."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3",
+    "section_title": "DESIGNING QUALITY INTO CLINICAL STUDIES",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES",
+    "page_start": 9,
+    "page_end": 9,
+    "char_count": 602,
+    "text": "The quality by design approach to clinical research (Section 3.1) involves focusing on critical to quality factors to ensure the protection of the rights, safety, and wellbeing of study participants, the generation of reliable and meaningful results, and the management of risks to those factors using a risk-proportionate approach (Section 3.2). The approach is supported by the establishment of an appropriate framework for the identification and review of critical to quality factors (Section 3.3) at the time of design and planning of the study, and throughout its conduct, analysis, and reporting."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.1",
+    "section_title": "Quality by Design of Clinical Studies",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.1 Quality by Design of Clinical Studies",
+    "page_start": 9,
+    "page_end": 10,
+    "char_count": 1559,
+    "text": "Quality is a primary consideration in the design, planning, conduct, analysis, and reporting of clinical studies and a necessary component of clinical development programmes. The likelihood that a clinical study will answer the research questions while preventing important errors can be dramatically improved through prospective attention to the design of all components of the study protocol, procedures, associated operational plans and training. Activities such as document and data review and monitoring, where conducted retrospectively, are an important part of a quality assurance process; but, even when combined with audits, they are not sufficient to ensure quality of a clinical study. Good planning and implementation of a clinical study also derive from attention to the design elements of clinical studies as described in Section 5, such as: • the need for clear pre-defined study objectives that address the primary scientific question(s); • selection of appropriate participants that have the disease, condition, or molecular/genetic profile that is being studied; • use of approaches to minimise bias, such as randomisation, blinding or masking, and/or control of confounding; • endpoints that are well-defined, measurable, clinically meaningful, and relevant to patients. Operational criteria are also important, such as ensuring a clear understanding of the feasibility of the study, selection of suitable investigator sites, quality of specialised analytical and testing facilities and procedures, and processes that ensure data integrity."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.2",
+    "section_title": "Critical to Quality Factors",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.2 Critical to Quality Factors",
+    "page_start": 10,
+    "page_end": 11,
+    "char_count": 3271,
+    "text": "A basic set of factors relevant to ensuring study quality should be identified for each study. Emphasis should be given to those factors that stand out as critical to study quality. These critical to quality factors are attributes of a study whose integrity is fundamental to the protection of study participants, the reliability and interpretability of the study results, and the decisions made based on the study results. These quality factors are considered to be critical because, if their integrity were to be undermined by errors of design or conduct, the reliability or ethics of decision-making based on the results of the study would also be undermined. Critical to quality factors should also be considered holistically, so that dependencies among them can be identified. Section 7 of this document provides considerations that can help identify critical to quality factors for a study. The design of a clinical study should reflect the state of knowledge and experience with the drug; the condition to be treated, diagnosed or prevented; the underlying biological mechanism (of both the condition and the treatment); and the population for which the drug is intended. As research progresses, knowledge increases and uncertainties about the pharmacology, safety and efficacy of a drug decrease. Knowledge of the drug at any point in development will continually inform the identification of critical to quality factors and control processes used to manage them. The sponsor and other parties designing quality into a clinical study should identify the critical to quality factors. Having identified those factors, it is important to determine the risks that threaten their integrity and decide whether they can be accepted or should be mitigated, based on their probability, detectability and impact. Where it is decided that risks should be mitigated, the necessary control processes should be put in place and communicated, and the necessary actions taken to mitigate the risks. The term risk is used here in the context of general risk management methodology applicable to all factors of a study. Proactive communication of the critical to quality factors and risk mitigation activities will support understanding of priorities and resource allocation by the sponsor and investigator sites. Proactive support (e.g., training to site staff, relevant to their role, and description of critical to quality factors and potential mitigation measures in the protocol) will enhance correct implementation of study protocol, procedures, and associated operational plans and process design. Perfection in every aspect of an activity is rarely achievable or can only be achieved by use of resources that are out of proportion to the benefit obtained. The quality factors should be prioritised to identify those that are critical to the study, at the time of the study design, and study procedures should be proportionate to the risks inherent in the study and the importance of the information collected. The critical to quality factors should be clear and should not be cluttered with minor issues (e.g., due to extensive secondary objectives or processes/data collection not linked to the proper protection of the study participants and/or primary study objectives)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3",
+    "section_title": "Approach to Identifying the Critical to Quality Factors",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors",
+    "page_start": 11,
+    "page_end": 11,
+    "char_count": 1028,
+    "text": "A key aspect of a quality approach to study design is to ask whether the objectives being addressed by the study are clearly articulated; whether the study is designed to meet the research question it sets out to address; whether these questions are meaningful to patients; and whether the study hypotheses are specific and scientifically valid. The approach to the identification of the critical to quality factors should consider whether those objectives can be met, well and most efficiently, by the chosen design and data sources. Patient consultation early in the study design process can contribute to this approach and ultimately help to identify the critical to quality factors. Study designs should be operationally feasible and avoid unnecessary complexity. Protocols and case report forms/data collection methods should enable the study to be conducted as designed and avoid unnecessary data collection. Identification of critical to quality factors will be enhanced by approaches that include the following elements:"
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3.1",
+    "section_title": "Establishing a Culture that Supports Open Dialogue",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors > 3.3.1 Establishing a Culture that Supports Open Dialogue",
+    "page_start": 11,
+    "page_end": 11,
+    "char_count": 895,
+    "text": "Creating a culture that values and rewards critical thinking and open, proactive dialogue about what is critical to quality for a particular study or development programme, going beyond sole reliance on tools and checklists, is encouraged. Open dialogue can facilitate the development of innovative methods for ensuring quality. Inflexible, “one size fits all” approaches should be discouraged. Standardised operating procedures are necessary and beneficial for conducting good quality clinical studies, but study specific strategies and actions are also needed to effectively and efficiently support quality in a study. Evidence used to inform the study design should be gathered and reviewed, before and during the study, in a transparent manner, while acknowledging gaps in data and conflicting data, where present and known, and anticipating the possible emergence of such gaps or conflicts."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3.2",
+    "section_title": "Focusing on Activities Essential to the Study",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors > 3.3.2 Focusing on Activities Essential to the Study",
+    "page_start": 11,
+    "page_end": 12,
+    "char_count": 510,
+    "text": "Efforts should be focused on activities that are essential to the reliability and meaningfulness of study outcomes for patients and public health, and the safe, ethical conduct of the study for participants. Consideration should be given to eliminating nonessential activities and data collection from the study to increase quality by simplifying conduct, improving study efficiency, and targeting resources to critical areas. Resources should be deployed to identify and prevent or control errors that matter."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3.3",
+    "section_title": "Engaging Stakeholders in Study Design",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors > 3.3.3 Engaging Stakeholders in Study Design",
+    "page_start": 12,
+    "page_end": 12,
+    "char_count": 1282,
+    "text": "Clinical study design is best informed by input from a broad range of stakeholders, including patients and healthcare providers. It should be open to challenge by subject matter experts and stakeholders from outside, as well as within, the sponsor organisation. The process of building quality into the study may be informed by participation of those directly involved in successful completion of the study such as clinical investigators, study coordinators and other site staff, and patients/patient organisations. Clinical investigators and potential study participants have valuable insights into the feasibility of enrolling participants who meet proposed eligibility criteria, whether scheduled study visits and procedures may be overly burdensome and lead to early dropouts, and the general relevance of study endpoints and study settings to the targeted patient population. They may also provide insight into the value of a treatment in the context of ethical issues, culture, region, demographics, and other characteristics of subgroups within a targeted patient population. Early engagement with regulatory authorities is encouraged, particularly when a study has novel elements considered critical to quality (e.g., defining patient populations, procedures, or endpoints)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3.4",
+    "section_title": "Reviewing Critical to Quality Factors",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors > 3.3.4 Reviewing Critical to Quality Factors",
+    "page_start": 12,
+    "page_end": 12,
+    "char_count": 493,
+    "text": "Accumulated experience and knowledge, together with periodic review of critical to quality factors should be used to determine whether adjustments to risk control mechanisms are needed, because new or unanticipated issues may arise once the study has begun. Studies with adaptive features and/or interim decision points need specific attention during proactive planning and ongoing review of critical to quality factors, and risk management (ICH E9 Statistical Principles for Clinical Trials)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "3.3.5",
+    "section_title": "Critical to Quality Factors in Operational Practice",
+    "breadcrumb": "3 DESIGNING QUALITY INTO CLINICAL STUDIES > 3.3 Approach to Identifying the Critical to Quality Factors > 3.3.5 Critical to Quality Factors in Operational Practice",
+    "page_start": 12,
+    "page_end": 12,
+    "char_count": 1014,
+    "text": "The foundation of a successful study is a protocol that is both scientifically sound and operationally feasible. A feasibility assessment involves consideration of study design and implementation elements that could impact the successful completion of clinical development from an operational perspective. Feasibility considerations also include but are not limited to regional differences in medical practice and patient populations, the availability of qualified investigators/site personnel with experience in conducting a clinical study (ICH E6), availability of equipment and facilities required to successfully conduct the study, availability of the targeted patient population, and ability to enrol a sufficient number of participants to meet the study objectives. The retention and follow up of study participants are also key critical to quality factors. Consideration of these and other critical to quality factors relating to study feasibility can inform study design and enhance quality implementation."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4",
+    "section_title": "DRUG DEVELOPMENT PLANNING",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING",
+    "page_start": 13,
+    "page_end": 13,
+    "char_count": 1852,
+    "text": "This section provides general principles to consider in drug development planning. Drug development planning adheres to the principles of scientific research and good study design that ensure the reliability and interpretability of results. Efficient drug development includes appropriately planned interactions with regulatory authorities throughout development to ensure alignment with requirements for product quality and to support approval in the condition or disease, including possible post-approval studies to address remaining questions. Throughout this process there is critical attention to the protection of the rights, safety and wellbeing of study participants. Drug development planning builds on knowledge acquired throughout the investigational process to reduce levels of uncertainty as the process moves from target identification through non-clinical and clinical evaluation. Such planning encompasses quality of medicinal product, including chemistry, manufacturing and controls (CMC), and non-clinical and clinical studies (pre and post-approval). Modelling and simulation may inform drug development throughout the process. Planning may also include regional considerations for product introduction into the market, such as health technology assessments. It is important to ensure that the experiences, perspectives, needs, and priorities of relevant stakeholders relating to the development and evaluation of the drug throughout its lifecycle are captured and meaningfully incorporated into drug development planning. Clinical development may also feature requirements for co-development of validated biomarkers, diagnostic testing, or devices that facilitate the safe and effective use of a drug. The types of studies that may contribute to drug development are described in subsections 4.2 and 4.3 and summarised in the Annex."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.1",
+    "section_title": "Quality of Investigational Medicinal Product",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.1 Quality of Investigational Medicinal Product",
+    "page_start": 13,
+    "page_end": 13,
+    "char_count": 1148,
+    "text": "Ensuring adequate quality and characterisation of physicochemical properties of investigational medicinal product is an important element in planning a drug development programme and is addressed in ICH and regional quality guidelines. More extensive characterisation may be required for complex or biological products. Formulations should be well characterised in the drug development plan, including information on bioavailability, wherever feasible, and should be appropriate for the stage of drug development and the targeted patient population. Age-appropriate formulation development may be a consideration when clinical studies are planned in paediatric populations (ICH E11- E11A Clinical Trials in Pediatric Population). Evaluation of the quality of a drug may extend to devices required for its administration or a companion diagnostic to identify the targeted population. Changes in a product during development should be supported by comparability data to ensure the ability to interpret study results across the development programme. This includes establishing links between formulations through bioequivalence studies or other means."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.2",
+    "section_title": "Non-Clinical Studies",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.2 Non-Clinical Studies",
+    "page_start": 14,
+    "page_end": 14,
+    "char_count": 1604,
+    "text": "Guidance on non-clinical safety studies is provided in ICH M3 Nonclinical Safety Studies, ICH Safety (S) Guidelines and related Q&A documents, as well as in regional guidance. The non- clinical assessment usually includes toxicology, carcinogenicity, immunogenicity, pharmacology, pharmacokinetics, and other evaluations to support clinical studies (and may encompass evidence generated in in vivo and in vitro models, and by modelling and simulation). The scope of non-clinical studies, and their timing with respect to clinical studies, depend on a variety of factors that inform further development, such as the drug’s chemical or molecular properties; pharmacological basis of principal effects (mechanism of action); route(s) of administration; absorption, distribution, metabolism, and excretion (ADME); physiological effects on organ systems; dose/concentration-response relationships; metabolites; and duration of action and use. Use of the drug in special populations (e.g., pregnant or breast-feeding women, children) may require additional non-clinical assessments. Guidance for non-clinical safety studies to support human clinical studies in special populations should be reviewed (see, e.g., ICH S5 Reproductive Toxicology, S11 Nonclinical Paediatric Safety, and M3). Assessment of the preclinical characteristics, including physiological and toxicological effects of the drug, serve to inform clinical study design and planned use in humans. Before proceeding to studies in humans there should be sufficient non-clinical information to support initial human doses and duration of exposure."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3",
+    "section_title": "Clinical Studies",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies",
+    "page_start": 14,
+    "page_end": 15,
+    "char_count": 2245,
+    "text": "Clinical drug development, defined as studying the drug in humans, is conducted in a sequence that builds on knowledge accumulated from non-clinical and previous clinical studies. The structure of the drug development programme will be shaped by many considerations and comprised of studies with different objectives, different designs, and different dependencies. The Annex provides an illustrative list of example studies and their objectives. Although clinical drug development is often described as consisting of four temporal phases (phases 1- 4), it is important to appreciate that the phase concept is a description and not a requirement, and that the phases of drug development may overlap or be combined. To develop new drugs efficiently, it is essential to identify their characteristics in the early stages of development and to plan an appropriate development programme based on this profile. Initial clinical studies may be more limited in size and duration to provide an early evaluation of short-term safety and tolerability as well as proof of concept of efficacy. These studies may provide pharmacodynamic, pharmacokinetic, and other information needed to choose a suitable dosage range and/or administration schedule to inform further clinical studies. As more information is known about the drug, clinical studies may expand in size and duration, may include more diverse study populations, and may include more secondary endpoints in addition to the primary measures of efficacy. Throughout development, new data may suggest the need for additional studies. The use of biomarkers has the potential to facilitate the availability of safer and more effective drugs, to guide dose selection, and to enhance a drug’s benefit-risk profile (see ICH E16 Qualification of Genomic Biomarkers) and may be considered throughout drug development. Clinical studies may evaluate the use of biomarkers to better target patients more likely to benefit and less likely to experience adverse reactions, or as intermediate endpoints that could predict clinical response. The following subsections describe the types of studies that typically span clinical development from the first studies in humans through late development and post-approval."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.1",
+    "section_title": "Human Pharmacology",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.1 Human Pharmacology",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 528,
+    "text": "The protection of study participants should always be the first priority when designing early clinical studies, especially for the initial administration of an investigational product to humans (usually referred to as phase 1). These studies may be conducted in healthy volunteer participants or in a selected population of patients who have the condition or the disease, depending on drug properties and the objectives of the development programme. These studies typically address one or a combination of the following aspects:"
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.1.1",
+    "section_title": "Estimation of Initial Safety and Tolerability",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.1 Human Pharmacology > 4.3.1.1 Estimation of Initial Safety and Tolerability",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 329,
+    "text": "The initial and subsequent administration of a drug to humans is usually intended to determine the tolerability of the dose range expected to be evaluated in later clinical studies and to determine the nature of adverse reactions that can be expected. These studies typically include both single and multiple dose administration."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.1.2",
+    "section_title": "Pharmacokinetics",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.1 Human Pharmacology > 4.3.1.2 Pharmacokinetics",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 1028,
+    "text": "Characterisation of a drug's absorption, distribution, metabolism, and excretion continues throughout the development programme, but the preliminary characterisation is an essential early goal. Pharmacokinetic studies are particularly important to assess the clearance of the drug and to anticipate possible accumulation of parent drug or metabolites, interactions with metabolic enzymes and transporters, and potential drug-drug interactions. Some pharmacokinetic studies are commonly conducted in later phases to answer more specialised questions. For orally administered drugs, the study of food effects on bioavailability is important to inform the dosing instructions in relation to food. Obtaining pharmacokinetic information in sub-populations with potentially different metabolism or excretion, such as patients with renal or hepatic impairment, geriatric patients, children, and ethnic subgroups should be considered (ICH E4 Dose-Response Studies, E7 Clinical Trials in Geriatric Population, E11, and E5, respectively)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.1.3",
+    "section_title": "Pharmacodynamics & Early Measurement of Drug Activity",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.1 Human Pharmacology > 4.3.1.3 Pharmacodynamics & Early Measurement of Drug Activity",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 403,
+    "text": "Depending on the drug and the endpoint of interest, pharmacodynamic studies and studies relating drug levels to response (PK/PD studies) may be conducted in healthy volunteer participants or in patients with the condition or disease. If there is an appropriate measure, pharmacodynamic data can provide early estimates of activity and efficacy and may guide the dosage and dose regimen in later studies."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.2",
+    "section_title": "Exploratory and Confirmatory Safety and Efficacy Studies",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.2 Exploratory and Confirmatory Safety and Efficacy Studies",
+    "page_start": 15,
+    "page_end": 16,
+    "char_count": 2662,
+    "text": "After initial clinical studies provide sufficient information on safety, clinical pharmacology and dose, exploratory and confirmatory studies (usually referred to as phases 2 and 3, respectively) are conducted to further evaluate both the safety and efficacy of the drug. Depending on the nature of the drug and the patient population, this objective may be combined in a single or small number of studies. Exploratory and confirmatory studies may use a variety of study designs depending on the objective of the study. Exploratory studies are designed to investigate safety and efficacy in a selected population of patients for whom the drug is intended. Additionally, these studies aim to refine the effective dose(s) and regimen, refine the definition of the targeted population, provide a more robust safety profile for the drug, and include evaluation of potential study endpoints for subsequent studies. Exploratory studies may provide information on the identification and determination of factors that affect the treatment effect and, possibly combined with modelling and simulation, serve to support the design of later confirmatory studies. Confirmatory studies are designed to confirm the preliminary evidence accumulated in earlier clinical studies that a drug is safe and effective for use for the intended indication and recipient population. These studies are often intended to provide an adequate basis for marketing approval, and to support adequate instructions for use of the drug and official product information. They aim to evaluate the drug in participants with or at risk of the condition or disease who represent those who will receive the drug once approved. This may include investigating subgroups of patients with frequently occurring or potentially relevant co- morbidities (e.g., cardiovascular disease, diabetes, hepatic and renal impairment) to characterise the safe and effective use of the drug in patients with these conditions. Confirmatory studies may evaluate the efficacy and safety of more than one dose or the use of the drug in different stages of disease or in combination with one or more other drugs. If the intent is to administer a drug for a long period of time, then studies involving extended exposure to the drug should be conducted (ICH E1 Clinical Safety for Drugs used in Long-Term Treatment). Irrespective of the intended duration of administration, the duration of effect of the drug will also inform the duration of follow-up. Study endpoints selected for confirmatory studies should be clinically relevant and reflect disease burden or be of adequate surrogacy for predicting disease burden or sequelae."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.3",
+    "section_title": "Special Populations",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations",
+    "page_start": 16,
+    "page_end": 16,
+    "char_count": 671,
+    "text": "Some groups in the general population require additional investigation during drug development because they have unique risk/benefit considerations, or because they can be anticipated to need modification of the dose or schedule of a drug. ICH E5 and E17 provide a framework for evaluating the impact of ethnic factors on a drug’s effect. Particular attention should be paid to the ethical considerations related to informed consent in vulnerable populations (ICH E6 and E11). Studies in special populations may be conducted during any phase of development to understand the drug effects in these populations. Some considerations of special populations are the following:"
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.3.1",
+    "section_title": "Investigations in pregnant women",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations > 4.3.3.1 Investigations in pregnant women",
+    "page_start": 16,
+    "page_end": 16,
+    "char_count": 307,
+    "text": "Investigation of drugs that may be used in pregnancy is important. Where pregnant women volunteer to be enrolled in a clinical study, or a participant becomes pregnant while participating in a clinical study, follow-up evaluation of the pregnancy and its outcome and the reporting of outcomes are necessary."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.3.2",
+    "section_title": "Investigations in lactating women",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations > 4.3.3.2 Investigations in lactating women",
+    "page_start": 17,
+    "page_end": 17,
+    "char_count": 229,
+    "text": "Excretion of the drug or its metabolites into human milk should be examined where applicable and feasible. When nursing mothers are enrolled in clinical studies their babies are usually also monitored for the effects of the drug."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.3.3",
+    "section_title": "Investigations in children",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations > 4.3.3.3 Investigations in children",
+    "page_start": 17,
+    "page_end": 17,
+    "char_count": 170,
+    "text": "ICH E11 provides an outline of critical issues in paediatric drug development and approaches to the safe, efficient, and ethical study of drugs in paediatric populations."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.3.4",
+    "section_title": "Investigations in geriatric populations",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations > 4.3.3.4 Investigations in geriatric populations",
+    "page_start": 17,
+    "page_end": 17,
+    "char_count": 158,
+    "text": "ICH E7 provides an outline of critical issues in developing drugs for use in geriatric populations and approaches to their safe, efficient, and ethical study."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.3.4",
+    "section_title": "Post-Approval Studies",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.4 Post-Approval Studies",
+    "page_start": 17,
+    "page_end": 17,
+    "char_count": 1218,
+    "text": "After the approval of a drug, additional studies may be conducted to further understand the safety and efficacy of the drug in its approved indication (usually referred to as phase 4). These are studies that were not considered necessary for approval but are often important for optimising the drug's use. They may be of any type but should have valid scientific objectives. Post-approval studies may be conducted to address a regulatory requirement. Post-approval studies may be performed to provide additional information on the efficacy, safety, and use of the drug in populations more diverse than included in the studies conducted prior to marketing authorisation. Studies with long-term follow-up or with comparisons to other treatment options or standards of care may provide important information on safety and efficacy. Commonly conducted studies include additional drug-drug interaction, dose-response or safety studies and studies designed to support use under the approved indication (e.g., mortality/morbidity studies, epidemiological studies). These studies may explore use of the drug in the real-world setting of clinical practice and may also inform health economics and health technology assessments."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "4.4",
+    "section_title": "Additional Development",
+    "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.4 Additional Development",
+    "page_start": 17,
+    "page_end": 17,
+    "char_count": 417,
+    "text": "After initial approval, drug development may continue with studies of new or modified indications in new patient populations, new dosage regimens, or new routes of administration. If a new dose, formulation, or combination is studied, additional non-clinical and/or human pharmacology studies may be indicated. Data from previous studies or from clinical experience with the approved drug may inform these programmes."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5",
+    "section_title": "DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES",
+    "page_start": 17,
+    "page_end": 18,
+    "char_count": 3876,
+    "text": "Study objectives impact the choice of study design and data sources, which in turn impact the strength of a study to support regulatory decisions and clinical practice. As discussed in Section 4, there are a wide variety of study objectives in drug development. Similarly, there is a wide range of study designs and data sources to address these objectives. Sections 5.1 through 5.6 discuss key elements that may be used to define the study design, and Section 5.7 discusses the various data sources that may be used for the study. Clear objectives will help to specify the study design, and conversely, the process of specifying the design may help to further clarify the objectives. At the design stage, the objectives may need to be modified if substantial practical considerations and limitations or other risks to critical to quality factors are identified. The study objectives are further refined through specification of estimands. Estimands, discussed in ICH E9(R1) Addendum: Statistical Principles for Clinical Trials, provide a precise description of the treatment effects reflecting the clinical questions posed by the study objectives. The estimand summarises at a population level what the outcomes would be in the same patients under the different treatment conditions being compared. An important distinction between studies is whether the allocation of individuals to the study drug(s) is controlled by the study procedures or allocation to the drug is not controlled but exposure to the drug(s) is observed in the study. In this document, the former case is referred to as an interventional study and the latter case is referred to as an observational study. Interventional studies, and in particular randomised studies, play a central role in drug development, as they can better control biases. The designs of randomised studies range from simple parallel group designs to more complex variants. For example, adaptive design studies allow prospectively planned modifications to the study, such as changes in the population studied or changes in doses of the drug studied over the course of the study, based on accumulating data. Master protocol studies allow for the investigation of multiple drugs or multiple conditions under a shared framework. Platform studies allow for multiple drugs to be investigated in a continuous manner, with different drugs entering the study at different times and leaving the study based on pre-specified decision rules. Studies without randomisation (whether interventional or observational) can play a role as well in certain settings when randomisation is not feasible. Observational studies are often conducted post-approval but can be of utility as complementary sources of evidence during development and across the life cycle of a drug. Along with the breadth of study designs, there are multiple sources of data that studies may employ. Traditionally, studies have used study-specific data collection processes. Data such as that obtained from electronic medical records or digital health technologies may be leveraged to increase the efficiency of studies or generalisability of study results. This section presents important elements that define the design of a clinical study including population, treatment, control group, response variable, methods to reduce bias, statistical analysis, and data sources. It is intended to assist in identifying the critical to quality factors necessary to achieve the study objectives, while also enabling flexibility in study design and promoting efficiency in study conduct. Although the focus is on interventional studies, the discussion is intended to apply to both interventional and observational studies. The elements outlined here are expected to be relevant to study types and data sources that are used in clinical studies now and that may be developed in the future."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.1",
+    "section_title": "Study Population",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.1 Study Population",
+    "page_start": 18,
+    "page_end": 19,
+    "char_count": 1882,
+    "text": "The population to be studied should be chosen to support the study objectives and is defined through the inclusion and exclusion criteria for the study. The degree to which a study succeeds in enrolling the desired population will impact the ability of the study to meet its objectives. The study population may be narrowly defined to reduce the risk to study participants or to maximise the sensitivity of the study for detecting a certain effect. Conversely, it may be broadly defined to more closely represent the diverse populations for which the drug is intended. In general, studies conducted early in a development programme, when little is known about the safety of the drug, are more homogeneous in study population definitions. Studies conducted in the later phases of drug development or post-approval are often more heterogeneous in study population definitions. Such studies should involve participants who are representative of the diverse populations which will receive the intervention in clinical practice. Available knowledge about participant characteristics that may predict disease outcomes or effects of the intervention can be used to further define the study population. The number of participants (sample size) in a study should be large enough to provide a reliable answer to the questions addressed (see ICH E9). This number is usually determined by the primary objective of the study. If the sample size is determined on some other basis, then this should be made clear and justified. For example, a sample size determined to address safety questions or meet important secondary objectives may need larger numbers of participants than needed for addressing the primary efficacy question (see ICH E1). If study objectives include obtaining information on certain subgroups, then efforts should be made to ensure adequate representation of these subgroups."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.2",
+    "section_title": "Treatment Description",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.2 Treatment Description",
+    "page_start": 19,
+    "page_end": 19,
+    "char_count": 820,
+    "text": "The treatment(s), including controls, under study should be described explicitly and specifically. These might be individual treatments (including different doses or regimens), combinations of treatments, or no treatments, and can include specification of background treatments. The definition of treatments should align with the objectives of the study (ICH E9(R1)). For example, if the objective of the study is to understand the effect of the treatment in clinical practice, the study may specify that the background treatment, if any, is up to the discretion of the participants and healthcare providers. If the objectives are to understand the effect of the drug when added to a specific background treatment, the background treatment should be defined explicitly and specifically for all groups including controls."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.3",
+    "section_title": "Choice of Control Group",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.3 Choice of Control Group",
+    "page_start": 19,
+    "page_end": 20,
+    "char_count": 3022,
+    "text": "The major purpose of a control group is to separate the effect of the treatment(s) from the effects of other factors such as natural course of the disease, other medical care received, or observer or patient expectations (E10 Choice of Control Group in Clinical Trials). The treatment effect of interest may be the effect relative to not receiving the drug or the effect relative to receiving other therapies. Comparisons may be made with placebo, no treatment, standard of care, other treatments, or different doses of the drug under investigation. The source of control group data may be internal or external to the study. The intent of using an internal control group is to help ensure that the only differences between treatment groups are due to the treatment they receive and not due to differences in the selection of participants, the timing and measurement of study outcomes, or other differences. A special case of an internal control group is when each participant serves as their own internal control by receiving the drug and control at different points of time. With use of an external control group, individuals are selected from an external source, and the individuals may have been treated at an earlier time (historical control group) or during the same time but in another setting than participants in the study. Important limitations of the use of external controls are discussed in ICH E10. Particular care is needed to minimise the likelihood of erroneous inference. The use of an external control requires that the disease course is well known and predictable. External control individuals may differ from study participants with respect to demographic and background characteristics (e.g., medical history, concurrent diseases). In addition, external control individuals may differ from participants in the study with respect to concurrent care and the measurement of study outcomes and other data elements. Because the use of internal controls generally mitigates the potential for bias better than external controls, particularly in conjunction with randomisation, the suitability of the use and choice of external control should be carefully considered and justified. Section 5.5 discusses the sources of bias which can arise in observational studies and is relevant to the use of external controls. Participant level data may not be available for some choices of external control groups. Summary measures may be available to form the basis of comparisons with treated participants to estimate drug effects and test hypotheses about those effects. There is, however, less ability to control for differences in characteristics between study individuals in the external control group and study participants in the internal treatment groups in making these comparisons or examining the quality and completeness of individual data elements. Additionally, there may not be the ability to examine subgroups or modify the response variable to be consistent with the response variable used in the study."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.4",
+    "section_title": "Response Variables",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.4 Response Variables",
+    "page_start": 20,
+    "page_end": 20,
+    "char_count": 1717,
+    "text": "A response variable is an attribute of interest that may be affected by the drug. The response variable may relate to pharmacokinetics, pharmacodynamics, efficacy, or safety of the drug, or to the use of the drug including, for example, in adherence to risk minimisation measures post- approval. Study endpoints are the response variables that are chosen to assess drug effects. The primary endpoint should be capable of providing clinically relevant and convincing evidence related to the primary objective of the study (ICH E9). Secondary endpoints are either supportive measurements related to the primary objective or measurements of effects related to the secondary objectives. Exploratory endpoints are used to further explain or to support study findings or to explore new hypotheses for later research. The choice of endpoints should be meaningful for the intended population and may also take into account the views of patients. The definition of each study endpoint should be specific and include how and at what time points in a participant’s treatment course of the drug and follow-up it is ascertained. Knowledge of the drug, along with the clinical context and purpose of a given study affect what response variables should be collected. For example, a proof-of-concept study of relatively short duration may employ a pharmacodynamic outcome rather than the outcome of primary interest (ICH E9). A larger study of longer duration could then be used to confirm a clinically meaningful effect on the outcome of primary interest. In other cases, such as a study where the safety profile of the drug is well characterised, the extent of safety data collection may be tailored to the objectives of the study."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.5",
+    "section_title": "Methods to Reduce Bias",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.5 Methods to Reduce Bias",
+    "page_start": 20,
+    "page_end": 21,
+    "char_count": 3378,
+    "text": "The study design should address potential sources of bias that can undermine the reliability of results. Although different types of studies are subject to different sources of bias, this section addresses some common sources. ICH E9 discusses principles for controlling and reducing bias mainly in the context of interventional studies. In studies with internal control groups , randomisation is used to ensure comparability of treatment groups, thereby minimising the possibility of bias in treatment assignment. Randomisation at the start of the study addresses differences between the groups at the time of randomisation but does not prevent bias due to differences arising during the study. Events after randomisation (particularly intercurrent events (ICH E9(R1)) may affect the validity and interpretation of comparisons between treatment groups. Examples include treatment discontinuation or use of rescue medications. There may also be differences in the follow-up patterns between the groups due to participants in one group discontinuing the study at different rates, because of, for example, adverse events or perceived lack of efficacy. Careful consideration of the potential for intercurrent events to occur during the study and their impact will help with the identification of critical to quality factors, such as reducing study discontinuation, continuing data collection following treatment discontinuation, and retrieving data after study discontinuation, if appropriate. It is important when defining the treatment effect (estimand) to account for the occurrence of intercurrent events. Concealing the treatment assignments (blinding) limits the occurrence of conscious or unconscious bias in the conduct and interpretation of a clinical study that may affect the course of treatment, monitoring, endpoint ascertainment, and participants’ responses. In a single-blind study the investigator is aware of the treatment, but the participant is not. When the investigators who are involved in the treatment or clinical evaluation of the participants are also unaware of the treatment assignments, the study is referred to as double-blind. In an open- label study, the consequences of the lack of blinding may be reduced through the use of pre- specified decision rules for aspects of study conduct, such as recruitment, treatment assignment, participant management, safety reporting, and response variable ascertainment. Blinding for staff at the study sites or sponsor should be implemented where feasible. Knowledge of interim results (whether individual or treatment group level) has the potential to introduce bias or influence the conduct of the study and interpretation of study results. Specific considerations related to information flow and confidentiality are therefore necessary. Observational studies introduce unique challenges to the assessment and control of bias. These include ensuring that the individuals have the condition under study and ensuring comparability between treatment groups, in prognostic factors associated with the choice of therapies, in the ascertainment of response variables, and in post-baseline concomitant patient care. These challenges may also exist with the use of external controls in an interventional study. Methods exist that may mitigate some of these challenges and should be considered during the design phase."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.6",
+    "section_title": "Statistical Analysis",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.6 Statistical Analysis",
+    "page_start": 21,
+    "page_end": 22,
+    "char_count": 3132,
+    "text": "The statistical analysis of a study encompasses important elements necessary to achieving the study objectives. The specification and documentation of the statistical analysis are important for ensuring the integrity of the study findings. The principal features of the statistical analysis should be planned during the design of the study and should be clearly specified in a protocol written before the study begins (ICH E9). Full details of the planned statistical analysis should be specified and documented before knowledge of the study results that may reveal the drug effects, which may be accomplished using a separate statistical analysis plan. The protocol should define the estimand(s) following the framework established in ICH E9(R1). Statistical analyses of primary and secondary endpoints that address key study objectives with respect to both efficacy and safety should be described in the protocol, including any interim analyses and/or planned design adaptations. Other statistical aspects of the study that should be described in the protocol include the analytical methods for any planned estimation and tests of hypotheses about the drug effect and a justification of the sample size. The statistical analysis should include pre-specified sensitivity analyses for assessing the impact of the assumptions made for the primary and important secondary analyses on the results of the study (E9(R1)). For example, if the analysis relies on a particular assumption about the reasons for missing data, sensitivity analyses should be planned to assess the impact of that assumption on the study results. In the case of observational studies, sensitivity analyses might, for example, consider additional potential confounders. For double-blind studies, the statistical analysis should be finalised before treatment assignments are revealed. Therefore, if a study includes one or more interim analyses, the planned statistical analysis should not be changed after an interim analysis that involves unblinding. For open-label and single-blind studies, details pertaining to the primary and important secondary analyses would ideally be finalised before the first participant is randomised or allocated to study intervention. Pre-specification of the analysis approach is particularly important for studies that make use of existing data sources rather than primary data collection (Section 5.7), not only for the statistical analysis planned for the study but also for any feasibility analysis to assess the applicability of the existing data. For example, for a single-arm interventional study with an external control, the specifics of the external control should be defined prior to the conduct of the interventional aspect of the study. Pre-specification of the analysis should be in place so that any review of the existing data sources prior to the design of the study does not threaten the study integrity. The statistical analysis should be carried out in accordance with the prospectively defined analysis plan, and all deviations from the plan should be indicated in the study report (E3 Clinical Study Reports)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "5.7",
+    "section_title": "Study Data",
+    "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.7 Study Data",
+    "page_start": 22,
+    "page_end": 23,
+    "char_count": 4040,
+    "text": "Study data comprise all information generated, collected, or used in the context of the study ranging from existing source data to study-specific assessments. The study data should contain the necessary information to conduct the statistical analysis specified in the protocol and statistical analysis plan, as well as to monitor for participant safety, protocol adherence, and data integrity. Study data can be broadly classified into two types: (1) data generated specifically for the present study (primary data collection) and (2) data obtained from sources external to the present study (secondary data use). Data generated for the study may be collected via case report forms, laboratory measurements, electronic patient reported outcomes, or mobile health tools. Examples of external sources of data include historical clinical studies, national death databases, disease and drug registries, claims data, and medical and administrative records from routine medical practice. A study may make use of both types of data. For all data sources, procedures to ensure the protection of personal data of the individuals being studied should be implemented. The study protocol, and if applicable the informed consent, should explicitly address the protection of personal data. Regulations related to protection of individuals’ data need to be followed. When considering data from external sources, it is important to ascertain whether the regulatory authorities accept the use of such data for purposes other than the original intent. Study data should be of sufficient quality to address the objectives of the study and, in interventional studies, to monitor participant safety. Data quality attributes include consistency (uniformity of ascertainment over time), accuracy (correctness of collection, transmission, and processing), and completeness (lack of missing information). These aspects should be proactively considered during study planning by identifying the factors, critical to the quality of the study, associated with data sourcing, collection, and processing. The use of standards for data recording and coding (or recoding) is important to support data reliability, facilitate correct analysis and interpretation of results, and promote data sharing. Internationally accepted data standards exist for many sources of study data and should be used where applicable. With primary data collection, the methods and standards established for use at the point of capture and the subsequent processing provide an opportunity to prospectively ensure the quality of the data. With secondary data use, the relevance of the available data should be considered and clearly described in the study protocol. For example, when using existing electronic health record data to ascertain the study endpoint rather than through primary data collection, information in the health record about outcomes may need to be converted to the study endpoint. In some cases, secondary data use may not be sufficient for all aspects of the study and may need to be supplemented by primary data collection. The quality of data collected for a different purpose should be evaluated when re-used in the context of the present study. Careful quality control processes may have been applied during their acquisition; where used, those processes were not necessarily designed with the objectives of the present study in mind. There are several additional considerations with secondary data use. For example, methods to conceal the treatment should be considered when selecting and prior to analysing data from external sources. As another example, absence of affirmative information on a condition or event does not necessarily mean the condition or event is not present. There may also be a delay between the occurrence of events and their appearance in existing data sources. To the extent possible, uncertainties and potential sources of bias should be addressed at the study design stage, during data analysis, and in the interpretation of the study results."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.1",
+    "section_title": "Study Conduct",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.1 Study Conduct",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 295,
+    "text": "The principles and approaches set out in this guideline, including those of quality by design, should inform the approach taken to the conduct and reporting of clinical studies. Risk proportionate mitigation measures should be employed to ensure the integrity of the critical to quality factors."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.1.1",
+    "section_title": "Protocol Adherence",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.1 Study Conduct > 6.1.1 Protocol Adherence",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 577,
+    "text": "Adherence to the study protocol and other relevant documents is essential, and many aspects of adherence should be considered among the study’s critical to quality factors. Successful application of the quality by design principles may minimise the need for modifications to the protocol and make adherence throughout the study more likely. If modification of the protocol becomes necessary, a clear description of the rationale for the modification should be provided in a protocol amendment, and the impact of the modification on study conduct should be carefully considered."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.1.2",
+    "section_title": "Training",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.1 Study Conduct > 6.1.2 Training",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 365,
+    "text": "Individuals involved in study conduct should receive training commensurate with their role in the study and this training should occur prior to their becoming involved in the study. Updated training or retraining may be needed to address issues related to critical to quality factors observed during the course of the study, and/or implement protocol modifications."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.1.3",
+    "section_title": "Data Management",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.1 Study Conduct > 6.1.3 Data Management",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 487,
+    "text": "The manner and timelines in which study data are collected and managed are critical contributors to overall study data quality. Operational checks, centralised data monitoring, and statistical surveillance can identify important data quality issues for corrective action. Data management procedures should account for the diversity of data sources in use for clinical studies (Section 5.7). For interventional clinical studies, further guidance on data management is available in ICH E6."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.1.4",
+    "section_title": "Access to Interim Data",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.1 Study Conduct > 6.1.4 Access to Interim Data",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 418,
+    "text": "Inappropriate access to data during the conduct of the study may compromise study integrity (Sections 5.5 and 5.6 and ICH E9). In studies with planned interim analyses, special attention should be given to which individuals have access to the data and results. Even in studies without planned interim analyses, special attention should be paid to any ongoing monitoring of unblinded data to avoid inappropriate access."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.2",
+    "section_title": "Participant Safety during Study Conduct",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.2 Participant Safety during Study Conduct",
+    "page_start": 24,
+    "page_end": 24,
+    "char_count": 209,
+    "text": "Important standards of ethical conduct and the protection of participants in clinical studies are described in Section 2.1. This section describes safety related considerations during the conduct of the study."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.2.1",
+    "section_title": "Safety Monitoring",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.2 Participant Safety during Study Conduct > 6.2.1 Safety Monitoring",
+    "page_start": 24,
+    "page_end": 25,
+    "char_count": 635,
+    "text": "The goals of safety monitoring are to protect study participants and to characterise the safety profile of the drug. Procedures and systems for the identification, monitoring, and reporting of safety concerns during the study should be clearly specified. The approach should reflect the type and objectives of the study, the risks to the study participants and what is known about the drug and the study population. Guidance is available on reporting of safety data to appropriate authorities and on the content and timing of safety reports (ICH E2-E2F Pharmacovigilance, and, for interventional clinical trials in particular, ICH E6)."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.2.2",
+    "section_title": "Withdrawal Criteria",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.2 Participant Safety during Study Conduct > 6.2.2 Withdrawal Criteria",
+    "page_start": 25,
+    "page_end": 25,
+    "char_count": 217,
+    "text": "Clear criteria for stopping treatment or study procedures for a study participant while remaining in the study are necessary to ensure the protection of the participants but should also minimise loss of critical data."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.2.3",
+    "section_title": "Data Monitoring Committee",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.2 Participant Safety during Study Conduct > 6.2.3 Data Monitoring Committee",
+    "page_start": 25,
+    "page_end": 25,
+    "char_count": 752,
+    "text": "An important component of safety monitoring in many clinical studies is the use of an independent data monitoring committee. This group monitors accumulating data while the study is being conducted to make recommendations on whether to continue, modify, or terminate a study. During programme planning, the need for an independent data monitoring committee to monitor safety data across studies in a development programme should also be assessed. If a data monitoring committee is needed for either an individual study or across the development programme, procedures governing its operation and, in particular the review of unblinded data in an interventional trial, while preserving study integrity (ICH E9) should be established prior to study start."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "6.3",
+    "section_title": "Study Reporting",
+    "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.3 Study Reporting",
+    "page_start": 25,
+    "page_end": 25,
+    "char_count": 1849,
+    "text": "Clinical studies and their results should be adequately reported using formats appropriate for the type of study (interventional or observational studies) and information being reported. ICH E3 focuses particularly on the report format for interventional clinical trials, but the basic principles may be applied to other types of clinical studies (ICH E3 Q&A). The design of the study report should be part of the quality by design process. The report should describe the critical to quality factors in the study. The reporting of study results should be comprehensive, accurate, and timely. Consideration should be given to providing a factual summary of the overall study results to study participants in an objective, balanced and nonpromotional manner, including relevant safety information and any limitations of the study. In addition, consideration could be given to providing individual participants with information about their study specific results (e.g., their treatment arm, test results). The information should be conveyed by someone involved in the health management of the participant (e.g., the clinical investigator). Participants should be informed about the information they will receive and when they will receive it at the time of providing informed consent. The transparency of clinical research in drug development includes the registration of clinical studies, before they start, on publicly accessible and recognised databases, and the public posting of clinical study results. Adopting such practices for observational studies also promotes transparency. Making objective and unbiased information publicly available can benefit public health in general, as well as the indicated patient populations, through enhancing clinical research, reducing unnecessary clinical studies, and informing decisions in clinical practice."
+  },
+  {
+    "doc_id": "ICH_E8R1_General_Considerations",
+    "section_number": "7",
+    "section_title": "CONSIDERATIONS IN IDENTIFYING CRITICAL TO QUALITY FACTORS",
+    "breadcrumb": "7 CONSIDERATIONS IN IDENTIFYING CRITICAL TO QUALITY FACTORS",
+    "page_start": 26,
+    "page_end": 29,
+    "char_count": 6274,
+    "text": "The identification of critical to quality factors should be supported by proactive, cross- functional discussions and decision making at the time of study planning, as described in Section 3. Different factors will stand out as critical for different types of studies, following the concepts introduced in Sections 4 through 6. In designing a study, the following aspects should be considered, where applicable, to support the identification of critical to quality factors: • Engagement of all relevant stakeholders, including patients, is considered during study planning and design. • The prerequisite non-clinical studies, and where applicable, clinical studies, are complete and adequate to support the study being designed. • The study objectives address relevant scientific questions appropriate for a given study’s role in the development programme, taking into account the accumulated knowledge about the product. • The clinical study design supports a meaningful comparison of the effects of the drug when compared to the chosen control group. • Adequate measures are used to protect participants’ rights, safety, and welfare (informed consent process, Institutional Review Board/Ethics Committee review, investigator and clinical study site training, pseudonymisation). • Information provided to the study participants should be clear and understandable. • Competencies and training required for the study by sponsor and investigator staff, relevant to their role, should be identified. • The feasibility of the study should be assessed to ensure the study is operationally viable. • The number of participants included, the duration of the study, and the frequency of study visits are sufficient to support the study objective. • The eligibility criteria should be reflective of the study objectives and be well documented in the clinical study protocol. • The protocol specifies the collection of data needed to meet the study objectives, understand the benefit/risk of the drug, and monitor participant safety. • The choice of response variables and the methods to assess them are well-defined and support evaluation of the effects of the drug. • Clinical study procedures include adequate measures to minimise bias (e.g., randomisation, blinding). • The statistical analysis plan is pre-specified and defines the analysis methods appropriate for the endpoints and the populations of interest. • Systems and processes are in place that support the study conduct to ensure the integrity of critical study data. • The extent and nature of study monitoring are tailored to the specific study design and objectives and the need to ensure participants’ safety. • The need for and appropriate role of a data monitoring committee is assessed. • The reporting of the study results is planned, comprehensive, accurate, timely, and publicly accessible. These considerations are not exhaustive and may not apply to all studies. Other aspects may need to be considered to identify the critical to quality factors for each individual study. ANNEX: TYPES OF CLINICAL STUDIES Drug development is ideally a logical, stepwise process in which information from early studies is used to support and plan later studies. The actual sequence of studies conducted in a particular drug development programme, however, may reflect different dependencies and overlapping study types. Studies may also involve adaptive designs (which may bridge or combine different study types as listed below) or designs that are intended to investigate multiple drugs or multiple indications or both (e.g., studies conducted under a master protocol). In the table below, types of clinical studies are categorised by objectives. Illustrative examples, not intended to be exhaustive or exclusive, are provided. Study objectives appearing under one type may also occur under another. Type of Study Objective(s) of Study Study Examples Human • Assess tolerance and safety • BA 3 /BE 4 studies under fasted/fed Pharmacology • Define/describe clinical PK 1 conditions and PD 2 • Dose-tolerance studies • Explore drug metabolism and • Single and multiple-rising dose PK drug interactions and/or PD studies • Evaluate activity, assess • Drug-drug interaction studies immunogenicity • QTc prolongation study • Assess renal/hepatic • Human factor studies for drug tolerance delivery devices • Assess cardiac toxicity Exploratory • Explore use for the intended • Randomised controlled clinical trials indication of relatively short duration in well- • Estimate dose/dosing defined narrow patient populations, regimen for subsequent using surrogate or pharmacological studies endpoints or clinical measures • Explore dose- • Dose finding studies response/exposure-response • Biomarker exploration studies relationship • Studies to validate patient reported • Provide basis for outcomes confirmatory study design • Adaptive designs that may combine (e.g., targeted population, exploratory and confirmatory clinical endpoints, patient objectives reported outcome measures, factors affecting treatment effects) Confirmatory • Demonstrate/confirm • Randomised controlled clinical trials efficacy to establish efficacy in larger, more • Establish safety profile in representative patient populations larger, more representative • Dose-response studies patient populations • Clinical safety studies • Provide an adequate basis for • Studies of mortality/morbidity assessing the benefit/risk outcomes relationship to support • Studies in special populations licensing • Establish dose- • Studies that seek to demonstrate response/exposure-response efficacy for multiple drugs in a single relationship protocol • Establish safety profile and confirm efficacy in specific populations (e.g., paediatrics, elderly) Post-Approval • Extend understanding of • Comparative effectiveness studies benefit/risk relationship in • Long-term follow-up studies general or special populations • Studies of mortality/morbidity or other and/or environments additional endpoints • Identify less common adverse • Large, simple randomised trials reactions • Pharmacoeconomic studies • Refine dosing • Pharmacoepidemiology studies recommendations • Observational studies of the use of the drug in clinical practice • Disease or drug registries"
+  }
+]

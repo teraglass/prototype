@@ -1,0 +1,101 @@
+# protocheck
+
+임상시험 프로토콜을 FDA/ICH/MFDS 규제 가이드라인과 대조해서, 검토 포인트와 근거를
+사람에게 제시하는 에이전트 파이프라인. **규제 판정 도구가 아니다** — "이 항목이
+어떤 규정과 관련되며 검토가 필요하다"까지만 말하고, 최종 판단은 사람이 한다.
+
+설계 의도와 각 결정의 "왜"는 [CLAUDE.md](CLAUDE.md)에 훨씬 자세히 남겨뒀다. 이 README는
+"어떻게 켜고 돌리는지"를 위한 문서다.
+
+## 아키텍처
+
+```
+[수집]  ClinicalTrials.gov API v2 ──▶ 프로토콜 PDF
+        FDA / ICH / MFDS 가이드라인 ─▶ 규제 코퍼스
+          │
+[청킹]  섹션 인식 청킹 (폰트 스타일 기반 헤딩 판별, 언어 무관)
+          │
+[임베딩] multilingual-e5-large → Chroma (guideline / protocol 컬렉션 분리)
+          │
+[에이전트] LangGraph: retrieve → compare → groundedness →(조건 분기)→ escalate | auto_accept
+          │
+[출력]  Markdown 리포트 (에스컬레이션 큐 + 근거 출처) + human-in-the-loop 처리 CLI
+          │
+[관측]  OpenTelemetry (메인, 로컬 JSONL) + LangSmith (보조)
+```
+
+두 코퍼스가 분리되어 있는 이유: 프로토콜은 "검토 대상", 가이드라인은 "대조 기준"이라는
+역할이 다르고, retrieval은 항상 프로토콜 → 가이드라인 방향으로만 쓰인다.
+
+## 설치
+
+```bash
+python -m venv venv
+venv\Scripts\activate        # Windows
+pip install -r requirements.txt
+cp .env.example .env
+```
+
+`.env`에 다음을 채운다:
+- `ANTHROPIC_API_KEY` — 필수 (섹션 대조 LLM 호출)
+- `LANGCHAIN_API_KEY` — 선택 (LangSmith 보조 트레이싱, 없어도 OTel 계측은 그대로 동작)
+
+임베딩(`intfloat/multilingual-e5-large`)은 API 키 없이 로컬에서 돈다 — 첫 실행 시
+모델을 자동으로 내려받는다 (~2GB).
+
+## 사용법
+
+### 1. 데이터 수집
+```bash
+python ingestion/fetch_clinicaltrials.py --condition epilepsy --count 10 --output data/epilepsy_trials_metadata.json
+python ingestion/fetch_guidelines.py
+```
+`data/epilepsy_trials_metadata.json`에 담긴 `downloadUrl`로 실제 프로토콜 PDF를 받아
+`data/protocols/`에 넣는다 (스크립트는 메타데이터+URL까지만 만든다 — 다운로드는 별도).
+
+### 2. 청킹
+```bash
+python chunking/run_chunking.py
+```
+`data/guidelines/`, `data/protocols/`의 모든 PDF를 섹션 단위로 잘라 `data/chunks/`에 저장.
+
+### 3. 벡터스토어 구축
+```bash
+python retrieval/build_vectorstore.py
+python retrieval/query_vectorstore.py --collection guideline --query "informed consent process" --top-k 5
+```
+
+### 4. 프로토콜 검토 (LangGraph)
+```bash
+python agent/run_protocol_review.py --doc-id NCT03958331_Prot_000
+```
+`data/reviews/<doc_id>.json`에 섹션별 flag/근거/groundedness/에스컬레이션 여부가 저장된다.
+
+### 5. 리포트 + human-in-the-loop
+```bash
+python agent/generate_report.py --doc-id NCT03958331_Prot_000
+python agent/resolve_escalation.py --doc-id NCT03958331_Prot_000 --list
+python agent/resolve_escalation.py --doc-id NCT03958331_Prot_000 --index 3 --decision confirmed --note "..."
+```
+`data/reports/<doc_id>.md`가 사람이 읽는 최종 산출물이다.
+
+### 관측
+- OpenTelemetry span은 `data/traces/spans.jsonl`에 쌓인다 (exporter만 바꾸면 Jaeger/Honeycomb 등으로 그대로 전송 가능).
+- LangSmith는 `LANGCHAIN_API_KEY`가 설정되어 있으면 `protocheck` 프로젝트로 자동 트레이싱된다.
+
+## 프로젝트 구조
+
+```
+ingestion/      ClinicalTrials.gov / FDA·ICH·MFDS 수집 스크립트
+chunking/       섹션 인식 청킹 (도메인 로직, 직접 구현)
+retrieval/      임베딩, 벡터스토어, retrieval+대조 순수 함수
+agent/          LangGraph 배선, 리포트 생성, human-in-the-loop CLI
+observability/  OpenTelemetry 계측 설정
+data/           수집물 · 청크 · 벡터스토어 · 리뷰 · 리포트 · 트레이스
+```
+
+## 상태
+
+CLAUDE.md의 Phase 0~7 전부 구현 완료. 표본 검증은 뇌전증(epilepsy) 도메인
+프로토콜 10건 + FDA/ICH/MFDS 가이드라인 4건으로 진행함 — 코퍼스를 늘리려면
+`ingestion/` 스크립트의 조건/문서 목록만 확장하면 된다.

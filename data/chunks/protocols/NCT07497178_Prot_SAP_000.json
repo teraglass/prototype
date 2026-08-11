@@ -1,0 +1,492 @@
+[
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": null,
+    "section_title": null,
+    "breadcrumb": "(문서 서두)",
+    "page_start": 1,
+    "page_end": 2,
+    "char_count": 2084,
+    "text": "A Prospective Cohort study of High Intensity Focused Ultrasound Ablation for Brain Lesions in Children with Drug-Refractory Epilepsy (Previously submitted as REB 1000076295) PRINCIPAL INVESTIGATOR Dr. George M. Ibrahim, MD, PhD Division of Neurosurgery The Hospital for Sick Children 555 University Avenue Phone: 416-813-6425 Fax: 416-813-4975 George.Ibrahim@sickkids.ca CO-PRIMARY INVESTIGATOR Adam C. Waspe PhD Neuroscience and Mental Health Program The Hospital for Sick Children 555 University Avenue Phone: 416-813-7654 x 304652 adam.waspe@sickkids.ca FUNDING SOURCE Funding for this study will be from internal funds from Dr. George M. Ibrahim, Posluns Family Foundation and Canadian Foundation for Innovation funds awarded to the Co-Primary Investigators. STUDY SPONSOR The Hospital for Sick Children STUDY CONTACT /STAFF Karolina Piorkowska, MSc Laboratory Research Project Manager Neuroscience and Mental Health Program The Hospital for Sick Children Phone 416-813-7654 x 302210 MyLoi Huynh Clinical Research Project Coordinator Neuroscience and Mental Health The Hospital for Sick Children Phone 416-813-7654 x309117 Fay Kisteroff Clincial Research Project Coordinator Neuroscience and Mental Health The Hospital for Sick Children Phone 416-813-7654 x309014 Dr. Michal Stern Zimmer Clinical Fellow Neurology The Hospital for Sick Children Phone 416-813-6332 x6332 Study Summary Title A Prospective Cohort Study of High Intensity Focused Ultrasound Ablation for Brain Lesions in Children with Drug-Refractory Epilepsy (Previously submitted as REB 1000076295) Objective To evaluate the effectiveness and streamline safety parameters of high intensity focused ultrasound ablation of brain lesions in children with drug refractory epilepsy Population Size Twenty patients will be enrolled in this prospective study. We treat approximately 7 such patients a year at SickKids. Study Design Open, non-blinded, non-randomized, prospective, cohort study Study Duration Expected duration is 36 months. Participants will be enrolled for 12 months. Expected Start Date Upon REB approval"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1.1",
+    "section_title": "Epidemiology and Disease Burden",
+    "breadcrumb": "1 BACKGROUND > 1.1 Epidemiology and Disease Burden",
+    "page_start": 5,
+    "page_end": 5,
+    "char_count": 1731,
+    "text": "Epilepsy is one of the most common and debilitating neurological disorders of childhood. It affects 3-5 children per 1000 children in developed nations 1,2 . In addition to the medical burden of the disease, uncontrolled epilepsy results in deficits in various domains including academic, behavioural, and emotional 3 – 6 . These deficits may have long-lasting effects into adulthood, such as difficulties with forming relationships, obtaining stable employment, and completing higher education 7 – 13 . While 70% of patients can obtain seizure control using anti- epileptic drugs (AEDs), 30% do not experience seizure control despite being trialled on multiple medications 14 . This population is defined as being medically refractory. Hypothalamic Hamartomas (HH) are an example of lesions causing medically refractory epilepsy. They are rare, with an incidence rate of approximately 1-2 cases/ million persons. The prevalence of epilepsy associated with HH is approximately 1 case/ two million persons 15 . Patients with HH often present with gelastic seizures, which are seizures characterized by inappropriate laughter resulting from seizure activity. However, these patients often develop other seizures types later 16 . Seizures originate from the HHs 17,18 and have been shown to be resistant to standard AEDs as well as other forms of treatment including ketogenic diets and neuromodulation therapies such as vagal nerve stimulation (VNS) 19,20 . In addition, this population may suffer from numerous complications such as learning disabilities, aggressive behaviour, and central precocious puberty 21 . Given the immediate and long-term sequelae of this disease, there is a current need for novel and effective therapies."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1.2",
+    "section_title": "Current Treatment Approaches",
+    "breadcrumb": "1 BACKGROUND > 1.2 Current Treatment Approaches",
+    "page_start": 5,
+    "page_end": 6,
+    "char_count": 4483,
+    "text": "There are currently several therapeutic options available for patients with lesions, such as HH. Each is described below with their associated advantages and disadvantages. Pharmacotherapies have been largely showed to have little to no effect in the management of gelastic seizures secondary to HH. Some agents such as Carbamazepine and Clonazepam have been noted to have some effect, however there is no strong empirical evidence to support their use. Patients typically attain poor seizure control on AEDs alone. Medical intractability in epilepsy occurs when children fail to respond to two appropriately selected medications at maximal tolerated dosages for two years. Children with medically intractable epilepsy are referred for neurosurgical management. Ketogenic diets may be used as adjuncts to pharmacotherapies. It involves a high fat, low carbohydrate, and moderate protein diet. When fat is used as the primary energy source, ketone bodies are produced, and these are thought to modulate epileptogenic tissue 22 . However patients similarly do not experience significant seizure control through this treatment 19 . Surgical disconnection includes either open or endoscopic approaches. Response to surgery ranges from 50 -100% of patients experiencing >95% reduction in seizure frequency depending on the surgical approach that is used 23 – 28 . However, the complications of disconnection surgeries are extensive, including memory impairment, endocrine dysfunction, thalamocapsular infarcts, hyperphagia, central diabetes insipidus, and visual field defects 28 – 35 . Vagal Nerve Stimulation (VNS) has been studied, with some patients showing improvements while others have limited-to-no response 36 – 38 . Given the limited data supporting its use, VNS does not typically play a significant role in the treatments of these seizures 24 . Magnetic Resonance Imaging (MRI) guided laser interstitial thermal therapy (MRgLITT) has emerged as a minimally invasive therapy. The combination of real time thermal monitoring of brain tissues during ablation and technical advances in the delivery of the laser energy has allowed for very precise targeting and ablation of epileptogenic regions 39 . MRgLITT has been shown to have numerous advantages over other therapeutic options including decreased length of hospital stay and decreased postoperative analgesic requirement as it does not require an open craniotomy 39 – 41 . There currently exists no randomized data for MRgLITT, but observational studies have shown seizure control rates to be slightly lower than resective surgery 40,42 . In a retrospective analysis of prospectively collected clinical data at SickKids Hospital and Centre Hospitalier Universitaire Sainte-Justine, all patients with DRE and HH (n=12) were treated with MRgLITT (SickKids REB #1000061004 REAS# 1124). 43 Patients received the standard of care for DRE with surgical intervention, including CT and MRI scans. The study sought to assess changes in resting-state neural network before and immediately after the LITT ablation of the HH. 43 The main outcome measure of seizure frequency had 5 patients achieving seizure freedom at long term follow-up, 2 patients with seizure reduction, 1 patient with a short-lived seizure-free period and 4 patients had no worthwhile improvement. 43 Additionally, the study associated specific neural network changes with seizure freedom in this small sample size. LITT continues to be the standard of care for DRE patients with HH at SickKids Hospital. LITT is a therapy that is under active research and in early stages for robust data sets. The disadvantages of MRgLITT include the high cost associated with the disposable equipment required for the procedure 44 . The optic laser probes, the probe driver, and the bolt system are single use systems. Furthermore, for larger lesions, targeting is limited to a single location or along the insertion axis of the probe. Targeting multiple locations would require multiple lasers, and possibly multiple procedures. Finally, while MRgLITT is the gold-standard for treatment of DRE, this technology is invasive, requiring intracranial access and laser fibres to be advanced through the skin, skull, dura and depth of the brain . Multi-staged ablations may be necessary to achieve seizure free status but avoided with MRgLITT to mitigate multiple insertion tracts and injury, longer hospital stays and recovery post-treatment and cloister singular treatment success."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1.3",
+    "section_title": "Magnetic Resonance guided Focused Ultrasound (FUS)",
+    "breadcrumb": "1 BACKGROUND > 1.3 Magnetic Resonance guided Focused Ultrasound (FUS)",
+    "page_start": 6,
+    "page_end": 7,
+    "char_count": 2824,
+    "text": "Magnetic resonance guided focused ultrasound (FUS) is a non-invasive technology that allows for the targeted ablation of tissues. Ultrasound energy is absorbed with high efficiency as it passes through the skull. The development of a spherical phased array with multiple transducer elements (>1000 elements) allows the low energy beams to be focused at one point intracranially where the waves arrive in phase and allow for high energy to be delivered. A layer of chilled water is circulated between the transducer array and the patient’s head to ensure heat dissipation is optimal. The MR thermal imaging technology that is used in MRgLITT also plays an important role in FUS. These two technologies together ensure that the correct target is heated, and heating temperatures are achieved to obtain ablation. The ExAblate Neuro is a Health Canada approved FUS system (approval #96969) that has been shown to be safe in the treatment of various conditions. A summary of its safety and efficacy can be found in the current approved Information for Prescribers (attached with this application). The ExAblate system can target areas deep in the brain and as small as 2x2x3mm. The ExAblate procedure begins by physically fastening the ExAblate halo onto the patient like a helmet and acquiring a CT scan to map the incurvation of the patient’s skull. The patient then moves to receive a series of MR images of the target tissue. The physician then aligns both sets of images on the ExAblate system workstation, identifies a target volume on the MRI, delineates the treatment contours on the images, and reviews the treatment plan. Therapy planning software calculates the parameters required to effectively treat the defined region with high-intensity FUS through the skull. During the procedure, an ultrasound transducer with 256 separate channels generates ultrasound energy to come into phase at a single point of focused ultrasound energy, called a sonication. The sonication raises the tissue temperature within that defined region, causing a thermal effect. MR thermometry images acquired throughout the sonication provide a quantitative, real-time temperature map of the entire field-of-view around the target area to confirm the location and intensity of treatment. The sonication process can be repeated at multiple adjacent points and with increased energy to cover a prescribed treatment volume such that an ablated region of tissue results 45 . The pre-procedure CT scan allows for general estimates of aberration based on skull thickness. This allows energy to be delivered more efficiently to the target without increasing the input energy requirements. The present trial will specifically use a dedicated ExAblate Neuro Transcranial FUS system from InsightTec located at the Hospital for Sick Children (SickKids)."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1.4",
+    "section_title": "Current Applications of FUS in Adults",
+    "breadcrumb": "1 BACKGROUND > 1.4 Current Applications of FUS in Adults",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 1391,
+    "text": "One of the most well-established applications of FUS ablation therapy is thalamotomy for the treatment of essential tremor. A randomized trial published in the New England Journal of Medicine showed significant improvement of tremor at 3 months in patients who underwent FUS thalamotomy compared to the sham group 46 . Thalamotomy has also been approved for the treatment of various other indications such as tremors , Parkinson’s disease 47 , obsessive- compulsive disorder 48 , and neuropathic pain 49 . There has been one case report describing the disconnection of a HH in a 26 year old man using the ExAblate Neuro system 50 . Abnormally firing connections from the hypothalamus and frontal lobe were thermally ablated using the ExAblate Neuro MRgFUS system and disconnected resulting in a seizure-free patient (at 1 year) with reduced medication without compromising the function of the hypoothalamus 50 . In total, there are 7 FDA-approved indications for adult neurological applications of FUS including essential tremor, tremor- dominant Parkinson’s disease, prostate enlargement and cancer, painful bone metastases, uterine fibroids, and osteoid osteomas. 51 Overall, there are over one hundred and sixty-six clinical and preclinical indications currently under evaluation for feasibility, safety, and efficiency of FUS, including fourteen pediatric clinical trials world wide 52 ."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1.5",
+    "section_title": "FUS in Children",
+    "breadcrumb": "1 BACKGROUND > 1.5 FUS in Children",
+    "page_start": 8,
+    "page_end": 8,
+    "char_count": 2333,
+    "text": "There have been very few reports of FUS in children 51-60 . A clinical trial at SickKids investigated the MRgFUS treatment of osteoid osteoma (OO) and other benign bone tumours (NCT02618369). The OO clinical trials have had successful MRgHIFU application and comprehensively defined safety and efficiency parameters 53 . The Children’s National Medi cal Centre also investigates the feasibility and safety of FUS ablation in children with OO (NCT02349971) and pain palliation and local control of relapsed or refractory malignant pediatric solid tumors, including sarcoma (NCT02076906) 54-56 . Early results have established safety in 9 children with OO 57,58 using the Sonalleve V2 (Philips, Vantaa, Finland) system, with no serious treatment-related adverse events and complete pain relief with no medication in 7/8 patients within 28 days following treatment. Other pediatric oncologic applications include FUS ablation treatment for malignant sarcomas and neuroblastomas sometimes in combination with chemotherapy 52 . Alternative pediatric neurological applications include low-intensity FUS for blood brain barrier opening for improved and localized drug delivery 52 . As well, FUS ablation treatment is being investigated for fetal applications to treat vascular malformations such as twin-reversed-arterial-perfusion sequence 57 . The Nicklaus Children’s Hospital in Miami has published on 4 patients with HH (of an estimated 10 prospective patients in the ongoing study) treated with MRgFUS as part of an FDA-approved research study in children and young adults between the ages of 8-22 years using the ExAblate system (NCT03028246) 60 . After MRgFUS treatment, patients showed 90-100% seizure improvement and metabolic improvement where that was the primary concern 60 . There were no complications and all patients were discharged home on postoperative day 1 or 2 without any readmissions. In one unsuccessful case, there was ineffective heating of the lesion. Several centres in the United States currently offer FUS treatment for children with epilepsy and central brain lesions (such as hypothalamic hamartomas) 52 . FUS therapy in pediatric patient population is growing and while isolated case reports exist for FUS in patients with HH 60 , it is important to establish safety profiles in a larger consecutive cohort."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "2",
+    "section_title": "STUDY RATIONALE AND SCIENTIFIC SIGNIFICANCE",
+    "breadcrumb": "2 STUDY RATIONALE AND SCIENTIFIC SIGNIFICANCE",
+    "page_start": 8,
+    "page_end": 9,
+    "char_count": 844,
+    "text": "Given the morbidity associated with treatment refractory epilepsy in the pediatric population, a novel, experimental therapy with high precision, flexibility and minimal invasiveness is required. While FUS safety profiles and applications have been established for various indications, it has not been rigorously studied in children with central brain lesions causing epilepsy. The specific significance of the proposed study is: 1) To perform an early phase clinical trial exploring the use of FUS for the ablation of epileptogenic lesions in the pediatric population 2) To help elucidate the neural networks involved in the formation and propagation of these seizures by targeted disruption of the various networks involved. 3) To establish a foundation of safety profiles upon which to expand FUS treatment to other epileptogenic conditions."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "3.1",
+    "section_title": "Safety",
+    "breadcrumb": "3 OBJECTIVES > 3.1 Safety",
+    "page_start": 9,
+    "page_end": 9,
+    "char_count": 1974,
+    "text": "The primary objective is to streamline the safety profileof the ExAblate 4000 delivery of FUS in the treatment of refractory pediatric patients with epileptogenic lesions to the off-label patient population and application. We have evidence to suggest that targeted ablation of lesions can be safe given that FUS has been used successfully in a variety of other populations and conditions as noted above in sections 1.4 FUS for Adults and 1.5 FUS for Children. Section 1.5 describes FUS ablation of OO and extra-abdominal desmoid tumours in children, conducted at SickKids or the Children’s National Medical Centre (7 children) 53,54,56 . Studies indicated successful tumour treatment and listed relevant safety considerations that arose due to FUS as well as how to mitigate them: proper preparation of the skin with depilation, care in acoustic coupling, and appropriate selection of treatment power and duration 53,54,56 . In a near identical study to what we are proposing in this REB, conducted at Nicklaus Children’s Hospital, they used the Exablate device and treated central brain lesions with FUS ablation in 5 children/young adults (aged 15, 18,19, 21 and 22) 60 . This near-identical study found no adverse events occurred in the patients related to general anaesthesia, the ExAblate head frame or FUS treatment with a 1-2 day stay in the hospital 60 . It did mention during the treatment of 3 patients (2 successful and 1 unsuccessful due to undertreatment), that the built-in cavitation detection in the ExAblate system did halt ablation automatically and early due to cavitation detection 60 . Cavitation is a safety concern for FUS delivery that needs attention during each FUS treatment. Thus, our objective is to adhere to the required safety parameters outlined the ExAblate 4000 device manuals and describe additional safety considerations that arise for this off label population (children 4-17 years old) and application (brain lesions specifically HH)."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "3.2",
+    "section_title": "Effectiveness",
+    "breadcrumb": "3 OBJECTIVES > 3.2 Effectiveness",
+    "page_start": 9,
+    "page_end": 9,
+    "char_count": 808,
+    "text": "In addition to demonstrating safety, the second primary objective will be to evaluate the effectiveness of FUS in the treatment of seizures in patients with epileptogenic lesions. This will be measured by documenting seizure frequency prior to the procedure and comparing to the frequency of seizures at discrete timepoints postoperatively to determine the change in seizure frequency. These objectives are based on three main underlying hypotheses as follows: 1) Seizures will be shown to originate from the lesions. 2) These seizures will be resistant to AEDs and require some form of disconnection surgery. 3) FUS will be able to target these lesions with high precision and achieve said disconnection in a minimally invasive fashion. 4) Secondary measures include study-specific scales (see section 4.5)."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4",
+    "section_title": "STUDY DESIGN",
+    "breadcrumb": "4 STUDY DESIGN",
+    "page_start": 10,
+    "page_end": 10,
+    "char_count": 2309,
+    "text": "This is a Phase I, non-blinded, non-randomized, prospective cohort to assess the safety and efficacy of FUS for treatment refractory epilepsy in pediatric patients with epileptogenic lesions. The trial will be conducted in compliance with the protocol, GCP and the applicable regulatory requirement(s). This study is conducted by the Posluns’ Centre for Image Guided Innovation and Therapeutic Intervention (PCIGITI) at SickKids under the supervision of Dr. George Ibrahim. Patients will be identified by the clinical team in the Neurosurgical Clinic at SickKids who will inform the patients and their families about the study inviting their participation. If willing, further information about the study will be provided to the patients and families by the Research Staff and any questions will be answered. For those who wish to participate, the Research Project Staff will obtain informed consent. Recruitment, pre-treatment preparatory imaging, FUS treatment and all follow-up testing will be performed at SickKids. The study will proceed according to the schedule laid out below, and both patients and treating team will always be aware of all treatment parameters. Twenty (20) subjects will be enrolled in this study and will undergo FUS ablation of their tumour. They will be followed for 1-year from their treatment. The population size is increased from the 6 patients indicated in our initial submission in 2021 (Previously submitted as REB 1000076295) due to the volume of patients at SickKids that could benefit from this treatment. Initially in 2021, our study was submitted as a pilot study but since then emerging literature has showed pilot data using the ExAblate device on brain lesions in children showing both feasibility and profiling safety data. Our study is now a prospective cohort study to continue to treat this off-label population in Toronto. There is sufficient data now in the literature that a safety/feasibility study is no longer relevant. SickKids is a large quaternary centre for the treatment of epilepsy as such receives the majority of patients affected by HH in Canada. The primary outcome will be the Engel Score between baseline/screening and at the 1-year follow up. Secondary outcomes will be change in neurocognitive scores, imaging data, and psychiatric outcomes."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.1",
+    "section_title": "Inclusion Criteria",
+    "breadcrumb": "4 STUDY DESIGN > 4.1 Inclusion Criteria",
+    "page_start": 10,
+    "page_end": 11,
+    "char_count": 1126,
+    "text": "To participate in this clinical investigation, the subject must meet all the following inclusion criteria: 1. Male or Female age 4 - 17 years 2. A confirmed diagnosis of epileptogenic lesion refractory to medication therapy 3. Diagnosis of intractable epilepsy with failure after trial of two anti-epileptic medications (as defined by Kwan et al. 2009). All children screened for entry into the study will be re- diagnosed by a neurologist prior to entry. 4. Able to fit into a standard MRI unit 5. Subjects with benign (WHO grade I) centrally located intracranial tumors which require clinical intervention and are known to carry minimal hemorrhage risk 6. Patients with a head circumference >52cm and can tolerate frame-based stereotaxy. 7. Subjects should be on a stable dose of all condition-related medications for 30 days prior to study entry as determine by medical records 8. The epileptogenic lesions (HH or other) can be targeted by the Exablate device. The lesion and region of treatment must be apparent on MRI and CT such that image fusion can delineate and model targeting when registered to the Exablate device."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.2",
+    "section_title": "Exclusion Criteria",
+    "breadcrumb": "4 STUDY DESIGN > 4.2 Exclusion Criteria",
+    "page_start": 11,
+    "page_end": 12,
+    "char_count": 1861,
+    "text": "Subjects who meet any of the following exclusion criteria must be excluded from the clinical investigation: 1. Patients with standard contraindications for MR imaging such as non-MRI compatible implanted metallic devices 2. Patients with known intolerance or allergies to the MRI contrast agent gadolinium (GADOVIST ® ) . 3. Patients who are pregnant or lactating 4. Patients diagnosed with advanced kidney disease or on dialysis 5. Patients with unstable cardiac status or severe hypertension including: a. Documented myocardial infarction within six months of enrollment b. Unstable angina on medication c. Unstable or worsening congestive heart failure d. Left ventricular ejection fraction below the lower limit of normal e. History of a hemodynamically unstable cardiac arrhythmia f. Cardiac pacemaker g. Severe hypertension (diastolic BP > 100 on medication) 6. Patients exhibiting any behavior(s) consistent with ethanol or substance abuse 7. Patients with history of abnormal bleeding, hemorrhage, or coagulopathy 8. Patients receiving anticoagulant (e.g. warfarin) or antiplatelet (e.g. aspirin) therapy within one week of focused ultrasound procedure or drugs known to increase risk or hemorrhage (e.g. Avastin) within one month of focused ultrasound procedure 9. Patients with cerebrovascular disease 10. Patients who are currently participating in another clinical investigation with an active treatment arm 11. Patients with chronic pulmonary disorders e.g. severe emphysema, pulmonary vasculitis, or other causes of reduced pulmonary vascular cross-sectional area 12. Patients with a history of drug allergies, uncontrolled asthma or hay fever, or multiple allergies where the benefit/risk of administering gadolinium (GADOVIST ® ) is considered unfavorable by the study physicians in relation to the product monograph for gadolinium (GADOVIST ® )"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "13",
+    "section_title": "Abnormal coagulation profile (PLT < 100,00/μl), PT (>14 sec) or PTT (>36 sec), and",
+    "breadcrumb": "13 Abnormal coagulation profile (PLT < 100,00/μl), PT (>14 sec) or PTT (>36 sec), and",
+    "page_start": 12,
+    "page_end": 12,
+    "char_count": 1573,
+    "text": "INR > 1.3 14. Impaired renal function with estimated glomerular filtration rate <30 mL/min/1.73m2 15. More than 30% of the skull area traversed by the sonication pathway is covered by scars, scalp disorders (e.g., eczema), or atrophy of the scalp 16. Patients with implanted objects in the skull or the brain 17. Subjects who are unwilling or unable to undergo general anesthesia or tolerate prolonged stationary supine position during treatment (can be up to 4 hours of total table time) 18. Subjects unwilling to have complete head shave 19. Subjects with malignant brain tumors, or the presence of any ambiguous clinical features that could imply a malignant potential to the tumor, or for which a biopsy is necessary 20. Subjects for whom histopathology is important for ongoing management 21. Patients with epileptogenic lesions that cannot be reached by the focused ultrasound array due to technical limitations (ie. lesions that are too lateral, too close to the skull base) 22. Active or suspected acute or chronic uncontrolled infection 23. History of immunocompromise including those who are HIV positive. 24. Subjects with uncontrolled symptoms and signs of increased intracranial pressure (e.g., headache, nausea, vomiting, lethargy, papilledema).” 25. Subjects who have had deep brain stimulation or a prior stereotactic ablation 26. Subjects who have been administered botulinum toxins into the arm, neck, or face for 5 months prior to Baseline. 27. Subjects who have an Overall Skull Density Ratio of 0.45 (±0.05) or less as calculated from the screening CT."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.3",
+    "section_title": "Procedures",
+    "breadcrumb": "13 Abnormal coagulation profile (PLT < 100,00/μl), PT (>14 sec) or PTT (>36 sec), and > 4.3 Procedures",
+    "page_start": 12,
+    "page_end": 13,
+    "char_count": 1072,
+    "text": "All subjects will have undergone some if not all of the standard of care procedures applicable to all neurosurgical management of DRE patients upon enrollment in the study. The alternative treatment option would be MRgLITT an invasive neurosurgical ablation procedure. Up-to-date assessments/scans and additional research-related procedures will comprise a thorough preparation for FUS treatment day. Enrolled subjects will undergo a treatment with the ExAblate Neuro system at Centre for Image Guided Care at SickKids. Patients are typically discharged same-day. After discharge from hospitalization post-procedure, the subject will have follow-up visits at 7 days and 1-month, 6-months, and 1-year at SickKids which is also the standard of care for all lesionectomy patients. Upon completion of the 1-year follow-up visit, the subject will be considered to have completed the follow-up requirements of this clinical investigation, but will remain under the clinical care of the neurosurgical department until age 18 at which point they will be transferred to adult care."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.4",
+    "section_title": "Informed Consent Process",
+    "breadcrumb": "13 Abnormal coagulation profile (PLT < 100,00/μl), PT (>14 sec) or PTT (>36 sec), and > 4.4 Informed Consent Process",
+    "page_start": 13,
+    "page_end": 13,
+    "char_count": 827,
+    "text": "If the participant is deemed incapable to consent, the participant’s parent/legal guardian will be asked to provide consent if they would like to enrol their child in the study. In situations where the participant is incapable of providing consent, they will be given the opportunity to provide assent or dissent to the research. If the participant dissents, they will not be included in the study. Participants and their guardians will be explicitly informed that they may withdraw their consent to participate at any time for any reason. A copy of the consent form with all the aforementioned information, as well as contact information for study personnel and Research Staff will be provided to enrolled participants. If a participant becomes able to consent for themselves during study enrolment, they will be re-consented."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.5",
+    "section_title": "Screening and Baseline Procedures",
+    "breadcrumb": "13 Abnormal coagulation profile (PLT < 100,00/μl), PT (>14 sec) or PTT (>36 sec), and > 4.5 Screening and Baseline Procedures",
+    "page_start": 13,
+    "page_end": 15,
+    "char_count": 3723,
+    "text": "Once a duly dated and signed Informed Consent Form is obtained, the screening procedures/data collection may begin. In case the subject does not meet all inclusion criteria or meets any of the exclusion criteria, the subject is considered a screening failure. Once enrolled, subjects will be scheduled to undergo the following standard of care examinations and visits as part of neurosurgical management procedures of DRE if not completed already. These will serve to clarify the eligibility of subjects (e.g. their surgical eligibility) as well as serve as baseline measures for follow-up during study visits. The following assessments and information will be collected at the baseline/screening visit: • Demographics and medical history • Physical exam • Neurological exam, consisting of assessment of cranial nerves, strength, sensation and gait • Genetic screening, as indicated • Assessment by the anesthesia service to assess safety and eligibility for surgery. • Engel Score • Medication review • ECG • Laboratory tests, including: a. complete blood count (platelet count PLT); b. pro-thrombin time (PT sec); partial thromboplastin time (PTT sec); INR c. kidney function (eGFR); d. urine pregnancy test for females of childbearing potential. • Chest x-ray, if indicated • Baseline imaging, including: CT Imaging For the purpose of this study, the CT exam should be an Axial scan with bone filter, an image resolution of 512x512, and image thickness of 1mm with zero (0) spacing. This CT imaging as part of the treatment planning should the subject qualify for the study. MR Imaging For the purpose of this study, the MR Imaging should include T2 weighted imaging exam along the axial and sagittal axes. In the pre-therapy treatment planning, various parameters will be computed in preparation for the treatment (CT segmentation, registration markers specification, transducer location and orientation setup etc.) The ExAblate procedure treatment will only be scheduled if the subject successfully completes the evaluations and visits and if an appropriate baseline can be established. All assessments above are standard of care for neurosurgical management of DRE patients. The following research study-specific scales will be administered to patients and their parents: 1. Seizure Severity Questionnaire (SSQ). The SSQ is a caregiver-reported review of aspects of seizures before, during, and after seizures, with responses related to the individual’s most common type of seizure. 2. The Quality of Life in Childhood Epilepsy Questionnaire (QOLCE). The QOLCE is a parent-rated epilepsy-specific instrument that covers five domains: physical, social, emotional well-being, cognition and behaviour. Items are rated on a five-point Likert scale, with the time referent being the previous four weeks. 3. The KIDSCREEN-27. KIDSCREEN is a dual child- and parent-rated generic instrument that measures five dimensions: physical well-being, psychological well-being, autonomy and parents, social support and peers, and school environment. 4. Burden Scale for Family Caregiver-short (BSFC-s) – this is a caregiver survey assessing the extent of subjective burden on the emotional and physical health of the family caregiver. All scales are validated tools. Participants will have the option to complete questionnaires on paper or electronically on Research Electronic Data Capture (REDCap) a secure, web-based application, through an email link sent by the Research Staff. The email link will be autogenerated per patient when the patient reaches the specific questionnaire timepoint. For patients that are on a ketogenic diet, the following procedures will be done before the treatment to ensure that ketosis is maintained:"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "1",
+    "section_title": "The neurology team managing the patient’s ketogenic diet will be consulted regarding the",
+    "breadcrumb": "1 The neurology team managing the patient’s ketogenic diet will be consulted regarding the",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 848,
+    "text": "patient’s nutritional status, efficacy of the ketogenic diet, concurrent anticonvulsant medications, and presence of side effects from the ketogenic diet. 2. Preoperative laboratory investigations will be done including CBC, comprehensive metabolic profile including serum electrolytes, calcium, magnesium, albumin, and prealbumin 3. Patients will be instructed to avoid prolonged fasting secondary to the risk of hypoglycaemia 4. The treating team will avoid preoperative administration of carbohydrate-containing electrolyte solutions and intravenous fluids 5. Preoperative fasting serum glucose will be measured on the day of surgery 6. Preoperative sedation with oral midazolam solution secondary to high carbohydrate content will be avoided. Alternatives for preoperative sedation include intranasal midazolam or dexmedetomidine, if necessary."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.6",
+    "section_title": "Preparation before Treatment",
+    "breadcrumb": "1 The neurology team managing the patient’s ketogenic diet will be consulted regarding the > 4.6 Preparation before Treatment",
+    "page_start": 15,
+    "page_end": 15,
+    "char_count": 731,
+    "text": "1. Equipment preparation will be reviewed by SickKids Anesthesia, Respiratory Therapy and the MRgFUS research team for each case individually to accommodate specific needs for the individual child. 2. In the pre-therapy treatment planning, various parameters will be computed in preparation for the treatment (CT segmentation, registration markers specification, transducer location and orientation setup etc.). Pre-therapy treatment planning will be done by the SickKids research team. 3. The SickKids team will prepare the following documentation forms for the day of treatment: • pre-anesthetic questionnaire • pre-op nursing record • anesthetic record • post-operative flow sheet • progress note paper • SickKids patient labels"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.7",
+    "section_title": "Treatment Day",
+    "breadcrumb": "1 The neurology team managing the patient’s ketogenic diet will be consulted regarding the > 4.7 Treatment Day",
+    "page_start": 16,
+    "page_end": 16,
+    "char_count": 114,
+    "text": "1. SickKids team will arrive at Medical Imaging at SickKids and change into scrubs, prepare patient documentation."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "2",
+    "section_title": "The patient will arrive at reception on the morning of treatment. The patient’s vitals will",
+    "breadcrumb": "2 The patient will arrive at reception on the morning of treatment. The patient’s vitals will",
+    "page_start": 16,
+    "page_end": 16,
+    "char_count": 1127,
+    "text": "be taken and their head will be shaved if needed. Shaving the head is required as a safety measure to reduce the chance of air along the ultrasound delivery pathway from the Exablate device and the patient’s brain . Air or bubbles trapped in hair would deflect ultrasound beams not allowing them to get to the target affecting the quality, location and ultimately the success of the treatment. Shaving the head also reduces the chance of skin burns. It is unsafe to proceed with this procedure without a full head shave. On the morning of the procedure, the patient will their head shaved to the skin surface. The surgical nurse will use scissors to cut the length of hair to a few inches followed by a hair trimmer with attachments to shave the hair as close to the scalp as possible. The presence of too much hair would exclude the patient from participating in this trial. 3. Anesthesia will be induced and maintained by SickKids Anesthesia with assistance from SickKids nurses in the Medical Imaging holding area. 4. The patient will then be transferred to the MRI suite where the entirety of the procedure will take place."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.8",
+    "section_title": "Treatment Procedures",
+    "breadcrumb": "2 The patient will arrive at reception on the morning of treatment. The patient’s vitals will > 4.8 Treatment Procedures",
+    "page_start": 16,
+    "page_end": 18,
+    "char_count": 4533,
+    "text": "The treatment planning and procedure steps for the ExAblate Neuro system can be found in the Operator’s Manual. In accordance with the standard of care pre -treatment steps, the following activities will be performed: 1. The patients will be put under a general anesthetic for the duration of the procedure. After the patient is under anaesthesia, the Exablate helmet will be affixed to the patient’s head which includes a stereotactic head frame. The frame is a metal ring that is anchored into the patient’s skull bones. The placement of the pins involves an in jection of anesthesia in the location of the pins. A silicone membrane will be placed on the patient’s head. This is used to seal the space where cold water will circulat e between the patient’s scalp and the helmet of the Exablate device. The circulating cold water and the head shave will ensure adequate contact (acoustic coupling environment) between the patient’s head and the ultrasound transducer 2. A series of MR images will be acquired to identify the target area and plan the actual treatment according to the instructions for use. These planning MR imaging includes T2 or T1 Weighted imaging exams along at least 2 axes (Axial and Coronal). Other MR imaging series may also be acquired as needed. 3. The pre-therapy CT image datasets will be uploaded to the ExAblate system and registered to the planning MR images that were just acquired. The pre-therapy MRI datasets may also be uploaded as needed. a. This image fusion of pre-operative MR assists in the accurate delineation of the target area and determination of a safe sonication pathway. b. The fusion of the CT data is required for the default computation of phase correction values to correct for skull aberration, and identification of intracranial calcifications. 4. The treatment regions and plan will be defined by the neurosurgeon, based on the individual anatomy and scan resolution. 5. The clinical team may decide to repeat Step 4 as needed. The acoustic power and/or energy may be optimized based on the cavitation graph that will be constantly monitored by the system and operator. 6. A T2*/GRE MR sequence and resting state fMRI will be performed to evaluate any possible signs of hemorrhage. In addition, a rapid MR sequence will be performed to check for the presence of bleeding, edema, or any other adverse radiologic effect. This will be a safety check. In the event of new neurological deficits, other imaging modalities (including CT) will be performed immediately in addition to neurological and physical examination. 7. From this point on, the treatment procedure shall be followed according to the approved standard of care FUS treatment steps of using the ExAblate Neuro system for thalamotomy ablations. During the routine thermal alignment and verification phase, and while still in low temperatures (<48  C), the operator will evaluate the CT based computed phase corrections. 8. Once the target and coalignment is confirmed, high energy FUS sonications will be performed to create a series of overlapping thermoablations (56-60  C) to cover the lesion. Note: Extra cooling time may be added between sonications, above the standard 5 minutes as per guidelines in the Exablate Neuro Operators manual. 9. After MRgHIFU treatment; MRI scans such as T1 wieghted, T2 weighted, T2*/GRE and resting state fMRI may be conducted to evaluate efficiency of sonications. Gadovist (gadolinium) an MRI contrast agent may be given at this time. 10. The patient will then be woken up and transferred to the recovery room. Most patients are discharged from the hospital same day unless any complications are experienced. In the case of any adverse events, patients will be admitted to the neurosurgical ward (5C) for observation until the adverse event has been deemed resolved or stabilized by the neurosurgical care team and the patient will be discharged home. In addition, the considerations will be made for patients following a ketogenic diet: 1. Avoid carbohydrate-containing medications 2. Avoid using high doses of propofol infusions for long periods of time secondary to the risk of PRIS 3. Use isotonic crystalloid solutions (NS or LR) for volume replacement. Avoid using large volumes of NS secondary to the risks of hyperchloremic metabolic acidosis 4. For major surgical procedures or those lasting >3 h, frequently monitor serum pH, glucose, electrolytes, and bicarbonate levels 5. Do not overcorrect hypoglycemia (start with dextrose 0.25 g/kg for serum glucose <40 mg/dL)"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.9",
+    "section_title": "Scheduled Follow-up Visits",
+    "breadcrumb": "2 The patient will arrive at reception on the morning of treatment. The patient’s vitals will > 4.9 Scheduled Follow-up Visits",
+    "page_start": 18,
+    "page_end": 18,
+    "char_count": 1149,
+    "text": "Follow-up visits will take place at SickKids and are scheduled at Day 7 (±3) and 1 month (±7), 6 months, and 1-year after treatment. The scheduled visit windows are calculated from the treatment date. At each visit, the following standard of care procedures to allow comparison to the baseline assessments will be completed: • Physical examination • Neurological examination consisting of assessment of cranial nerves, strength, sensation and gait • MRI, only at 6 month and 1 year visit • Engel Score will be calculated at each visit • Medication review • Adverse event review • The above noted questionnaires (SSQ, QOLCE, KIDSCREEN, BSFC-s) will be completed again at each follow-up visit. In addition, for patients following a ketogenic diet, the diet will be advanced as medically appropriate by measuring serum and urine ketone levels post-procedure. The physical and neurological examination, diet assessment, medication review, adverse event review, MRI scans and Engel score are standard of care for neurosurgical managed DRE patients. The questionnaires and MRI follow up are research related procedures added for the purpose of this study."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.10",
+    "section_title": "Study procedures after FUS",
+    "breadcrumb": "2 The patient will arrive at reception on the morning of treatment. The patient’s vitals will > 4.10 Study procedures after FUS",
+    "page_start": 19,
+    "page_end": 19,
+    "char_count": 133,
+    "text": "Once the study described above is completed, the patient does not require any additional follow- up aside from routine clinical care."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "4.11",
+    "section_title": "Analysis plan",
+    "breadcrumb": "2 The patient will arrive at reception on the morning of treatment. The patient’s vitals will > 4.11 Analysis plan",
+    "page_start": 19,
+    "page_end": 19,
+    "char_count": 494,
+    "text": "The above-mentioned metrics will be captured at each of the follow up visits and tracked over the duration of the study. The ability to do comparative analyses will be limited but responders and non-responders will be compared with respect to the above metrics, and their demographics. Furthermore, this study will provide information regarding the feasibility and recruitment for this intervention for this indication. This will be qualitative information that will help design future studies."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "5",
+    "section_title": "DATA MANAGEMENT",
+    "breadcrumb": "5 DATA MANAGEMENT",
+    "page_start": 19,
+    "page_end": 19,
+    "char_count": 421,
+    "text": "Patient information will be kept strictly confidential at all times, and all files related to this study will be password protected and kept on a password protected computer. As this is not a blinded study, all investigators will be aware of treatment. We choose not to blind the participants as the design of this study is not randomized. All imaging data will be stored on safe, encrypted computers within the hospital."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "6",
+    "section_title": "SAFETY CONSIDERATIONS AND RISK",
+    "breadcrumb": "6 SAFETY CONSIDERATIONS AND RISK",
+    "page_start": 19,
+    "page_end": 19,
+    "char_count": 1056,
+    "text": "This study is offering a treatment procedure for a relatively novel indication for which there is some strong but limited evidence 60 . As such, it is impossible to predict all known or possible risks. All study procedures are standard of care for DRE patients under neurosurgical management; for which the gold-standard is MRgLITT, an invasive procedure that requires intracranial access of laser fibers to be advanced through the skin, skull dura and depth of the brain. MRgFUS is non-invasive and this protocol is following the safety considerations for ExAblate Neuro treatment for brain ablation, but this is an off-label population (children), anatomical location and indication (brain lesions specifically HH) for which the safety considerations of the Information for Prescribers and Operators Manual are not specific for. As such, there are some discrepancies of the manuals, written for ExAblate 4000 treatment of Essential Tremor in Adults (a Health Canada approved application) and the safety considerations and risks described in this section."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "6.1",
+    "section_title": "Pre-treatment risks",
+    "breadcrumb": "6 SAFETY CONSIDERATIONS AND RISK > 6.1 Pre-treatment risks",
+    "page_start": 19,
+    "page_end": 20,
+    "char_count": 1813,
+    "text": "In the assessment period there is very little to no risk to the patient. The family will be encouraged to consider participation in this study on a completely voluntary basis free of untoward pressure. They will be told that their decision to participate will not in any way impact their general management. Should they choose to participate there is some risk in the pre- operative period. 1. Patients undergo a battery of testing which may cause a mild degree of anxiety. 2. Quality-of-life questionnaires may cause psychological or emotional distress. If this happens, participants can choose not to answer questions and will be provided with additional care if needed. 3. Stress or emotional distress (embarrassment) may be experienced in anticipation of and as a result of head-shaving. 4. Eligible patients will also have to undergo neuroimaging, specifically CT and MRI scans. MRI does not involve x-rays or isotopes and involves minimal risk. No needles will be used, no x-ray exposure will occur. All patients will be screened for safety prior to undergoing imaging. Some people experience anxiety or claustrophobia when inside the MRI or CT scanner. Someone from the research team will be available for the patient during the MRI and CT scan to provide reassurance when anxiety occurs. In the uncooperative child, who requires anesthesia for MRI or CT imaging, we will obtain MRI images upon induction of general anesthetic. The risk of anesthesia is stated below. There is a small amount of radiation from a low dose CT scan to measure how much radiation is absorbed by the brain and the bones of the skull. The potential long-term risk from the radiation dose is uncertain, but these doses have never been associated with any definite adverse effects. Thus the risk, if any, is estimated to be slight."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "6.2",
+    "section_title": "Treatment risks",
+    "breadcrumb": "6 SAFETY CONSIDERATIONS AND RISK > 6.2 Treatment risks",
+    "page_start": 20,
+    "page_end": 25,
+    "char_count": 12598,
+    "text": "All risks will be explained to the participants prior to signing surgical consent. All subjects will be screened for concomitant diseases and conditions prior to treatment for identification of risks and mitigation planning where feasible and appropriate. Prior to beginning the treatment, subjects will be educated on what to expect during the procedure. The risks associated with the ExAbate Neuro treatment can be found in the current approved Operator’s Manual and Information for Prescribers and the Operator’s manual 2021 . The analysis of safety was based on the ITT/Safety Population cohort of 76 subjects (56 ExAblate subjects and 20 Sham subjects), aged 22 and older, receiving treatment of medication-refractory Essential Tremor (ET) using the ExAblate Neuro, available through the Month 12 evaluation. A total of 210 AEs in 76 subjects were reported in this study, 209 (99.5%) of which were either Mild or Moderate. There was also 1 (0.5%) unrelated Severe event. Of all these events, there were only 2 serious events reported: one was an Unrelated Transient Ischemia Attack “TIA” (severe) and one was related to the Thalamotomy procedure (moderate). In the ExAblate group, 184 AEs were reported by 49 ExAblate subjects: 137 (74%) of these events were Mild, and 46 (25%) were Moderate. Seven ExAblate subjects reported no AEs. There were no reports of device or procedure-related severe events or deaths. The most commonly reported mild or moderate adverse events were: • dizziness (in 6% of patients) • headache (5%) • head pain (4%) • numbness/tingling (13%) • loss of balance (4%) • nausea/vomiting (4%) The frequency and incidence of all adverse events in the ExAblate group is presented by severity and by body system in Table 1. Table 1. Frequency and Incidence of Adverse Events Body System Preferred Term ExAblate (N events = 184; # pts = 56) Mild Moderate Severe N (%) N (%) N (%) Cardiovascular Bradycardia 1 (0.5%) 1 (0.5%) 0 Hypertension 1 (0.5%) 4 (2%) 0 Hypotension 0 1 (0.5%) 0 TIA 0 0 1 (0.5%) ENT Tinnitis 3 (2%) 0 0 Eye Vision problems 1 (0.5%) 0 0 Watering Eyes 1 (0.5%) 0 0 Gastrointestinal Dysphagia 1 (0.5%) 0 0 Increased salivation 1 (0.5%) 0 0 Nausea/Vomiting 6 (3%) 7 (4%) 0 General Fatigue 2 (1%) 0 0 Generalized 0 1 (0.5%) 0 Weakness Impatience 1 (0.5%) 0 0 Restlessness 1 (0.5%) 0 0 Infection Common Cold 1 (0.5%) 0 0 Ear Infection 0 1 (0.5%) 0 Musculoskeletal Gait Disturbance 2 (1 %) 2 (1%) 0 Dysergia 1 (0.5%) 1 (0.5%) 0 Imbalance 7 (4%) 3 (2%) 0 Muscukoskeletal 1 (0.5%) 1 (0.5%) 0 Weakness Other Muskulo 0 1 (0.5%) 0 skeletal Pain Positional Pain 5 (3%) 0 0 Unsteady 5 (3%) 1 (0.5%) 0 Nervous Anxiety 1 (0.5%) 0 0 Ataxia 6 (3%) 1 (0.5%) 0 Dizziness 0 1 (0.5%) 0 Dysesthesia 1 (0.5%) 0 0 Dysgeugia 3 (2%) 0 0 Dysnogia 2 (1%) 0 0 Dysmetria 2 (1%) 0 0 Involuntary 1 (0.5%) 0 0 Movements-UE Memory 1 (0.5%) 0 0 Deterioration Numbness/Tingling 24 (13%) 3 (2%) 0 Slurred speech 1 (0.5%) 0 0 Paresthesia 1 (0.5%) 0 0 Somnolence 1 (0.5%) 0 0 Pain/Discomfort Ankle pain 0 1 (0.5%) 0 Foot pain 0 1 (0.5%) 0 Headache 10 (5%) 5 (3%) 0 Sonication-related 7 (4%) 7 (4%) 0 Head pain Respiratory Hiccups 1 (0.5%) 0 0 Skin Bruising 1 (0.5%) 0 0 Skin Rash 1 (0.5%) 0 0 Stereotactic Eyelid Ptosis 2 (1%) 0 0 Frame Facial edema 0 1 (0.5%) 0 Numbness/Tingling 1 (0.5%) 0 0 Bruising – 1 (0.5%) 0 0 Stereotactic Frame Pin Site Edema 1 (0.5%) 0 0 Pin Site Abrasion 2 (1%) 0 0 Pin site bleeding 0 0 0 Pin site pain 7 (4%) 1 (0.5%) 0 Urinary Catheter Irritation 1 (0.5%) 0 0 Urinary Urgency 1 (0.5%) 0 0 BHP 0 1 (0.5%) 0 Vestibular Vertigo 2 (1%) 0 0 Disorder Dizziness 11 (6%) 0 0 Paroxysmal Vertigo 1 (0.5%) 0 0 Episodes Vision Vision change 1 (0.5%) 0 0 TOTAL 137 46 1 (74%) (25%) (0.5%) The entire procedure is performed in an MRI scanner, with images acquired during treatment. This monitoring can detect changes in temperature, potential tissue damage, bleeding, or if brain or blood vessels are injured by heat. Throughout the treatment a neurosurgeon from SickKids will be present. At the end of the procedure, an MRI scan is performed to assess the blood flow within the treated area and adjacent tissue. This exam constitutes an independent treatment assessment tool that provides further information on blood flow and can serve as a final check of the overall tissue status and alert the physician to any significant edema or hemorrhage. The Nicklaus Children’s hospital report on their ExAblate treatment of four patients with HH reported no AEs in response to use of anaesthesia, no abrnomal or unexpected radiological findings during treatment (such as hemmorhage, off-target heating or diffusion restriction) and after treatment and hospital relase, patients had no electrolytes or endocrinological function abnormalities and no new neurological conditions 60 . General anesthesia (GA). The risks of anaesthesia are very low in patients who have had no previous issues with general anaesthesia. Death from complications related to anaesthesia have been known to occur in less than 1% (less than 1 out of 100) of patients, but patients that are at risk of complications from anesthesia will not be included in this study. All participants will be seen by the anesthesia service prior to surgery to ensure the risks related to anesthesia are lowered. The risks of asphyxiation and vomiting are low and the patient will be instructed to fast prior to the treatment. Should either occur, vacuum and suction device will be available and anti-emetic medication may be administered. While a patient is under anaesthesia, it is difficult to regulate body temperature, core temperature will be measured throughout the procedure and body warmth maintenance will be adjusted accordingly. IV. There is potential risk from the I.V. used during the procedure. Participants may experience a small amount of pain and/or bleeding/bruising at the I.V. site. There is also a small risk of infection at the site of the I.V. A local anesthetic will be used at the site to prevent pain. Contrast Agent. The risk associated with GADOVIST MRI contrast agent can be found in the product labeling. GADOVIST is approved for use as an MRI contrast agent within the United States and Canada. The risks associated with GADOVIST in children are currently unknown, however all participants will be assessed for the presence of any conditions that would make it unsafe for them to have this drug before being enrolled in the study. Head shaving. There are no known safety risks associated with head shaving. Children may experience emotional and psychological impact or embarrassment, however the treating team will do their best to prevent this from happening by preparing participants on what to expect on the day of the treatment. There is also an Epilepsy Social Worker who is dedicated to working on all aspects of disease management and discomforts/risks surrounding DRE for the patients with epilepsy at Sick Kids and their families. Should the patient or family feel distress in anticipation of head-shaving they will be directed to the support and resources of this Social Worker. There is a chance of skin abrasion or cut due to the use of scissors, trimmer and/or razor to achieve a fine shave. Prior to the delivery of each sonication throughout the treatment, the beam path should be evaluated to avoid scars or other irregularities in the skin which can cause pain or skin burns. The presence of too much hair would exclude the patient from participating in this trial. Cradle positioning and Movement. Cradle movement may cause patient injury but care will be taken to ensure patient’s fingers and clothing( gowns) are not in danger of being caught in the equipment during positioning or cradle motion. There are automatic STOP commands in the Exablate system that will stop a sonication and scan immediately if any movement is detected. The patient in our study will be under anaesthesia and not moving. Seizure and medication use. In the event the patient has a seizure during the procedure. The Exablate device will stop sonication and scanning immediately upon detection of any movement. The SickKids neurosurgeon at the treatment can also manually stop the treatment in the event they notice any seizure activity. The patient will be treated as per the standard of care during any intervention and assess and adjust the depth of anaesthesia and administer rescue medications as determined necessary by the health care team. Auditory stimulus . Please refer to MRI safety measures as the MRI produces intermittent auditory noise that over a long term could cause hearing damage. Patients will be supplied with hearing protection- noise-cancelling headphones throughout the procedure and thus the risk is deemed to be quite low. Sonication risks (heat and adjacent tissue). The Exablate system creates heat in the target, which may cause thermal ablation based on temperature rise levels and duration. Thermal ablation prediction (referred to as thermal dose) is estimated using two dose levels of 17 and 240 cumulative equivalent minutes (CEM) at 43°C. Based on correlation with tissue damage seen on MR images, the two dose levels represent worst case scenario and size (i.e. low and high probability for) of thermal damage, respectively. For each sonication, a spot overlay of those two dose levels (17 and 240 CEM) is presented on the WS screen. This overlay represents the location and bounding area of the spot and contributes to spot size estimation. The goal of treatment is ablation to cause coagulative necrosis at the spot of treatment with out heating change in surrounding areas. Careful examination of thermal images for unexpected or off-target temperature rise, inability to see or understand the thermal map, or abnormal system behaviour will result in aborting sonication immediately. This will be done manually by the neurosurgeon or anaesthesiologist with the stop button or operating engineer on the operating console to avoid damage to unintended tissue. If the skull bone is heated significantly, tissue adjacent to the skull can also absorb heat and may be damaged. To prevent damage to this tissue, heating of the skull should be minimized – this is achieved both by circulating chilled water across the outer surface of the skull (avoid heating of outer skull- skin interface) and choosing target regions at a depth in the brain at least 2.5 cm from the skull (avoid heating of internal skull-tissue interface). As well, Inadequate cooling time between sonications could lead to thermal build-up that may cause serious damage to normal tissues outside the targeted volume. The cooling time between sonications is automatically scaled according to the actual energy applied and sonication parameters, and will not be decreased Cavitation. Cavitation refers to formation and collapse of bubbles (created from dissolved gas), which fills cavities that are created in low pressure regions. As a result, bio-effects may occur due to these bubbles and are dependent on the extent and type of cavitation. The Exablate has a built-in cavitation detector and a mechanism to automatically stop or adjust the power levels to avoid cavitation, which may cause unintended tissue damage. The risk of cavitation at the sonication levels this study administers are low. System controls are in place to detect and stop sonication at the first indication of cavitation. Prolonged immobilization. Prolonged immobilization may lead to increased risk of deep venous thrombosis (DVT) or pulmonary embolism (PE). In order to avoid this, the patient may wear Thromboembolic Stockings (TEDs), also referred to as 'anti-embolism' stockings through the entire procedure time in the MRI Emergencies Emergency procedures established at SickKids Hospital and specifically for the MRI suite containing the patient and Exablate 4000 system should be followed should any emergency arise. If there be any danger to the patient immediately stop the sonication and scan via the neurosurgeon stop button, anasthesiologist stop button, or operator stop button on the Exablate console. The anaesthesiologist should be consulted immediately. Bring the cradle outside of the bore using the interface or the emergency manual release procedure. If needed, drain the water from the transducer and release the patient. Controlled draining takes 5 minutes or, if necessary, the patient can be released in ~20 seconds and can also be done manually. A non-magnetic gurney will be on standby outside of the magnet to allow for easy and quick patient transfer and immediate care by the care team v vc v."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "6.3",
+    "section_title": "Post-treatment risks and mitigation",
+    "breadcrumb": "6 SAFETY CONSIDERATIONS AND RISK > 6.3 Post-treatment risks and mitigation",
+    "page_start": 25,
+    "page_end": 25,
+    "char_count": 1712,
+    "text": "In the immediate post-operative period, patients may experience some side effects. The kind of complications that patients might experience include: warmth, numbness, facial hand or fingertip tingling, changes in speech, nausea, brief pressure or intense heat on the scalp, and brief dizziness or vertigo (feeling of spinning or dizziness). The safety endpoints will be reviewed at discrete time points. First, the initial layer of oversight in the acute period (initial hospitalization) will be through the neurosurgery morbidity and mortality discussion with independent, departmental oversight. In the case of an acute adverse event, the patient will be stabilized at SickKids with the help of the critical care team. Any subsequent safety concerns or complications requiring in-patient hospital admission will also fall under the auspices of the morbidity and mortality review of the Division of Neurosurgery. Long- term monitoring and surveillance of safety and complications will be performed by all clinicians involved in the circle of care. All complications will be discussed within the circle of care and disseminated, as needed to participants and oversight committees, including the REB. Data Safety Monitoring Board (DSMB). An independent safety review of the data will be conducted after each patient by an independent pediatric neurosurgeon and neurologist at SickKids familiar with the study population, Dr. Eisha Christian and Dr. Puneet Jain. Safety reviews will be completed on a standardized report template included with this protocol. The purpose of the safety review is to evaluate all adverse events that occur and determine if they are related to the study treatment or some other cause."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "7.1",
+    "section_title": "Benefits to Participating",
+    "breadcrumb": "7 EXPECTED OUTCOMES > 7.1 Benefits to Participating",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 504,
+    "text": "The purpose of this study is to evaluate the safety and preliminary efficacy of FUS for epileptogenic lesions in children with drug refractory epilepsy. As such, patients may experience a benefit in this study in terms of their mitigations of symptoms. Previous studies have shown a qualitative and quantitative benefit from the procedure for other indications. However, as the objective of this trial is safety establishment, there is no guarantee that patients will derive a benefit from participating."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "7.2",
+    "section_title": "Potential Harm in Participating",
+    "breadcrumb": "7 EXPECTED OUTCOMES > 7.2 Potential Harm in Participating",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 198,
+    "text": "The risks of the procedure are described above, and, as mentioned, there is a small possibility that patients may be harmed with this procedure. All guardians will be made aware of this possibility."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "7.3",
+    "section_title": "Criteria for early withdrawal",
+    "breadcrumb": "7 EXPECTED OUTCOMES > 7.3 Criteria for early withdrawal",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 467,
+    "text": "Patients may be withdrawn prematurely from this study for multiple reasons. These include: withdrawal of patient/parental consent, inability to tolerate MRI scanning or any part of study protocol, unwillingness to comply with study protocols and follow-ups and development of any exclusion criteria. The decision to withdraw a participant from the study will be based on expert consensus among the safety reviewers, the patient’s circle of care and the research team."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "7.4",
+    "section_title": "Compensation",
+    "breadcrumb": "7 EXPECTED OUTCOMES > 7.4 Compensation",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 74,
+    "text": "Patients will not be directly compensated for participating in this study."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "8",
+    "section_title": "ETHICS",
+    "breadcrumb": "8 ETHICS",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 155,
+    "text": "None of the investigators associated with this study have any financial or academic conflicts of interest that influence their participation in this study."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "9",
+    "section_title": "FUNDING",
+    "breadcrumb": "9 FUNDING",
+    "page_start": 26,
+    "page_end": 26,
+    "char_count": 196,
+    "text": "The study treatment is OHIP funded. Any additional funds will be provided by the PI from internal start-up funds and an awarded CFI grant that has purchased the Exablate Neuro system for SickKids."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.1",
+    "section_title": "Feasibility Study for Tremor Dominant Parkinson’s Disease IDE - G120017 -",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.1 Feasibility Study for Tremor Dominant Parkinson’s Disease IDE - G120017 -",
+    "page_start": 26,
+    "page_end": 27,
+    "char_count": 438,
+    "text": "ExAblate Neuro System This is a, multi-center, randomized, sham-controlled pivotal study to evaluate the safety and efficacy of ExAblate Neuro unilateral thalamotomy for treating medication-refractory Tremor Dominant Parkinson’s Disease. A total of 30 subjects will be recruited for this study; 27 have been treated as of this date. After the last subject completes the study, a final clinical report will be written and submitted to FDA."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.2",
+    "section_title": "Feasibility Study for Unilateral Pallidotomy for the Treatment Dyskinesia (LID)",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.2 Feasibility Study for Unilateral Pallidotomy for the Treatment Dyskinesia (LID)",
+    "page_start": 27,
+    "page_end": 27,
+    "char_count": 441,
+    "text": "of Parkinson’s Disease – Health Canada ITA # 222434 - ExAblate 4000 Type-1 Neuro System This is a, single-center feasibility study to evaluate the safety and efficacy of ExAblate Neuro unilateral pallidotomy for treating medication- refractory LID Parkinson’s Disease to be performed at Sunnybrook. A total of 6 subjects will be recruited for this study. This study has been approved by Health Canada, and the first subject has been treated."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.3",
+    "section_title": "Feasibility Study for Unilateral Subthalamotomy (“STN”) Treatment of",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.3 Feasibility Study for Unilateral Subthalamotomy (“STN”) Treatment of",
+    "page_start": 27,
+    "page_end": 27,
+    "char_count": 305,
+    "text": "Dyskinesia of Parkinson’s Disease with ExAblate 4000 Type -1 Neuro System – FDA IDE # G140018 In April 2014, InSightec received the FDA approval to conduct a feasibility study for ExAblate Neuro in the STN treatment of dyskinesia in subjects with Parkinson’s disease. Three subjects have now been treated."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.4",
+    "section_title": "A Feasibility Clinical Trial of the Magnetic Resonance Guided Focused",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.4 A Feasibility Clinical Trial of the Magnetic Resonance Guided Focused",
+    "page_start": 27,
+    "page_end": 27,
+    "char_count": 322,
+    "text": "Ultrasound (FUS) for the Management of Treatment-Refractory Movement Disorders - Health Canada Application # 228826 This multicenter (2) study is designed to treat (thalamotomy or pallidotomy) any one of several movement disorders in a total of 40 subjects. Currently, 29 subjects have been treated. Enrollment is on-going"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.5",
+    "section_title": "Feasibility Study for Medically Refractory Dyskinesia Symptoms of Advanced",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.5 Feasibility Study for Medically Refractory Dyskinesia Symptoms of Advanced",
+    "page_start": 27,
+    "page_end": 27,
+    "char_count": 422,
+    "text": "Idiopathic Parkinson’s Disease IDE - G140082 - ExAblate Neuro System This is a single arm, non-randomized, multi-center feasibility study to develop data to evaluate the safety and initial effectiveness of unilateral focused ultrasound pallidotomy adjunct to PD medications using this ExAblate Transcranial System in the management of dyskinesia symptoms for medication refractory, advanced idiopathic Parkinson’s disease."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.6",
+    "section_title": "Feasibility Study for Brain Tumor IDE # G020182 – ExAblate Neuro Low",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.6 Feasibility Study for Brain Tumor IDE # G020182 – ExAblate Neuro Low",
+    "page_start": 27,
+    "page_end": 29,
+    "char_count": 3789,
+    "text": "Frequency System In 2002, the FDA approved an IDE for a feasibility clinical study for the ExAblate Neuro system in the treatment of brain tumors. The purpose of this study is to evaluate the safety of MRI- guided focused ultrasound thermal ablation of brain tumors performed through intact human skull using the ExAblate system. This study was limited to 10 subjects with a newly diagnosed glioma, recurrent glioma, or metastatic cancer to the brain for whom surgery was felt to be not indicated by a physician not associated with the study. For this study, the ExAblate Neuro system was the system that had ~500 elements and operated at ~650 KHz. The treatment of the first 3 subjects showed the following: - All 3 subjects tolerated the overall treatment procedure well. - The system registration and use of CT data allowed for a full determination and correction of the variability of subject skull thickness and density. - Thermal imaging and its feedback confirmed the initial targeting. - All 3 subjects were managed with conscious sedation which was sufficient to alleviate any potential procedure-related pain. None of the three subjects experienced pain. Adverse events included nausea and lip swelling. - Detailed analyses of skull temperature demonstrated temperatures ranging between 1-to-5 C for at the skull/dura interface for acoustic powers up to 800-Watts. - During these 3 treatments, all safety subsystems and monitoring of the device provided the intended safety monitoring capabilities. - The potential of tissue ablation at the focal point in the tumor were as high as 14 o C corresponding to about 51 o C. These findings corroborated the various simulations that were performed to show it is indeed possible to increase the acoustic power/energy that will induce ablation/coagulation of tissue without significant skull heating. The results of these three subjects’ treatments formed the basis to continue with the trial and implement several changes in the system such as: ➢ Upgrade the transducer from 512 to 1000 elements ➢ Change the subject interface to a stereotactic frame to improve immobilization and subject comfort. ➢ Use of lower frequency, ~220 kHz, with burst sonication regime. This was accomplished under IDE # 020182/S04. The treatment of the 4th subject was done with upgraded system suing the same safety protocol. Utilizing the burst sonication regime, the designated tumor was completely ablated. Despite an apparently uneventful treatment, this tumor subject died of an intracerebral hemorrhage five days after ExAblate. The Study Safety Committee determined the cause of the hemorrhage to be unknown but possibly multi-factorial. It was related to the propensity of glioblastomas to bleed, exacerbated by radiotherapy, medications and an underlying coagulopathy. The neuropathologic findings raised the possibility that pre-existing changes in the vessels, such as mineralization and wall thickening, may have rendered those vessels more susceptible to damage by ultrasound at the doses or frequencies used. The Study Safety Committee recommended a new exclusion criteria (tumors with a known tendency to bleed, subjects with abnormal clotting studies or on drugs known to affect coagulation) and clarification of the imaging criteria (target volume maximum size requirement < 2.5 cm diameter, or an 8 cc volume - the tumor volume may be larger, as long as true midline shift is < 5 mm and the subject is not clinically compromised; definition of midline shift > 5 mm – does not include tumor growth across midline). With these provisos, the Safety Committee recommended continuation of the study. The FDA approved the recommendation of the Safety Committee under IDE # G020182/S15. The study has received IRB approval and has been restarted."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.7",
+    "section_title": "Feasibility Study for Neuropathic Pain Outside the US - ExAblate Neuro System",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.7 Feasibility Study for Neuropathic Pain Outside the US - ExAblate Neuro System",
+    "page_start": 29,
+    "page_end": 29,
+    "char_count": 1699,
+    "text": "An investigator initiated and sponsored study in the treatment of neuropathic pain was conducted at the University Hospital Zurich (Zurich Switzerland) using the InSightec ExAblate (650 KHz) system. The study was approved by and performed according to the guidelines of the ethics committee of the University and the State of Zurich. To date, more than nineteen (19) subjects with chronic, medication-resistant neuropathic pain underwent selective central lateral thalamotomy (CLT) using the ExAblate Neuro treatment. Therapy- resistance was defined as occurring when the subject’s pain was not effectively treated by anti-epileptic and anti-depressant analgesic medications. For all subjects, the treatment was well tolerated and did not result in any side effects or neurological deficits. The only significant event reported to date from this study is an event of neurological deficit, i.e. “dysmetria (dyscoordination) of the ri ght hand, dysarthria, motor neglect and gait disorder”. This event was reported immediately following the last sonication. Furthermore, all symptoms improved significantly 1-hour post treatment. The full event was submitted to the FDA as part of the ET IDE submission (IDE # G100169). As it was shown in the brain tumor study under IDE G020281, for this study there was no clinically significant heating at the skull-brain interface. The mean brain surface temperature was approximately 39° C. Furthermore, all subjects experienced some level of pain relief during the procedure, and at 48 hours after the treatment, subjects reported pain relief ranging from 30 to 100% (mean = 68%). Partial results of this study were published in the Annals of Neurology Journal ."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.8",
+    "section_title": "Feasibility Study for Essential Tremor IDE – G100169 – ExAblate Neuro System",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.8 Feasibility Study for Essential Tremor IDE – G100169 – ExAblate Neuro System",
+    "page_start": 29,
+    "page_end": 30,
+    "char_count": 548,
+    "text": "InSightec received FDA approval for a feasibility of ExAblate Neuro System for unilateral thalamotomy in the treatment of ET under IDE # G100169. A total of 15 subjects were enrolled and treated at one site. Subjects have shown a significant improvement in their ET disease following their treatment with the ExAblate Neuro device. Subjects who completed the study requirements have shown stability of the tremor suppression all the way to the end of the study. The full results of this study were published in the New England Journal of Medicine ."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.9",
+    "section_title": "Pivotal Study for Essential Tremor IDE - G120246 - ExAblate Neuro System",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.9 Pivotal Study for Essential Tremor IDE - G120246 - ExAblate Neuro System",
+    "page_start": 30,
+    "page_end": 30,
+    "char_count": 394,
+    "text": "This is a global, multi-center, randomized, sham-controlled pivotal study to evaluate the safety and efficacy of ExAblate Neuro unilateral thalamotomy for treating medication-refractory ET. This study supported the FDA PMA Approval of Exablate Model 4000 Type-1 under PMA P150038 for the treatment of Essential Tremor. https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMA/pma.cfm?id=P150038"
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.10",
+    "section_title": "Feasibility study for Treatment of Subcortical Lesional Epilepsy – FDA IDE",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.10 Feasibility study for Treatment of Subcortical Lesional Epilepsy – FDA IDE",
+    "page_start": 30,
+    "page_end": 30,
+    "char_count": 228,
+    "text": "#G160021 In February 2016, InSightec received FDA approval to conduct a feasibility study for the treatment of subcortical lesions that induce epilepsy in 15 adult subjects. This is a multi-center, prospective, open-label study."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.11",
+    "section_title": "A Feasibility Safety Study Using the ExAblate 4000 System in the Management of",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.11 A Feasibility Safety Study Using the ExAblate 4000 System in the Management of",
+    "page_start": 30,
+    "page_end": 30,
+    "char_count": 405,
+    "text": "Benign Centrally-Located Intracranial Tumors Which Require Clinical Intervention in Pediatric and Young Adult Subjects – FDA IDE # G160189 The goal of this prospective, non-randomized, single-arm, feasibility study is to develop data to evaluate the safety and feasibility of ExAblate Neuro treatment of benign intracranial tumors which require clinical intervention in pediatric and young adult subjects."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.12",
+    "section_title": "A Feasibility Study of Focused Ultrasound to Perform Bilateral Medial",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.12 A Feasibility Study of Focused Ultrasound to Perform Bilateral Medial",
+    "page_start": 30,
+    "page_end": 30,
+    "char_count": 340,
+    "text": "Thalamotomy for the Treatment of Chronic Trigeminal Neuropathic Pain – FDA IDE #G170077 This is as a prospective, double-blind, randomized study in 10 subjects with chronic trigeminal neuropathic pain. The proposed study will investigate the safety and initial effectiveness of focused ultrasound lesioning of the bilateral medial thalamus."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "10.13",
+    "section_title": "A Pivotal Clinical Trial of the Management of the Medically-Refractory",
+    "breadcrumb": "10 APPENDIX A: PRIOR EXABLATE NEURO CLINICAL RESEARCH > 10.13 A Pivotal Clinical Trial of the Management of the Medically-Refractory",
+    "page_start": 30,
+    "page_end": 30,
+    "char_count": 487,
+    "text": "Dyskinesia Symptoms or Motor Fluctuations of Advanced Idiopathic Parkinson’s Disease With Unilateral Lesioning of the Globus Pallidum Using the ExAblate Neuro System – G170237 This study is a double-blind, controlled, randomized clinical trial in subjects with advanced idiopathic Parkinson’s Disease who will undergo a unilateral pallidotomy. Subjects are medication refractory with dyskinesias or motor fluctuations as their primary symptoms. The study is starting subject recruitment."
+  },
+  {
+    "doc_id": "NCT07497178_Prot_SAP_000",
+    "section_number": "12",
+    "section_title": "REFERENCES",
+    "breadcrumb": "12 REFERENCES",
+    "page_start": 32,
+    "page_end": 36,
+    "char_count": 11922,
+    "text": "1. Aaberg KM, Gunnes N, Bakken IJ, et al. Incidence and Prevalence of Childhood Epilepsy: A Nationwide Cohort Study. Pediatrics [Internet] 2017 [cited 2020 Feb 4];139(5). Available from: https://pediatrics.aappublications.org/content/139/5/e20163908 2. Prasad AN, Sang X, Corbett BA, Burneo JG. Prevalence of childhood epilepsy in Canada. Can J Neurol Sci 2011;38(5):719 – 22. 3. Austin JK, Harezlak J, Dunn DW, Huster GA, Rose DF, Ambrosius WT. Behavior problems in children before first recognized seizures. Pediatrics 2001;107(1):115 – 22. 4. Bourgeois BF, Prensky AL, Palkes HS, Talent BK, Busch SG. Intelligence in epilepsy: a prospective study in children. Ann Neurol 1983;14(4):438 – 44. 5. Hoare P. The development of psychiatric disorder among schoolchildren with epilepsy. Dev Med Child Neurol 1984;26(1):3 – 13. 6. Seidenberg M, Beck N, Geisser M, et al. Academic achievement of children with epilepsy. Epilepsia 1986;27(6):753 – 9. 7. Camfield CS, Camfield PR. The adult seizure and social outcomes of children with partial complex seizures. Brain 2013;136(Pt 2):593 – 600. 8. Chin RFM, Cumberland PM, Pujar SS, Peckham C, Ross EM, Scott RC. Outcomes of childhood epilepsy at age 33 years: a population-based birth-cohort study. Epilepsia 2011;52(8):1513 – 21. 9. Kokkonen J, Kokkonen ER, Saukkonen AL, Pennanen P. Psychosocial outcome of young adults with epilepsy in childhood. J Neurol Neurosurg Psychiatry 1997;62(3):265 – 8. 10. Jalava M, Sillanpää M, Camfield C, Camfield P. Social adjustment and competence 35 years after onset of childhood epilepsy: a prospective controlled study. Epilepsia 1997;38(6):708 – 15. 11. Koponen A, Seppälä U, Eriksson K, et al. Social functioning and psychological well-being of 347 young adults with epilepsy only--population-based, controlled study from Finland. Epilepsia 2007;48(5):907 – 12. 12. Sillanpää M, Haataja L, Shinnar S. Perceived impact of childhood-onset epilepsy on quality of life as an adult. Epilepsia 2004;45(8):971 – 7. 13. Sillanpää M, Schmidt D. Long-term employment of adults with childhood-onset epilepsy: a prospective population-based study. Epilepsia 2010;51(6):1053 – 60. 14. Brodie MJ, Barry SJE, Bamagous GA, Norrie JD, Kwan P. Patterns of treatment response in newly diagnosed epilepsy. Neurology 2012;78(20):1548 – 54. 15. Wang B, Ma J. The diagnosis and management of hypothalamic hamartomas in children. Chinese Neurosurgical Journal 2016;2(1):29. 16. Valentin A, Lazaro M, Mullatti N, et al. Cingulate epileptogenesis in hypothalamic hamartoma. Epilepsia 2011;52(5):e35-39. 17. Munari C, Kahane P, Francione S, et al. Role of the hypothalamic hamartoma in the genesis of gelastic fits (a video-stereo-EEG study). Electroencephalogr Clin Neurophysiol 1995;95(3):154 – 60. 18. Kuzniecky R, Guthrie B, Mountz J, et al. Intrinsic epileptogenesis of hypothalamic hamartomas in gelastic epilepsy. Ann Neurol 1997;42(1):60 – 7. 19. Chapman KE, Kim D-Y, Rho JM, Ng Y-T, Kerrigan JF. Ketogenic diet in the treatment of seizures associated with hypothalamic hamartomas. Epilepsy Res 2011;94(3):218 – 21. 20. Kawai K. [Less invasive treatment of intractable epilepsy--vagus nerve stimulation and stereotactic radiosurgery]. Brain Nerve 2007;59(4):299 – 311. 21. Kotwal N, Yanamandra U, Menon AS, Nair V. Central precocious puberty due to hypothalamic hamartoma in a six-month-old infant girl. Indian J Endocrinol Metab 2012;16(4):627 – 30. 22. de Lima PA, de Brito Sampaio LP, Damasceno NRT. Neurobiochemical mechanisms of a ketogenic diet in refractory epilepsy. Clinics (Sao Paulo) 2014;69(10):699 – 705. 23. Delalande O, Fohlen M. Disconnecting Surgical Treatment of Hypothalamic Hamartoma in Children and Adults With Refractory Epilepsy and Proposal of a New Classification. Neurologia medico-chirurgica 2003;43(2):61 – 8. 24. Feiz-Erfan I, Horn EM, Rekate HL, et al. Surgical strategies for approaching hypothalamic hamartomas causing gelastic seizures in the pediatric population: transventricular compared with skull base approaches. Journal of Neurosurgery: Pediatrics 2005;103(4):325 – 32. 25. Kramer U, Spector S, Nasser W, Siomin V, Fried I, Constantini S. Surgical Treatment of Hypothalamic Hamartoma and Refractory Seizures. PNE 2001;34(1):40 – 2. 26. Watanabe T, Enomoto T, Uemura K, Tomono Y, Nose T. [Gelastic seizures treated by partial resection of a hypothalamic hamartoma]. No Shinkei Geka 1998;26(10):923 – 8. 27. Akai T, Okamoto K, Iizuka H, Kakinuma H, Nojima T. Treatments of Hamartoma with Neuroendoscopic Surgery and Stereotactic Radiosurgery:A Case Report. Minim Invasive Neurosurg 2002;45(04):235 – 9. 28. Rosenfeld JV, Feiz-Erfan I. Hypothalamic Hamartoma Treatment: Surgical Resection With the Transcallosal Approach. Seminars in Pediatric Neurology 2007;14(2):88 – 98. 29. Palmini A, Paglioli-Neto E, Montes J, Farmer J-P. The treatment of patients with hypothalamic hamartomas, epilepsy and behavioural abnormalities: facts and hypotheses. Epileptic disorders : international epilepsy journal with videotape 2003; 30. Anderson JFI, Rosenfeld JV. Long-term cognitive outcome after transcallosal resection of hypothalamic hamartoma in older adolescents and adults with gelastic seizures. Epilepsy Behav 2010;18(1):81 – 7. 31. Yao H, Luo S, Ma Z, Zhang Y, Jia G. [Complications after transcallosal transseptal interforniceal resection of hypothalamic hamartoma: analysis of 37 cases]. Zhonghua Yi Xue Za Zhi 2009;89(13):898 – 900. 32. Abla AA, Rekate HL, Wilson DA, et al. Orbitozygomatic resection for hypothalamic hamartoma and epilepsy: patient selection and outcome. Childs Nerv Syst 2011;27(2):265 – 77. 33. Fohlen M, Lellouch A, Delalande O. Hypothalamic hamartoma with refractory epilepsy: surgical procedures and results in 18 patients. Epileptic Disord 2003;5(4):267 – 73. 34. Krishna V, Blaker B, Kosnik L, Patel S, Vandergrift W. Trans-Lamina Terminalis Approach to Third Ventricle using Supraorbital Craniotomy: Technique Description and Literature Review for Outcome Comparison with Anterior, Lateral and Trans-Sphenoidal Corridors. Minim Invasive Neurosurg 2011;54(05/06):236 – 42. 35. Boari N, Spina A, Giudice L, Gorgoni F, Bailo M, Mortini P. Fronto-orbitozygomatic approach: functional and cosmetic outcomes in a series of 169 patients. Journal of Neurosurgery 2017;128(2):466 – 74. 36. Kang HC, Hwang YS, Kim DS, Kim HD. Vagus nerve stimulation in pediatric intractable epilepsy: a Korean bicentric study [Internet]. In: Chang JW, Katayama Y, Yamamoto T, editors. Advances in Functional and Reparative Neurosurgery. Vienna: Springer; 2006 [cited 2020 Nov 29]. p. 93 – 6.Available from: https://doi.org/10.1007/978-3-211-35205- 2_18 37. Brandberg G, Raininko R, Eeg-Olofsson O. Hypothalamic hamartoma with gelastic seizures in Swedish children and adolescents. European Journal of Paediatric Neurology 2004;8(1):35 – 44. 38. Frost MD, Penovich PE, Ritter FJ, Hoskin CA, Gates JR. Vagus nerve stimulator as a treatment for seizures associated with hypothalamic hamartomas. American Epilepsy Society Annual Meeting 2000; Dec 1-6 39. McNichols RJ, Gowda A, Kangasniemi M, Bankson JA, Price RE, Hazle JD. MR thermometry-based feedback control of laser interstitial thermal therapy at 980 nm. Lasers Surg Med 2004;34(1):48 – 55. 40. Waseem H, Vivas AC, Vale FL. MRI-guided laser interstitial thermal therapy for treatment of medically refractory non-lesional mesial temporal lobe epilepsy: Outcomes, complications, and current limitations: A review. Journal of Clinical Neuroscience 2017;38:1 – 7. 41. Willie JT, Laxpati NG, Drane DL, et al. Real-time magnetic resonance-guided stereotactic laser amygdalohippocampotomy for mesial temporal lobe epilepsy. Neurosurgery 2014;74(6):569 – 84; discussion 584-585. 42. Gross RE, Stern MA, Willie JT, et al. Stereotactic laser amygdalohippocampotomy for mesial temporal lobe epilepsy. Ann Neurol 2018;83(3):575 – 87. 43. Mithani K, Richards OL, Ebden M, et al. Intraoperative changes in large-scale thalamic circuitry following laser ablation of hypothalamic hamartomas. Neuroimage Clin. 2024; May 1;42:103613. doi:101016/j.nicl.2024.103613. Online ahead of print. 44. Widjaja E, Papastavros T, Sander B, Snead C, Pechlivanoglou P. Early economic evaluation of MRI-guided laser interstitial thermal therapy (MRgLITT) and epilepsy surgery for mesial temporal lobe epilepsy. PLOS ONE 2019;14(11):e0224571. 45. Huang Y, Lipsman N, Schwartz ML, et al. Predicting lesion size by accumulated thermal dose in MR-guided focused ultrasound for essential tremor. Med Phys 2018;45(10):4704 – 10. 46. Elias WJ, Lipsman N, Ondo WG, et al. A Randomized Trial of Focused Ultrasound Thalamotomy for Essential Tremor. New England Journal of Medicine 2016;375(8):730 – 9. 47. Schlesinger I, Sinai A, Zaaroor M. MRI- Guided Focused Ultrasound in Parkinson’s Disease: A Review [Internet]. Parkinson&#x2019;s Disease. 2017 [cited 2020 Dec 1];2017:e8124624. Available from: https://www.hindawi.com/journals/pd/2017/8124624/ 48. Davidson B, Hamani C, Rabin JS, et al. Magnetic resonance-guided focused ultrasound capsulotomy for refractory obsessive compulsive disorder and major depressive disorder: clinical and imaging results from two phase I trials. Molecular Psychiatry 2020;25(9):1946 – 57. 49. Dobrakowski PP, Machowska- Majchrzak AK, Łabuz -Roszak B, Majchrzak KG, Kluczewska E. MR-Guided Focused Ultrasound: A New Generation Treatment of Parkinson’s Disease, Essential Tremor and Neuropathic Pain. Interventional Neuroradiology 2014;20(3):275. 50. Yamaguchi T, Hori T, Hori H, et al. Magnetic resonance – guided focused ultrasound ablation of hypothalamic hamartoma as a disconnection surgery: a case report. Acta Neurochir 2020;162(10):2513 – 7. 51. Janwadkar R, Leblang S, Ghanouni P, Brenner J, Ragheb J, Hennekens CH, Kim A, and Sharma K. Focused Ultrasound for Pediatric Disease. Pediatrics 2022 Mar 1:149(3) 52. Focused Ultrasound Foundation. State of the Field Report 2023. 2023. Accessed at https://www.fusfoundation.org/the-foundation/foundation-reports/state-of-the-field-report- 2023/. Accessed on June 27, 2024. 53. Temple MJ, Waspe AC, Amaral JG, et al. Establishing a clinical service for the treatment of osteoid osteoma using magnetic resonance-guided focused ultrasound: overview and guidelines. J Ther Ultrasound [Internet] 2016 [cited 2021 Feb 26];4. Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873984/ . 54. Ghanouni P, Dobrotwir A, Bazzocchi A, et al. Magnetic resonance-guided focused ultrasound treatment of extra-abdominal desmoid tumors: a retrospective multicenter study. Eur Radiol 2017;27(2):732 – 40. 55. Shim J, Staruch RM, Koral K, Xie X-J, Chopra R, Laetsch TW. Pediatric Sarcomas Are Targetable by MR-Guided High Intensity Focused Ultrasound (MR-HIFU): Anatomical Distribution and Radiological Characteristics. Pediatr Blood Cancer 2016;63(10):1753 – 60. 56. Sharma KV, Yarmolenko PS, Eranki A, et al. Magnetic Resonance Imaging-guided High- intensity Focused Ultrasound Applications in Pediatrics: Early Experience at Children’s National Medical Center. Top Magn Reson Imaging 2018;27(1):45 – 51. 57. Yarmolenko PS, Eranki A, Partanen A, et al. Technical aspects of osteoid osteoma ablation in children using MR-guided high intensity focussed ultrasound. Int J Hyperthermia 2018;34(1):49 – 58. 58. Sharma KV, Yarmolenko PS, Celik H, et al. Comparison of Noninvasive High-Intensity Focused Ultrasound with Radiofrequency Ablation of Osteoid Osteoma. J Pediatr 2017;190:222-228.e1. 59. Seo K, Ichizuka K, Okai T et al. Treatment of twin-reversed arterial perfusion sequence using high intensity focused ultraosund. Ultrasound Obstet Gynecol. 2019 July ;54(1):128- 134 60. Tierney TS, Alvain KN, Altman N et al. Initial experience with magnetic resonance-guided focused ultrasound stereotactic surgery for central brain lesions in young adults. J Neurosurg 2022 Jan 14:1-8 doi:10.3171/2021.10.JNS21416. Online ahead of print."
+  }
+]

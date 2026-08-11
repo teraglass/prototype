@@ -1,0 +1,19 @@
+# 로컬 도구 설정
+.claude/
+
+# 비밀값
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 대용량/재생성 가능한 산출물 — ingestion·chunking·build_vectorstore 스크립트로 다시 만들 수 있음
+data/guidelines/*.pdf
+data/protocols/*.pdf
+data/vectorstore/
+data/traces/*.jsonl
+
+# 그 외(청크 JSON, 리뷰 JSON, 리포트 md)는 커밋해서 실행 없이도 결과물을 볼 수 있게 둔다

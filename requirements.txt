@@ -1,0 +1,11 @@
+requests
+pypdf
+pdfplumber
+chromadb
+sentence-transformers
+anthropic
+python-dotenv
+langgraph
+langsmith
+opentelemetry-api
+opentelemetry-sdk

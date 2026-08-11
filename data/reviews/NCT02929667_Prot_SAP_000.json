@@ -1,0 +1,566 @@
+[
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "1",
+    "protocol_section_title": "KEY ROLES",
+    "protocol_breadcrumb": "1 KEY ROLES",
+    "flag": "aligned",
+    "rationale": "본 섹션은 ICH E6(R2) 6.1.5에서 요구하는 시험 책임자(investigator) 및 관련자의 성명, 직함, 소속 기관, 주소, 전화번호를 명시하고 있어 형식적 요건을 충족한다. 다만 6.1.4에서 요구하는 스폰서의 의학 전문가(medical expert) 지정이 별도로 명시되어 있지 않고, 6.1.2의 스폰서/모니터 정보도 이 섹션에서는 확인되지 않아 다른 섹션에서 다루어지는지 확인이 필요하다. 전반적으로 필수 인력 정보 제공이라는 목적에는 부합하는 것으로 보인다.",
+    "confidence": 0.65,
+    "citations": [
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.1 General Information",
+        "page_start": 40,
+        "page_end": 41,
+        "quoted_evidence": "6.1.5 Name and title of the investigator(s) who is (are) responsible for conducting the trial, and the address and telephone number(s) of the trial site(s).",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.1 General Information",
+        "page_start": 40,
+        "page_end": 41,
+        "quoted_evidence": "6.1.4 Name, title, address, and telephone number(s) of the sponsor's medical expert (or dentist when appropriate) for the trial.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "2",
+    "protocol_section_title": "INTRODUCTION: BACKGROUND INFORMATION AND SCIENTIFIC",
+    "protocol_breadcrumb": "2 INTRODUCTION: BACKGROUND INFORMATION AND SCIENTIFIC",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 ICH E6(R2) 6.2 Background Information의 요구항목(치험제 개요, 비임상/임상 요약, 위험-이익, 용법용량 근거, 대상군, 문헌 근거)을 대체로 포함하고 있어 구조적으로 부합한다. 그러나 fluoxetine이 새로운 적응증(뇌전증 환자의 HCVR/SUDEP 위험 감소)으로 사용됨에도 불구하고, 비임상 시험(독성학, 약동학) 결과의 구체적 요약이나 인용 문헌 목록이 제시되지 않아 6.2.2 및 6.2.7 요건 충족 여부가 불명확하다. 또한 위험-이익 논의에서 뇌전증 환자 특유의 위험(예: SSRI로 인한 발작 빈도 증가 가능성 언급은 있으나 이에 대한 완화 전략이나 근거 문헌 인용이 부족함)이 충분히 뒷받침되지 않아 review_needed로 판단한다.",
+    "confidence": 0.65,
+    "citations": [
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.2 Background Information",
+        "page_start": 41,
+        "page_end": 41,
+        "quoted_evidence": "6.2.2 A summary of findings from nonclinical studies that potentially have clinical significance and from clinical trials that are relevant to the trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.2 Background Information",
+        "page_start": 41,
+        "page_end": 41,
+        "quoted_evidence": "6.2.7 References to literature and data that are relevant to the trial, and that provide background for the trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.2 Background Information",
+        "page_start": 41,
+        "page_end": 41,
+        "quoted_evidence": "6.2.3 Summary of the known and potential risks and benefits, if any, to human subjects.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "3",
+    "protocol_section_title": "OBJECTIVES AND PURPOSE",
+    "protocol_breadcrumb": "3 OBJECTIVES AND PURPOSE",
+    "flag": "review_needed",
+    "rationale": "프로토콜은 ICH E6(R2) 6.3에서 요구하는 '목적과 의도에 대한 상세한 설명'을 형식적으로는 포함하고 있으나, 기술 수준이 매우 간략하여 1차 목표(등록 실행가능성 평가)와 2차 목표(플루옥세틴이 HCVR 및 발작 주변기 호흡억제에 미치는 효과)에 대한 배경, 가설, 평가 방법, 성공 기준 등이 구체적으로 제시되지 않았다. 특히 2차 목적이 임상적으로 중요한 안전성 관련 평가(호흡억제)를 다루고 있음에도 상세 설명이 부족해 추가 명시가 필요하다. 나머지 발췌문(1.62 Well-being, 1.32 Interim Report, FDA 소아 외삽 가이드라인 서두)은 본 섹션과 직접적 관련성이 낮다.",
+    "confidence": 0.55,
+    "citations": [
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.3 Trial Objectives and Purpose",
+        "page_start": 41,
+        "page_end": 41,
+        "quoted_evidence": "A detailed description of the objectives and the purpose of the trial.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "4",
+    "protocol_section_title": "STUDY DESIGN AND ENDPOINTS",
+    "protocol_breadcrumb": "4 STUDY DESIGN AND ENDPOINTS",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 ICH E6(R2) 6.4에서 요구하는 시험설계 핵심 요소들(이중맹검, 위약대조, 무작위배정, 눈가림 방법, 투여 용량/일정, 추적기간)을 대체로 기술하고 있어 부합하는 부분이 있다. 그러나 6.4.1에서 요구하는 '1차 및 2차 평가변수에 대한 명확한 구분(specific statement)'이 명시되어 있지 않고 HCVR slope, 분당환기량, VRTCO 등 여러 지표가 나열만 되어 우선순위가 불명확하다. 또한 6.4.6(중단 기준/stopping rules)과 6.4.7(투약 책임/accountability), 6.4.9(CRF 원자료 식별) 관련 내용이 본 발췌 섹션에는 포함되어 있지 않아 프로토콜 전체에서 별도로 다루어지는지 확인이 필요하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.1 A specific statement of the primary endpoints and the secondary endpoints, if any, to be measured during the trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.6 A description of the \"stopping rules\" or \"discontinuation criteria\" for individual subjects, parts of trial and entire trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.7 Accountability procedures for the investigational product(s), including the placebo(s) and comparator(s), if any.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.3 A description of the measures taken to minimize/avoid bias, including: (a) Randomization. (b) Blinding.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.4 A description of the trial treatment(s) and the dosage and dosage regimen of the investigational product(s).",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "2",
+    "protocol_section_title": "2",
+    "protocol_breadcrumb": "2 2",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 fluoxetine vs placebo 무작위 배정, 블라인딩, 4주 titration, EMU 입원 중 모니터링(VEEG, EKG, EMG, SpO2 등)을 기술하여 ICH E6(R2) 6.6 치료 관련 요구사항(투여 용량/일정/경로, 허용/금지 병용약물, 순응도 모니터링 절차)과 관련이 있다. 그러나 병용 허용/금지 약물에 대한 명시적 언급이 없고, medication adherence rate를 평가한다고만 되어 있어 구체적인 순응도 모니터링 절차(6.6.3)가 충분히 상세하지 않아 보완이 필요하다. 또한 randomization 절차와 titration plan이 \"above\"로 다른 섹션을 참조하고 있어 이 섹션만으로는 완전성을 판단하기 어렵다.",
+    "confidence": 0.55,
+    "citations": [
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.6 Treatment of Subjects",
+        "page_start": 42,
+        "page_end": 42,
+        "quoted_evidence": "6.6.2 Medication(s)/treatment(s) permitted (including rescue medication) and not permitted before and/or during the trial. 6.6.3 Procedures for monitoring subject compliance.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "2",
+    "protocol_section_title": "2 2",
+    "protocol_breadcrumb": "2 2 2",
+    "flag": "review_needed",
+    "rationale": "프로토콜은 1차/2차/탐색적 endpoint를 명시하고 GLM을 사용한 분석 방법(link function 선택)을 기술하고 있어 ICH E6(R2) 6.4.1(엔드포인트 명시) 및 6.9.1(통계 방법 기술) 요건과 관련이 있다. 그러나 표본 크기 및 근거, 유의수준, 중간분석 시점, 결측치 처리 절차, 분석대상군 정의(6.9.2~6.9.7) 등 통계 섹션에서 요구되는 세부 항목들이 본 발췌문에는 언급되어 있지 않아 명확성이 부족하다. 또한 1차 endpoint가 '연구 등록률/완료율'로 설정되어 있어 임상적 유효성 지표가 아닌 운영적 지표인데, 이것이 6.4.1의 의도(임상적 primary endpoint)와 부합하는지 추가 검토가 필요하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "A specific statement of the primary endpoints and the secondary endpoints, if any, to be measured during the trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+        "page_start": 43,
+        "page_end": 43,
+        "quoted_evidence": "A description of the statistical methods to be employed, including timing of any planned interim analysis(ses).",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+        "page_start": 43,
+        "page_end": 43,
+        "quoted_evidence": "Reason for choice of sample size, including reflections on (or calculations of) the power of the trial and clinical justification.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+        "page_start": 43,
+        "page_end": 43,
+        "quoted_evidence": "Procedure for accounting for missing, unused, and spurious data.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "5",
+    "protocol_section_title": "STUDY ENROLLMENT AND WITHDRAWAL",
+    "protocol_breadcrumb": "5 STUDY ENROLLMENT AND WITHDRAWAL",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 자살사고 병력, 중증 우울증, PHQ-9>20 환자를 제외하는 등 취약 대상자 보호를 위한 배제기준을 마련하고 있고 IRB 승인 전제 하 동의 절차도 언급되어 ICH E6(R2) 2.3/2.9의 취지와 부합하는 면이 있다. 그러나 5.3에서 '중증 정신질환자, 인지장애자, 임신부'를 모집단계에서 배제한다고 명시했음에도 5.1/5.2의 공식 포함·배제기준에는 이러한 취약군 배제 및 동의능력 평가 절차가 구체적으로 기술되어 있지 않아 불일치 소지가 있다. 또한 ICH E8(R1)이 요구하는 '적격기준이 연구목적을 반영하고 프로토콜에 명확히 문서화되어야 한다'는 기준에 비추어, 연령 상한(75세)이 5.3에서만 언급되고 공식 포함기준(5.1)에는 누락되어 있어 명확성이 부족하다. 조기종료/중단 시 안전 추적 및 SAE 관리 절차는 기술되어 있으나, 동의철회 후 이미 수집된 자료의 처리방침이나 독립적 데이터모니터링위원회(DMC) 관련 언급이 없어 위험도가 높은 정신과적 배제기준을 고려할 때 보완이 필요하다.",
+    "confidence": 0.55,
+    "citations": [
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "2 THE PRINCIPLES OF ICH GCP",
+        "page_start": 15,
+        "page_end": 16,
+        "quoted_evidence": "2.3 The rights, safety, and well-being of the trial subjects are the most important considerations and should prevail over interests of science and society.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E8R1_General_Considerations",
+        "breadcrumb": "7 CONSIDERATIONS IN IDENTIFYING CRITICAL TO QUALITY FACTORS",
+        "page_start": 26,
+        "page_end": 29,
+        "quoted_evidence": "The eligibility criteria should be reflective of the study objectives and be well documented in the clinical study protocol.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E8R1_General_Considerations",
+        "breadcrumb": "7 CONSIDERATIONS IN IDENTIFYING CRITICAL TO QUALITY FACTORS",
+        "page_start": 26,
+        "page_end": 29,
+        "quoted_evidence": "Adequate measures are used to protect participants’ rights, safety, and welfare (informed consent process, Institutional Review Board/Ethics Committee review, investigator and clinical study site training, pseudonymisation).",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "6",
+    "protocol_section_title": "STUDY AGENT",
+    "protocol_breadcrumb": "6 STUDY AGENT",
+    "flag": "review_needed",
+    "rationale": "6.1.3 PRODUCT STORAGE AND STABILITY 항목이 \"NA\"로 기재되어 있어 ICH E6(R2) 5.13.2가 요구하는 저장 온도·조건·유효기간 등에 대한 정보가 누락되어 있다. 또한 6.1.2에서 캡슐 외형만 기술되고 fluoxetine과 placebo의 코딩/블라인딩 유지 방법에 대한 구체적 설명이 부족하여 5.13.1, 5.13.4 요구사항 충족 여부를 확인하기 어렵다. 계량(pill count) 및 전화 추적을 통한 순응도 관리(6.1.10)는 명시되어 있으나, 투여 기록·반환 및 폐기 절차 등 4.6.3의 세부 요구사항이 명확히 기술되지 않아 추가 검토가 필요하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "5 SPONSOR > 5.13 Manufacturing, Packaging, Labelling, and Coding Investigational Product(s)",
+        "page_start": 33,
+        "page_end": 33,
+        "quoted_evidence": "The sponsor should determine, for the investigational product(s), acceptable storage temperatures, storage conditions (e.g., protection from light), storage times, reconstitution fluids and procedures, and devices for product infusion, if any.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "5 SPONSOR > 5.13 Manufacturing, Packaging, Labelling, and Coding Investigational Product(s)",
+        "page_start": 33,
+        "page_end": 33,
+        "quoted_evidence": "is coded and labelled in a manner that protects the blinding, if applicable",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.6 Investigational Product(s)",
+        "page_start": 21,
+        "page_end": 21,
+        "quoted_evidence": "Investigators should maintain records that document adequately that the subjects were provided the doses specified by the protocol and reconcile all investigational product(s) received from the sponsor.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "7",
+    "protocol_section_title": "STUDY PROCEDURES AND SCHEDULE",
+    "protocol_breadcrumb": "7 STUDY PROCEDURES AND SCHEDULE",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 HCVR 검사, EMU 모니터링, 설문지 평가 등 구체적 절차를 상세히 기술하고 있어 ICH E6(R2) 6.4에서 요구하는 '시험 설계 기술' 요소와 관련이 있다. 그러나 시험 중단 기준(HCVR 검사 종료 조건 일부만 언급, ETO<160, 목록이 중간에 끊김)이 불완전하게 제시되어 있고, 이 절차들이 어떤 primary/secondary endpoint를 측정하기 위한 것인지, 무작위배정·눈가림 방법과의 연계가 명확히 설명되어 있지 않아 6.4.1(주요/이차 평가변수), 6.4.3(편향 최소화 조치), 6.4.6(중단 규칙)과의 연계성이 프로토콜 발췌문만으로는 확인되지 않는다. 또한 위험-이익 평가나 절차의 안전 종료 기준(리스트가 중간에 잘림)이 명확히 문서화되었는지 추가 확인이 필요하다.",
+    "confidence": 0.55,
+    "citations": [
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "A description of the \"stopping rules\" or \"discontinuation criteria\" for individual subjects, parts of trial and entire trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "A specific statement of the primary endpoints and the secondary endpoints, if any, to be measured during the trial.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "A description of the measures taken to minimize/avoid bias, including: (a) Randomization. (b) Blinding.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "2",
+    "protocol_section_title": "2",
+    "protocol_breadcrumb": "2 2",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 SSRI를 사용하는 중재 연구로 임신 가능 여성에 대한 소변 임신검사, 병용/금지약물(세로토닌 증후군 위험 약물), 조증 유발 가능성에 대한 Altman 척도 평가 등 안전성 관련 절차는 포함되어 있으나, 위험-이익 평가의 구체적 근거(비임상/임상 데이터 요약), 이상반응 발생 시 처리절차, 그리고 조기중단(Early Termination) 방문 절차가 'NA'로 명시되어 있어 참가자 안전 모니터링 체계가 불완전할 가능성이 있다. ICH E6(R2) 2.2, 2.3 원칙에 따르면 위험을 최소화하고 이익-위험 균형을 지속적으로 관리해야 하는데, 조기종료 시 안전성 추적 계획이 없는 점은 검토가 필요하다. 또한 PHQ-9, HCVR 등 평가는 적절히 스케줄링되어 있으나 이상반응 평가의 표준화된 절차(중대 이상반응 보고 기준 등)가 명시되어 있지 않아 추가 확인이 필요하다.",
+    "confidence": 0.55,
+    "citations": [
+      {
+        "guideline_ref": "[4]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "2 THE PRINCIPLES OF ICH GCP",
+        "page_start": 15,
+        "page_end": 16,
+        "quoted_evidence": "Before a trial is initiated, foreseeable risks and inconveniences should be weighed against the anticipated benefit for the individual trial subject and society. A trial should be initiated and continued only if the anticipated benefits justify the risks.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E8R1_General_Considerations",
+        "breadcrumb": "7 CONSIDERATIONS IN IDENTIFYING CRITICAL TO QUALITY FACTORS",
+        "page_start": 26,
+        "page_end": 29,
+        "quoted_evidence": "The protocol specifies the collection of data needed to meet the study objectives, understand the benefit/risk of the drug, and monitor participant safety.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "8",
+    "protocol_section_title": "ASSESSMENT OF SAFETY",
+    "protocol_breadcrumb": "8 ASSESSMENT OF SAFETY",
+    "flag": "review_needed",
+    "rationale": "프로토콜의 안전성 평가 섹션은 ICH E6(R2) 6.8이 요구하는 안전성 파라미터 정의, 평가/기록 방법, AE 보고 절차, 추적 기간을 대체로 포함하고 있어 구조적으로는 부합한다. 다만 4.11.1이 요구하는 'SAE의 스폰서에 대한 즉각적 보고'가 명시되어 있지 않고, 대신 독립적 의료 심사관(IME)에게만 24~72시간 내 보고하도록 되어 있어 스폰서 보고 경로와 시점이 불명확하다. 또한 3.3.8(c)의 '심각하고 예상치 못한 이상반응(SUSAR)'을 IRB에 신속 보고하는 별도 절차가 명확히 구분되어 있지 않고, UP 및 사망/생명위협 이상반응만 IRB 보고 대상으로 규정되어 있어 SUSAR 보고 요건과의 정합성 확인이 필요하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.11 Safety Reporting",
+        "page_start": 26,
+        "page_end": 26,
+        "quoted_evidence": "All serious adverse events (SAEs) should be reported immediately to the sponsor except for those SAEs that the protocol or other document (e.g., Investigator's Brochure) identifies as not needing immediate reporting.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.3 Procedures",
+        "page_start": 17,
+        "page_end": 18,
+        "quoted_evidence": "(c) All adverse drug reactions (ADRs) that are both serious and unexpected.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.8 Assessment of Safety",
+        "page_start": 42,
+        "page_end": 42,
+        "quoted_evidence": "6.8.1 Specification of safety parameters. 6.8.2 The methods and timing for assessing, recording, and analysing safety parameters. 6.8.3 Procedures for eliciting reports of and for recording and reporting adverse event and intercurrent illnesses. 6.8.4 The type and duration of the follow-up of subjects after adverse events.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "10",
+    "protocol_section_title": "STATISTICAL CONSIDERATIONS",
+    "protocol_breadcrumb": "10 STATISTICAL CONSIDERATIONS",
+    "flag": "review_needed",
+    "rationale": "본 섹션은 ICH E6(R2) 6.9의 통계 관련 요구사항 대부분(방법, 유의수준, 결측치 처리, 분석대상군)을 다루고 있으나, 일부 항목이 누락되거나 불명확하다. 특히 6.9.4(시험 중단 기준)에 대한 명시가 없고, 6.9.6(통계계획 이탈 시 보고 절차)도 언급되지 않았다. 또한 10.2에서 '가설 없음'이라고 명시했음에도 10.4.3과 10.4.4에서 유의수준 0.025의 단측 t-검정을 수행한다고 기술해 내부적으로 일관성이 부족하며, 10.6.1의 블라인딩/무작위화 절차는 6.4.3, 6.4.8 요구사항과 부합하나 코드 해제 절차의 구체성(누가, 언제 문서화하는지)은 다소 미흡하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+        "page_start": 43,
+        "page_end": 43,
+        "quoted_evidence": "6.9.4 Criteria for the termination of the trial. 6.9.5 Procedure for accounting for missing, unused, and spurious data. 6.9.6 Procedures for reporting any deviation(s) from the original statistical plan",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[3]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.4 Trial Design",
+        "page_start": 41,
+        "page_end": 42,
+        "quoted_evidence": "6.4.8 Maintenance of trial treatment randomization codes and procedures for breaking codes.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "11",
+    "protocol_section_title": "SOURCE DOCUMENTS AND ACCESS TO SOURCE DATA/DOCUMENTS",
+    "protocol_breadcrumb": "11 SOURCE DOCUMENTS AND ACCESS TO SOURCE DATA/DOCUMENTS",
+    "flag": "review_needed",
+    "rationale": "프로토콜은 Sponsor 대표, IME, IRB에 대한 직접 접근을 명시하고 있으나, ICH E6(R2) 5.15.1/6.10에서 요구하는 '규제당국의 검사(regulatory inspection)'에 대한 직접 접근 권한이 명시되어 있지 않다. 또한 5.15.2에서 요구하는 피험자의 원본 의무기록에 대한 직접 접근 서면 동의(informed consent) 관련 언급도 본 섹션에는 없어 불명확하다. 따라서 가이드라인의 핵심 요소 중 일부가 누락되어 있어 검토가 필요하다.",
+    "confidence": 0.75,
+    "citations": [
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "5 SPONSOR > 5.15 Record Access",
+        "page_start": 34,
+        "page_end": 34,
+        "quoted_evidence": "The sponsor should ensure that it is specified in the protocol or other written agreement that the investigator(s)/institution(s) provide direct access to source data/documents for trial-related monitoring, audits, IRB/IEC review, and regulatory inspection.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.10 Direct Access to Source Data/Documents",
+        "page_start": 43,
+        "page_end": 43,
+        "quoted_evidence": "The sponsor should ensure that it is specified in the protocol or other written agreement that the investigator(s)/institution(s) will permit trial-related monitoring, audits, IRB/IEC review, and regulatory inspection(s), providing direct access to source data/documents.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "5 SPONSOR > 5.15 Record Access",
+        "page_start": 34,
+        "page_end": 34,
+        "quoted_evidence": "The sponsor should verify that each subject has consented, in writing, to direct access to his/her original medical records for trial-related monitoring, audit, IRB/IEC review, and regulatory inspection.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": false
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "12",
+    "protocol_section_title": "ETHICS/PROTECTION OF HUMAN SUBJECTS",
+    "protocol_breadcrumb": "12 ETHICS/PROTECTION OF HUMAN SUBJECTS",
+    "flag": "review_needed",
+    "rationale": "프로토콜은 IRB 승인, 동의서 프로세스, 기밀유지 등 ICH E6(R2) 3장/4.8의 핵심 요구사항(IRB 사전승인, 동의서 서명·날짜, 자발적 참여, 철회권, 기밀유지, 재동의 절차)을 대체로 충실히 다루고 있어 전반적으로 부합한다. 다만 4.8.10에서 요구하는 세부 항목들(예: 시험 관련 상해 시 보상/치료, 예상 비용, 시험 지속기간, 대상자 수, 모니터·감사자·규제기관의 원본 의무기록 접근권 등)이 본 섹션 텍스트에 명시적으로 포함되어 있는지 확인되지 않으며, impartial witness 절차(4.8.9), legally acceptable representative 관련 조항(4.8.12-15) 언급이 없어 취약대상자(소아, 대리인 동의 필요자 등)가 포함될 경우 이 부분이 충분히 다루어졌는지 추가 검토가 필요하다. 또한 IRB의 최소 연 1회 지속 검토(3.1.4) 및 investigator 자격 문서(3.1.3) 관련 내용도 본 섹션에서 명확히 언급되지 않아 확인이 필요하다.",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
+        "page_start": 22,
+        "page_end": 25,
+        "quoted_evidence": "4.8.10 Both the informed consent discussion and the written informed consent form and any other written information to be provided to subjects should include explanations of the following: ... (j) The compensation and/or treatment available to the subject in the event of trial- related injury. (k) The anticipated prorated payment, if any, to the subject for participating in the trial. (l) The anticipated expenses, if any, to the subject for participating in the trial.",
+        "grounded": false
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
+        "page_start": 22,
+        "page_end": 25,
+        "quoted_evidence": "4.8.9 If a subject is unable to read or if a legally acceptable representative is unable to read, an impartial witness should be present during the entire informed consent discussion.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[1]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.1 Responsibilities",
+        "page_start": 16,
+        "page_end": 17,
+        "quoted_evidence": "3.1.4 The IRB/IEC should conduct continuing review of each ongoing trial at intervals appropriate to the degree of risk to human subjects, but at least once per year.",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 0.6666666666666666,
+    "needs_human_review": true
+  },
+  {
+    "protocol_doc_id": "NCT02929667_Prot_SAP_000",
+    "protocol_section_number": "13",
+    "protocol_section_title": "DATA HANDLING AND RECORD KEEPING",
+    "protocol_breadcrumb": "13 DATA HANDLING AND RECORD KEEPING",
+    "flag": "conflict",
+    "rationale": "기록 보관 기간이 가이드라인과 명확히 상충한다. 가이드라인은 필수문서를 '해당 지역 내 마케팅 승인 후 최소 2년, 또는 개발 중단 후 최소 2년'까지 보관하도록 요구하는 반면, 프로토콜은 '마지막 환자 등록 후 최소 2년'으로 규정하여 훨씬 짧은 시점을 기준으로 삼고 있어 임상시험 진행 중 조기 폐기 위험이 있다. 또한 데이터 관리(13.1)에서 임상 데이터를 비전문 데이터베이스(엑셀)에 저장하고 감사추적(audit trail)이나 원본 데이터 변경 이력 관리에 대한 언급이 없어 4.9.0/4.9.3의 ALCOA 원칙 및 변경 추적 요건 충족 여부가 불명확하다. 프로토콜 위반 보고를 '인지 후 3일 이내'로 명시한 점은 가이드라인에 구체적 시한 규정이 없어 직접 비교는 어렵지만, 보관기간 문제는 명백한 불일치로 판단된다.",
+    "confidence": 0.75,
+    "citations": [
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.9 Records and Reports",
+        "page_start": 25,
+        "page_end": 25,
+        "quoted_evidence": "Essential documents should be retained until at least 2-years after the last approval of a marketing application in an ICH region and until there are no pending or contemplated marketing applications in an ICH region or at least 2-years have elapsed since the formal discontinuation of clinical development of the investigational product.",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.9 Records and Reports",
+        "page_start": 25,
+        "page_end": 25,
+        "quoted_evidence": "Source data should be attributable, legible, contemporaneous, original, accurate, and complete. Changes to source data should be traceable, should not obscure the original entry, and should be explained if necessary (e.g., via an audit trail).",
+        "grounded": true
+      },
+      {
+        "guideline_ref": "[2]",
+        "doc_id": "ICH_E6R2_GCP",
+        "breadcrumb": "4 INVESTIGATOR > 4.9 Records and Reports",
+        "page_start": 25,
+        "page_end": 25,
+        "quoted_evidence": "Any change or correction to a CRF should be dated, initialed, and explained (if necessary) and should not obscure the original entry (i.e., an audit trail should be maintained); this applies to both written and electronic changes or corrections",
+        "grounded": true
+      }
+    ],
+    "groundedness_score": 1.0,
+    "needs_human_review": true
+  }
+]

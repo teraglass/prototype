@@ -1,0 +1,175 @@
+[
+  {
+    "nctId": "NCT03958331",
+    "briefTitle": "Behavioral Economics and Adherence in Teens (BEAT!)",
+    "officialTitle": "Beat!: A Randomized Controlled Clinical Trial",
+    "organization": "Children's Hospital Medical Center, Cincinnati",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Epilepsy",
+      "Adherence, Medication"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_000.pdf",
+      "label": "Study Protocol",
+      "date": "2020-04-23",
+      "sizeBytes": 719161,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/31/NCT03958331/Prot_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT03428360",
+    "briefTitle": "Safety and Tolerability Study of Diazepam Buccal Film (DBF) in Subjects With Epilepsy",
+    "officialTitle": "An Open-Label, Safety and Tolerability Study of Chronic Intermittent Use of Diazepam Buccal Film (DBF) in Pediatric, Adolescent and Adult Subjects With Epilepsy",
+    "organization": "Aquestive Therapeutics",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_000.pdf",
+      "label": "Study Protocol",
+      "date": "2020-03-02",
+      "sizeBytes": 4465279,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03428360/Prot_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT07497178",
+    "briefTitle": "MRgFUS for Childhood Epilepsy",
+    "officialTitle": "A Prospective Cohort Study of High Intensity Focused Ultrasound Ablation for Brain Lesions in Children With Drug Resistant Epilepsy",
+    "organization": "The Hospital for Sick Children",
+    "overallStatus": "NOT_YET_RECRUITING",
+    "conditions": [
+      "Drug Resistant Epilepsy",
+      "Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_SAP_000.pdf",
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2025-11-04",
+      "sizeBytes": 550171,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/78/NCT07497178/Prot_SAP_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT03796962",
+    "briefTitle": "A Study to Evaluate XEN1101 as Adjunctive Therapy in Focal Epilepsy",
+    "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Safety, Tolerability and Efficacy of XEN1101 as Adjunctive Therapy in Focal-onset Epilepsy, With an Open-label Extension",
+    "organization": "Xenon Pharmaceuticals Inc.",
+    "overallStatus": "ACTIVE_NOT_RECRUITING",
+    "conditions": [
+      "Focal Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_SAP_001.pdf",
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2021-01-22",
+      "sizeBytes": 1612452,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03796962/Prot_SAP_001.pdf"
+    }
+  },
+  {
+    "nctId": "NCT03179891",
+    "briefTitle": "Study of Diazepam Buccal Film Administered in the Interictal and in the Ictal-Periictal States to Adults With Epilepsy",
+    "officialTitle": "A Multicenter, Open Label, Crossover Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects With Epilepsy",
+    "organization": "Aquestive Therapeutics",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_000.pdf",
+      "label": "Study Protocol",
+      "date": "2017-08-04",
+      "sizeBytes": 1266255,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03179891/Prot_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT03355300",
+    "briefTitle": "Long-Term Safety of Pharmaceutical Grade Synthetic Cannabidiol Oral Solution in Pediatric Participants With Treatment-Resistant Childhood Absence Seizures",
+    "officialTitle": "A Multicenter, Open-Label, Flexible Dose Study to Assess the Long-Term Safety of Pharmaceutical Grade Synthetic Cannabidiol Oral Solution in Pediatric Patients With Treatment-Resistant Childhood Absence Seizures",
+    "organization": "Radius Pharmaceuticals, Inc.",
+    "overallStatus": "TERMINATED",
+    "conditions": [
+      "Childhood Absence Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_SAP_002.pdf",
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2018-08-23",
+      "sizeBytes": 880087,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/00/NCT03355300/Prot_SAP_002.pdf"
+    }
+  },
+  {
+    "nctId": "NCT02929667",
+    "briefTitle": "Abnormal Ventilatory Response to Carbon Dioxide: a Potential Biomarker for Seizure Induced Respiratory Depression & Modification by SSRI",
+    "officialTitle": "Abnormal Ventilatory Response to Carbon Dioxide: a Potential Biomarker for Seizure Induced Respiratory Depression & Modification by SSRI",
+    "organization": "University of Iowa",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Epilepsy",
+      "SUDEP"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_SAP_000.pdf",
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2017-06-28",
+      "sizeBytes": 377713,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02929667/Prot_SAP_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT02383407",
+    "briefTitle": "Low Frequency Electrical Stimulation of the Fornix in Intractable Mesial Temporal Lobe Epilepsy (MTLE)",
+    "officialTitle": "Low Frequency Electrical Stimulation of the Fornix in Intractable Mesial Temporal Lobe Epilepsy (MTLE)",
+    "organization": "George Washington University",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Mesial Temporal Lobe Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_SAP_000.pdf",
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2016-12-17",
+      "sizeBytes": 3049469,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02383407/Prot_SAP_000.pdf"
+    }
+  },
+  {
+    "nctId": "NCT03865732",
+    "briefTitle": "Study of Adjunctive Ganaxolone Treatment in Female Children With Protocadherin 19 (PCDH19)-Related Epilepsy (Violet Study)",
+    "officialTitle": "A Double-blind, Randomized, Placebo-controlled Trial of Adjunctive Ganaxolone Treatment in Female Children With Protocadherin 19 (PCDH19)-Related Epilepsy Followed by Long-term Open-label Treatment.",
+    "organization": "Marinus Pharmaceuticals",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "PCDH19-Related Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_002.pdf",
+      "label": "Study Protocol",
+      "date": "2021-01-25",
+      "sizeBytes": 9586422,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/32/NCT03865732/Prot_002.pdf"
+    }
+  },
+  {
+    "nctId": "NCT04627285",
+    "briefTitle": "A Study to Test the Long-term Use of Oral Lacosamide in Pediatric Study Participants Who Completed NCT01964560 (EP0034) or NCT00938912 (SP848) and Received Lacosamide Treatment",
+    "officialTitle": "A Multicenter, Open-Label, Follow-Up Study to Assess the Long-Term Use of Oral Lacosamide in Study Participants Who Completed EP0034 or SP848 and Received Lacosamide Treatment",
+    "organization": "UCB Pharma",
+    "overallStatus": "COMPLETED",
+    "conditions": [
+      "Epilepsy"
+    ],
+    "protocolDoc": {
+      "filename": "Prot_000.pdf",
+      "label": "Study Protocol",
+      "date": "2023-10-12",
+      "sizeBytes": 2909405,
+      "downloadUrl": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04627285/Prot_000.pdf"
+    }
+  }
+]

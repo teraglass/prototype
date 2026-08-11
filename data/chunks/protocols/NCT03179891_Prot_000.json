@@ -1,0 +1,1162 @@
+[
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": null,
+    "section_title": null,
+    "breadcrumb": "(문서 서두)",
+    "page_start": 1,
+    "page_end": 2,
+    "char_count": 1369,
+    "text": "NCT03179891 Protocol A Multicenter, Open Label, Cross-Over Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects with Epilepsy Protocol 160326 version 3.3 dated 04 August 2017 A Multicenter, Open Label, Cross-Over Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects with Epilepsy Amendment 2 Summary of Changes from Version 2.7 (June 6, 2017) to Version 3.3 (August 4, 2017) Major changes described in the following table have been made in this document to address the following issues: • Change in age criteria for eligibility from “18-65” to “17 to 65” to conform to FDA classification of pediatric subjects (Section 9.2.1) • Addition of date/time of the subject’s last meal before DBSF dose to interview questions because of potential effect of food on PK (Section 11.1) • Addition of instructions to have subjects lie down on their side for 15 minutes after dosing for consistency of dosing conditions (Section 11.2.4) • Change in the time of post-dose oral mucosa inspections to omit inspection at dissolution, use film placement instead of film disintegration as time zero, and change of inspection time at 0.167 hours (10 minutes) to 0.25 hours (15 minutes) (Section 11.9) • Revision of process for assessing usability to avoid disturbing subjects during the"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "15",
+    "section_title": "minutes when they are lying down after dosing (Section 11.10)",
+    "breadcrumb": "15 minutes when they are lying down after dosing (Section 11.10)",
+    "page_start": 2,
+    "page_end": 3,
+    "char_count": 864,
+    "text": "• Clarification of Investigator’s responsibility for ensuring that a study subject is sufficiently medically stable to be safely discharged from the clinical unit (EMU or GCRC) regardless of whether the subject has received study drug (Section 12.1.4). • Revision of adverse event recording (Section 12.1) and analysis of safety endpoints (Section 14.2.2) to clarify that seizures that occur during treatment periods are to be handled as adverse events unrelated to study drug for the purposes of analysis strictly prohibited without written consent from MonoSol Rx LLC. A Multicenter, Open Label, Cross-Over Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects with Epilepsy Protocol Number : 160326 Amendment 2 Final Protocol Version Number : 3.3 Protocol Version Date : August 4, 2017 Sponsor: MonoSol Rx, LLC"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "30",
+    "section_title": "Technology Drive",
+    "breadcrumb": "30 Technology Drive",
+    "page_start": 3,
+    "page_end": 5,
+    "char_count": 1080,
+    "text": "Warren, NJ 07059 USA Phase 2 IND Number: 129068 Confidentiality Statement The information in this document is confidential and is not to be disclosed without the written consent of MonoSol Rx, LLC (MonoSol Rx) except to the extent that disclosure would be required by law and for the purpose of evaluating and/or conducting a clinical study for MonoSol Rx. You are allowed to disclose the contents of this document only to your Institutional Review Board (IRB) and study personnel directly involved with conducting this protocol. Persons to whom the information is disclosed must be informed that the information is confidential and proprietary to MonoSol Rx and that it may not be further disclosed to third parties. strictly prohibited without written consent from MonoSol Rx LLC. 1 INVESTIGATOR PROTOCOL AGREEMENT I have read this protocol and agree to comply with all of the procedures contained within this protocol and requirements of applicable regulatory agencies. Investigator Date: Institution: Address: strictly prohibited without written consent from MonoSol Rx LLC. 3"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "2",
+    "section_title": "CONTACT INFORMATION AND FACILITIES",
+    "breadcrumb": "2 CONTACT INFORMATION AND FACILITIES",
+    "page_start": 6,
+    "page_end": 6,
+    "char_count": 66,
+    "text": "Sponsor: Dan Barber Vice-President Value Creation MonoSol Rx, LLC,"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "30",
+    "section_title": "Technology Drive,",
+    "breadcrumb": "30 Technology Drive,",
+    "page_start": 6,
+    "page_end": 6,
+    "char_count": 169,
+    "text": "Warren, NJ, U.S.A., 07059 Tel: 908-941-1900 Fax: 908-561-1209 Sponsor’s Responsible Study T.J. Stalvey, MPH, MBA Manager: Director of Clinical Operations MonoSol Rx, LLC"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "30",
+    "section_title": "Technology Drive",
+    "breadcrumb": "30 Technology Drive",
+    "page_start": 6,
+    "page_end": 7,
+    "char_count": 926,
+    "text": "Warren, NJ 07059 USA Telephone: 404-663-9659 Clinical Research Organization inVentiv Health Clinical (CRO): 202 Carnegie Center Princeton, NJ 08540 USA Tel.: 1-609-951-6800 Clinical Laboratory: Covance Central Laboratory Services 8211 Scicor Drive Indianapolis, IN 46214 USA Tel.: 1-888-268-2623 or 1-317-271-1200 Analytical Facility: inVentiv Health Clinique 2500, rue Einstein Québec City, Québec, Canada, G1P 0A2 Tel.: 1-418-527-4000 Pharmacokinetic/Statistical inVentiv Health Clinique Facility: 2500, rue Einstein Québec City, Québec, Canada, G1P 0A2 Tel.: 1-418-527-4000 strictly prohibited without written consent from MonoSol Rx LLC. 4 CRO Safety inVentiv Health Clinical Global Safety & (Pharmacovigilance) Reporting: Pharmacovigilance Facsimile: +1-866-856-1649 Telephone Hotline No.: 888-750-8020 E-mail: saereceipt.international@inventivhealth.com strictly prohibited without written consent from MonoSol Rx LLC. 5"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "3",
+    "section_title": "SYNOPSIS",
+    "breadcrumb": "3 SYNOPSIS",
+    "page_start": 8,
+    "page_end": 9,
+    "char_count": 3961,
+    "text": "Title: A Multicenter, Open Label, Crossover Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects with Epilepsy Objectives: The primary objective is to assess the comparative pharmacokinetics of DBSF in subjects with epilepsy (A) in the interictal state, and (B) in the ictal/peri-ictal state. (A) Subjects are considered to be in an interictal state if an interval of at least 3 hours has elapsed since any clinical observable postictal signs or symptoms (from the last observed seizure) and the subject has been seizure free over this period. Subjects on EEG monitoring can be considered to be in an interictal state if an interval of at least 3 hours has elapsed since any postictal electrical findings on EEG. (B) For the purposes of this study, the ictal state is defined as an ongoing clinically observable seizure or seizure activity as verified via EEG. The peri-ictal state is defined clinically as the subject’s immediate postictal state following a generalized tonic-clonic (GTC) seizure or focal seizure with impaired awareness, and within 5 minutes after the last clonic jerk. For subjects on EEG monitoring, the peri-ictal state may be defined as less than 5 minutes after cessation of seizure activity (GTC or focal seizure with impaired awareness) as verified via EEG. Secondary objectives include: • Evaluate the safety/tolerability of DBSF following single-dose administration in subjects with epilepsy • Evaluate the usability of DBSF in Period A and Period B Experimental Multicenter, open-label cross-over study in adult epilepsy subjects to Design and Study assess the pharmacokinetics and safety of Diazepam Buccal Soluble Film Population: (DBSF) during the interictal state (Treatment Period A) and during the ictal/peri-ictal states (Treatment Period B). Male or female adult subjects with a clinical diagnosis of epilepsy being admitted to an Epilepsy Monitoring Unit (EMU) setting, General Clinical Research Center (GCRC), or similar facility for evaluation of seizures strictly prohibited without written consent from MonoSol Rx LLC. 6 will be eligible for this study. Subjects will be 17 to 65 years of age, inclusive, with a body weight of ≥40 kg and ≤ 111 kg. Number of Approximately 40 adult subjects with epilepsy will be enrolled. A Subjects: minimum of 30 subjects are expected to complete the study Phase 2 Test Drug: Diazepam Buccal Soluble Film 12.5 mg (MonoSol Rx, LLC) Treatments: All subjects will receive one dose of 12.5 mg DBSF in Period A and one dose of 12.5 mg DBSF in Period B. Study Duration: • Screening Period: A minimum of 7 and a maximum of 28 days prior to admission • *Treatment Period A (interictal): Approximately 8 hours in the GCRC or EMU facility + 6 additional visits for vital signs, adverse events (AEs), and blood samples (either at EMU, GCRC, or similar facility, or home visits). • Washout Period: Minimum of 14 days between treatment periods • *Treatment Period B: Duration of Treatment Period B will vary, depending on seizure occurrence, but the period will last until approximately 4 hours after DBSF administration. • Follow-up Visit: A follow-up visit will be scheduled to obtain safety data 14 ± 2 days after the last treatment period. *Period A and Period B may occur in either order as determined by seizure occurrence; i.e., if a subject experiences a seizure before dosing during the first visit to the EMU or GCRC and if it has been determined that the subject meets inclusion/exclusion criteria, the Investigator may regard that visit as Treatment Period B. Dosing Time: The treatment periods will begin at a time of day consistent with usual EMU/GCRC protocol. In Treatment Period A, DBSF will be administered as soon as check-in procedures have been completed. In Treatment Period B, the subject will be monitored for seizure activity, and DBSF will be administered as soon as possible after detection of seizure activity, within"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "5",
+    "section_title": "minutes after the last clonic jerk or within 5 minutes of cessation of the",
+    "breadcrumb": "5 minutes after the last clonic jerk or within 5 minutes of cessation of the",
+    "page_start": 9,
+    "page_end": 10,
+    "char_count": 1533,
+    "text": "seizure as verified via EEG. Safety Monitoring Clinical seizure monitoring will start prior to DBSF treatment and will and Endpoints: continue for 8 hours after dosing in Treatment Period A and 4 hours after strictly prohibited without written consent from MonoSol Rx LLC. 7 dosing in Treatment Period B, or longer at the discretion of the EMU or GCRC Investigator. Continuous video EEG monitoring for seizure detection will be performed as indicated by EMU or GCRC protocol. Sites will maintain the EEG recordings with the study documents, but data from the EEG recordings will not be collected for the study dataset. The following safety assessments will be performed during the study: • Columbia Suicide Severity Rating scale (C-SSRS; age- appropriate version) at Screening, before dosing during Treatment Periods A and B, and at Follow-up • Serum pregnancy test in females of childbearing potential, urine drug screen, and breath alcohol test at Screening. Urine pregnancy test, urine drug screen, and breath alcohol test before dosing during Treatment Periods A and B, and at Follow-up • 12-lead ECG at Screening, for each treatment period before DBSF administration and 4 hours after dose administration • Vital signs (blood pressure [BP], heart rate [HR], respiratory rate [RR], and temperature) will be recorded at Screening, and during Treatment Periods A and B prior to DBSF administration and post dose at 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes),"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "3",
+    "section_title": "hours (180 minutes), and 4 hours (240 minutes); for Treatment",
+    "breadcrumb": "3 hours (180 minutes), and 4 hours (240 minutes); for Treatment",
+    "page_start": 10,
+    "page_end": 11,
+    "char_count": 1084,
+    "text": "Period A also at 8 hours (480 minutes) post dose in the EMU, GCRC or similar facility, and at 24, 48, 96, 144, 192, and 240 hours (±4 hours) in an outpatient setting (either at the EMU, GCRC or similar facility, or via home visits). • Clinical laboratory tests (hematology, serum chemistry, and urinalysis) at Screening and at Follow-up or at early termination. • Physical and neurological examination at Screening and at Follow-up or at early termination. • Oral mucosal inspection to assess for any local irritation conducted by the Investigator at the following times: - At Screening; - During Treatment Periods A and B prior to dosing and at approximately 0.25 hours (15 minutes), 0.5 hours (30 minutes), and 1 hour (60 minutes) after application of DBSF; and - At Follow-up. strictly prohibited without written consent from MonoSol Rx LLC. 8 Any abnormalities detected after dosing will be followed as treatment emergent adverse events (TEAEs) until resolution. • Type, incidence, and severity of AEs at all visits. The Investigator or designee will be present from approximately"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "30",
+    "section_title": "minutes prior to dosing until at least 2 hours (120 minutes) post dose",
+    "breadcrumb": "30 minutes prior to dosing until at least 2 hours (120 minutes) post dose",
+    "page_start": 11,
+    "page_end": 11,
+    "char_count": 1753,
+    "text": "for each subject for each Treatment Period. The Investigator or designee will remain on call throughout the duration of the subject’s visit. The investigator will be responsible for ensuring that a study subject is sufficiently medically stable to be safely discharged from the clinical unit (EMU or GCRC) regardless of whether the subject has received study drug. Usability The following usability assessments will be performed during the study: Endpoints: • Oral cavity placement assessment • Oral cavity insertion and retention assessment Pharmacokinetic The following pharmacokinetic parameters for diazepam will be Endpoints: determined: • Observed peak drug concentration (C ) • Observed time to reach maximum drug concentration (T ) • (Period A only) Area under the plasma concentration-time curve from time zero until the last measured time (AUC ), 0-t • Comparison of C after single-dose administration of DBSF in subjects during Period A and Period B, and to that of healthy normal subjects from pharmacokinetic data obtained in previous studies. • Comparison of T after single-dose administration of DBSF in subjects during Period A and Period B, and to that of healthy normal subjects from pharmacokinetic data obtained in previous studies. • Period A only: Comparison of AUC after single-dose 0-24 administration of DBSF in subjects during Period A to that of healthy normal subjects from pharmacokinetic data obtained in previous studies. PK Blood In both treatment periods, plasma samples for diazepam and the active Sampling Time metabolite desmethyldiazepam will be obtained before DBSF points: administration and post dose at the following time points (±5 minutes): at strictly prohibited without written consent from MonoSol Rx LLC. 9"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "0.25",
+    "section_title": "hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5",
+    "breadcrumb": "30 minutes prior to dosing until at least 2 hours (120 minutes) post dose > 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5",
+    "page_start": 12,
+    "page_end": 13,
+    "char_count": 2505,
+    "text": "hours (90 minutes), 2 hours (120 minutes), and 4 hours (240 minutes). In Treatment Period A, a plasma sample will also be taken at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional plasma samples will be collected at 24, 48, 96, 144, 192, and 240 hours post DBSF administration in an outpatient setting (either at EMU, GCRC or similar facility, or via home visits). Collection of plasma samples will continue even if the administration of another anti-eptileptic drug (AED) is needed for rescue. Total Blood A total of approximately 151 mL of blood will be taken throughout the Volume: course of the study for clinical chemistry, hematology, and pharmacokinetics: Screening, 12.5 mL; Period A, 84 mL; Period B, 42 mL; and Follow-up, 12.5 mL. Analyte(s) To Be Plasma samples will be assayed for diazepam and desmethyldiazepam Measured: using a validated analytical method according to the principles of Good Laboratory Practice. Statistical Analysis: Summary statistics will be reported for pharmacokinetic, safety, and usability endpoints. No formal statistical tests will be performed to compare Period A vs. Period B on pharmacokinetic, safety, or usability endpoints. All analyses will be descriptive and exploratory. For Period A only, summary statistics will be reported for mean and geometric mean values of AUC , AUC , C , Cl, Cl/kg, V , and V /kg, 0-t inf max d d as well as mean and median T for diazepam. For Period B, summary statistics will be reported for mean and geometric mean C and AUC and for mean and median T for diazepam. The 90% (0-4h) max confidence intervals (CI) for the ratios (period A compared with period B) of geometric means for C and AUC will be reported. T will be max (0-4h) max compared (period A and B) with an appropriate non-parametric test. A descriptive comparison will also be performed to assess plasma concentration data for diazepam and desmethyldiazepam reported in subjects having true epileptic events in this study (Period B) compared to the data from the non-seizure period (Period A) and to data reported in the Phase 1 healthy volunteer studies who are in the DBSF clinical development program. Summary statistics will also include an evaluation of subjects’ age, concomitant medications, and treatment with DBSF for epileptic vs. non- strictly prohibited without written consent from MonoSol Rx LLC. 10 epileptic events. No efficacy analysis will be performed. strictly prohibited without written consent from MonoSol Rx LLC. 11"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "4",
+    "section_title": "LIST OF ABBREVIATIONS",
+    "breadcrumb": "4 LIST OF ABBREVIATIONS",
+    "page_start": 14,
+    "page_end": 15,
+    "char_count": 2043,
+    "text": "Abbreviation Definition AE adverse event AED anti-epileptic drug ALT alanine aminotransferase AST aspartate aminotransferase area under the concentration-time curve from time zero until the last AUC measurable concentration or last sampling time t, whichever occurs first. t AUC is estimated using the trapezoidal method. t area under the concentration-time curve from time zero to infinity, AUC calculated as AUC + C /λ, where C is the last measurable inf t last last concentration. BLQ /BQL below the limit of quantitation / below quantitation limit BP blood pressure bpm beats per minute BUN blood urea nitrogen CI confidence interval C the last measurable concentration last C the maximal observed plasma concentration. CRO contract research organization CRF case report form C-SSRS Columbia-Suicide Severity Rating Scale CV coefficient of variation CYP cytochrome DBSF Diazepam Buccal Soluble Film ECG electrocardiogram EMU Epilepsy Monitoring Unit FDA Food and Drug Administration g grams GCP Good Clinical Practice GCRC General Clinical Research Center GLP Good Laboratory Practice strictly prohibited without written consent from MonoSol Rx LLC. 12 generalized tonic-clonic HIV human immunodeficiency virus GTC HR heart rate ICF Informed Consent Form ICH International Council for Harmonization IND Investigational New Drug (Application) IRB Institutional Review Board IWRS interactive web response system MedDRA Medical Dictionary for Regulatory Activities mg milligram mL milliliters ms millisecond mmHg millimeter of mercury PK pharmacokinetic(s) PT Preferred Term RBC red blood cell RPM revolutions per minute RR respiratory rate RLD Reference Listed Drug SAE serious adverse event SAS ® Statistical Analysis System SD standard deviation SOC System Organ Classification SOP Standard Operating Procedure T terminal elimination half-life, estimated as ln(2)/λ 1/2 T time of maximal plasma concentration THC tetrahydrocannabinol UBG urobilinogen WBC white blood cell strictly prohibited without written consent from MonoSol Rx LLC. 13"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6",
+    "section_title": "BACKGROUND AND PHARMACOKINETICS",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS",
+    "page_start": 21,
+    "page_end": 21,
+    "char_count": 665,
+    "text": "Diazepam Buccal Soluble Film (DBSF) is being developed as an alternative dosage form to Diastat ® AcuDial™ rectal gel, a gel formulation of diazepam. The proposed indication is identical to that of Diastat ® AcuDial™ rectal gel: the treatment and management of selected, refractory patients with epilepsy who are on stable regimens of antiepileptic drugs (AEDs) and who require intermittent use of diazepam to control bouts of increased seizure activity (Diastat ® AcuDial™ rectal gel Prescribing Information). Diastat ® AcuDial™ rectal gel has been marketed in the United States since 1997 and currently is the only FDA approved drug in the US for this indication."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.1",
+    "section_title": "Treatment and Management of Refractory Patients with",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.1 Treatment and Management of Refractory Patients with",
+    "page_start": 21,
+    "page_end": 21,
+    "char_count": 1899,
+    "text": "Epilepsy Acute repetitive seizures, including breakthrough seizures, repetitive seizures, and seizure clusters occur in a significant number of epilepsy patients who are on established antiepileptic drug treatment. These types of seizures have distinguishable characteristics that are usually recognized by patients, caregivers, and physicians. Although patients typically recover between seizures, these seizures can last from minutes to hours (Cereghino 2007). When these seizures occur outside a hospital, the patient is often transported to an acute care facility for treatment to prevent prolonged seizures (Lowenstein 1998). If treatment is not prompt and effective there is a risk that seizure activity will continue, and may become life threatening, including the risk of status epilepticus (Bergen 2006; Matheson 2000; Sankar 2007). In these cases, the primary goals of the treatment are seizure cessation and prevention of seizure recurrence (Cereghino 2007). Usually, acute benzodiazepine treatment is effective for seizure control and often results in rapid seizure termination. Nevertheless, many treatment options rely on appropriate intervention by medical personnel, and treatment may be delayed while the patient is transported to a medical facility (Glauser 2007). Outpatient treatment for these types of seizures may reduce emergency medical intervention, decrease seizure duration, prevent general deterioration due to the repeated seizures and improve the quality of life of these patients. While rectal diazepam gel is currently available in the United States, a portion of the population does not benefit from this treatment, partly because the rectal route of administration is inappropriate or unacceptable (Fisgin 2002). Therefore, there is an unmet medical need for an effective treatment with a rapid onset of action that is easily administered in the outpatient setting."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.2",
+    "section_title": "Diazepam",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.2 Diazepam",
+    "page_start": 22,
+    "page_end": 22,
+    "char_count": 1194,
+    "text": "Diazepam is a long-acting “classical” benzodiazepine with potent inhibitory activity at the GABA-A receptor and demonstrates anticonvulsant properties. It is commonly used to treat a range of conditions including seizures, anxiety, alcohol withdrawal syndrome, benzodiazepine withdrawal syndrome, muscle spasms, trouble sleeping, and restless legs syndrome (Calcaterra 2014). It can be taken by mouth, inserted into the rectum, injected into muscle, or injected intravenously. When given intravenously, effects begin in 1 to 5 minutes. When diazepam is taken orally, effects may be delayed as long as 40 minutes (Riss 2008). Intravenous diazepam is a first-line treatment for status epilepticus (Riss 2008). Diazepam rectal gel has been demonstrated superior to placebo gel in reducing the risk of continuing seizures. Diazepam is rarely used for the long-term treatment of epilepsy because tolerance to its anticonvulsant effects develops over time with continuous treatment (Riss 2008). However, diazepam is effective when used intermittently for the prevention of repeated seizures. Like other benzodiazepines, diazepam administration may cause sedation, anxiolysis, and amnesia (Riss 2008)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.2.1",
+    "section_title": "Mechanism of Action",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.2 Diazepam > 6.2.1 Mechanism of Action",
+    "page_start": 22,
+    "page_end": 22,
+    "char_count": 819,
+    "text": "Although the precise mechanism by which diazepam exerts its anti-seizure effects is unknown, animal and in vitro studies suggest that diazepam acts to suppress seizures through an interaction with γ-aminobutyric acid (GABA) receptors of the A-type (GABAA). GABA, the major inhibitory neurotransmitter in the central nervous system, acts at this receptor to open the membrane channel allowing chloride ions to flow into neurons (Tan 2011). Entry of chloride ions causes an inhibitory potential that reduces the ability of neurons to depolarize to the threshold potential necessary to produce action potentials. Excessive depolarization of neurons is implicated in the generation and spread of seizures. It is believed that diazepam enhances the actions of GABA by causing GABA to bind more tightly to the GABAA receptor."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.2.2",
+    "section_title": "Metabolism and Elimination",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.2 Diazepam > 6.2.2 Metabolism and Elimination",
+    "page_start": 22,
+    "page_end": 23,
+    "char_count": 1139,
+    "text": "Diazepam is extensively metabolized to one major active metabolite (desmethyldiazepam) and two minor active metabolites, 3-hydroxydiazepam (temazepam) and 3-hydroxy-N-diazepam (oxazepam) (Diastat ® AcuDial™ rectal gel prescribing information December 2016). With steady state dosing, desmethyldiazepam is found in plasma at concentrations equivalent to those of diazepam while oxazepam and temazepam are not usually detectable. The metabolism of diazepam is primarily hepatic and involves demethylation (involving primarily CYP2C19 and CYP3A4) and 3- hydroxylation (involving primarily CYP3A4), followed by glucuronidation. The marked inter- individual variability in the clearance of diazepam reported in the literature is probably attributable to variability of CYP2C19 (which is known to exhibit genetic polymorphism; about 3-5% of Caucasians have little or no CYP2C19 activity and are “poor metabolizers”) and CYP3A4. No inhibition was demonstrated in the presence of inhibitors selective for CYP2A6, CYP2C9, CYP2D6, CYP2E1, or CYP1A2, indicating that these enzymes are not significantly involved in metabolism of diazepam (Dean 2016)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.2.3",
+    "section_title": "Pharmacokinetics",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.2 Diazepam > 6.2.3 Pharmacokinetics",
+    "page_start": 23,
+    "page_end": 23,
+    "char_count": 666,
+    "text": "Per the prescribing information, rectal administration of a 15 mg dose of Diastat ® AcuDial™ rectal gel produces peak plasma concentrations in 1.5 hours, with absolute bioavailability of 90% relative to Valium ® injectable. The volume of distribution of diazepam rectal gel is calculated to be approximately 1 L/kg. The mean elimination half- life of diazepam and desmethyldiazepam following administration of a 15 mg dose of diazepam rectal gel was found to be about 46 hours ( coefficient of variation [CV] = 43%) and 71 hours (CV = 37%), respectively. Both diazepam and its major active metabolite desmethyldiazepam bind extensively to plasma proteins (95-98%). ®"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.3",
+    "section_title": "Diastat AcuDial™ Rectal Gel in the Treatment of Seizures",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.3 Diastat AcuDial™ Rectal Gel in the Treatment of Seizures",
+    "page_start": 23,
+    "page_end": 23,
+    "char_count": 1362,
+    "text": "Although the Diastat ® AcuDial™ rectal gel formulation is considered generally safe and effective, the route of administration is less than ideal. The mechanics of administering a rectal gel can be a difficult, time-consuming, and embarrassing experience for both patient and care-givers alike. For example, the patient or care-giver must first remove articles of clothing and then place the patient in an appropriate position. The Diastat ® AcuDial™ rectal gel syringe tip is inserted into the rectum to a specific depth and the gel expressed into the rectal vault. However, improper technique can lead to patient injury and leakage of gel from the rectum can result in incomplete dosing and the need for an additional dose to compensate for any loss. Additionally, the attitude of some patients toward a rectal route of drug administration is unfavorable which may negatively impact compliance to treatment (Tatum 2002). Each of these factors has a potential influence on patient morbidity. Persistent seizure activity is associated with worse outcomes across a spectrum of precipitating conditions (Haut 2006; Waterhouse 1999). Further, it has been demonstrated that if seizures are not terminated quickly, escalating doses of benzodiazepines are required to achieve seizure cessation and seizures may become refractory to anticonvulsant therapy (Kapur 1997)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.4",
+    "section_title": "Diazepam Buccal Soluble Film",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.4 Diazepam Buccal Soluble Film",
+    "page_start": 24,
+    "page_end": 25,
+    "char_count": 2974,
+    "text": "The new route of diazepam administration is via buccal soluble film. MonoSol Rx initiated development of DBSF, specifically intended for buccal delivery for patients who require control of intermittent bouts of seizure activity. DBSF contains the FDA approved active ingredient diazepam, a benzodiazepine, as a treatment for the management of selected, refractory patients with epilepsy, on stable regimens of antiepileptic drugs who require intermittent use of diazepam to control bouts of increased seizure activity. The DBSF products, with a planned dose range of 5 mg to 15 mg, are expected to achieve peak plasma concentrations of diazepam equivalent to the reference therapy, Diastat ® AcuDial™ rectal gel. The DBSF product is intended for submission as a 505(b)(2) NDA using Diastat ® AcuDial™ rectal gel as the reference therapy. Buccal soluble diazepam may be particularly well-suited for administration in outpatient settings. The DBSF is administered by placing the film against the inner aspect of the cheek, where it adheres, dissolves, and releases the drug onto the buccal mucosa. Although buccal absorption is expected to be the primary route of absorption of the drug, some absorption through the gastrointestinal (GI) tract may be possible due to swallowing of the saliva. It is expected that use of the buccal film will be similar to the use of Diastat ® AcuDial™ rectal gel, i.e., the film would be administered during or immediately after a seizure with characteristics for which the Diastat rectal gel would be indicated, and the goal of treatment would be the same as that of the rectal gel—to reduce the overall frequency of acute repetitive seizures. There is no need to position or disrobe the patient during administration. Additionally, there is less potential for delay in treatment, and greater patient and caregiver acceptance with improved compliance may be expected. For patients with bouts of increased seizure activity, the development of a DBSF will meet the treatment need for a form of diazepam that is effective, safe, allows reliable dose administration, and is easier to administer than the rectal gel. Patients, caregivers, and physicians have indicated that this type of product would be desirable for acute, intermittent treatment of breakthrough, repetitive or cluster seizures. The clinical studies of DBSF have focused on assessing its bioavailability relative to the reference therapy, Diastat ® AcuDial™ rectal gel. Overall safety and tolerability are also being assessed in all clinical trials conducted with DBSF. To date, two human pilot bioavailability studies have been completed with the DBSF product (Studies 1899 and 1900). A dose-proportionality study (Study 162013) and a food effect study (Study 162022) have been completed, and formal data analysis is ongoing at the time of this writing. A pivotal pharmacokinetics study (Study 162021) to establish bioavailability compared with Diastat ® rectal gel is underway."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.4.1",
+    "section_title": "Pilot Studies 1899 and 1900",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.4 Diazepam Buccal Soluble Film > 6.4.1 Pilot Studies 1899 and 1900",
+    "page_start": 25,
+    "page_end": 26,
+    "char_count": 3557,
+    "text": "The two pilot studies were randomized, open label, single-dose, fasting condition, crossover studies in healthy male and female volunteers to assess the bioavailability of DBSF in comparison to the same nominal dose of Diastat ® AcuDial™ rectal gel. Study 1899 compared DBSF 5 mg to Diastat ® AcuDial™ rectal gel 5 mg, with 11 subjects completing both treatments. Study 1900 compared DBSF 20 mg to Diastat ® AcuDial™ rectal gel 20 mg, with 10 subjects completing both treatments. Study 1899 compared DBSF 5 mg to Diastat ® AcuDial™ rectal gel 5 mg. Among the 11 subjects who completed both treatments, DBSF 5 mg was bioequivalent to Diastat ® AcuDial™ rectal gel 5 mg with respect to area under the curve (AUC and AUC ), i.e., t inf the 90% confidence interval (CI) for the ratio of geometric means was within the acceptable range of 80-125%. For C , the ratio of geometric means was 1.07 with the 90% CI 87.1-131.5%. The median T was 0.67 hours for the DBSF (range 0.33-1.50 hours) and 0.25 hours for the Diastat ® AcuDial™ rectal gel (range 0.15-1.00 hours). The difference in T values was not statistically significant. Study 1900 compared DBSF 20 mg to Diastat ® AcuDial™ rectal gel 20 mg. Evaluable data from 10 subjects who completed both treatments showed that the extent of the absorption of DBSF 20 mg was comparable to Diastat ® 20 mg rectal gel, with the ratio of geometric means for AUC and AUC within the acceptable range of 80-125%. For C , t inf max the ratio of geometric means was 158.72% with 90% CI 122.81-205.14. The median T was 1.25 hours for the DBSF (range 0.36-2.05 hours) and 1.00 hours for the Diastat ® AcuDial™ rectal gel (range 0.25-2.00 hours). The difference in T values was not statistically significant. Examination of the mean plasma curves for DSBF and Diastat ® showed that although the C was higher for the DSBF relative to Diastat ® , the pharmacokinetics were comparable in terms of rapid rate of absorption, duration of plateau, and the rate of elimination. Figure 1 shows the C values for DBSF vs. Diastat ® at nominal doses of 5 mg in Study 1899 and 20 mg in Study 1900. These data suggest that DBSF 5 mg is bioequivalent to Diastat ® 5 mg. In contrast, because the C after administration of Diastat ® 20 mg is lower than the C after DBSF 20 mg, DBSF 20 mg is not bioequivalent to Diastat® 20 mg. While it is difficult to assess dose proportionality based on pilot studies conducted in separate groups of subjects, the pilot studies suggest that for DBSF, both C and AUC are dose-proportional over the 5 mg to 20 mg dose range, whereas, for Diastat ® , although AUC is dose proportional (data not shown), C is less than dose-proportional. In light of this observation, at doses above 5 mg, the nominal dose of diazepam administered as DBSF is expected to be lower than the therapeutically equivalent nominal dose of Diastat ® . Figure 1. C Values by Nominal Dose for DBSF vs. Diastat ® Data are C values (geometric means) from Studies 1899 (N=11) and Study 1900 (N=10). As shown in the figure, C values for DBSF were approximately dose-proportional while C values for Diastat® max max were less than dose-proportional. (AUC and AUC were approximately dose-proportional for both (0-t) (0-inf) DBSF and Diastat ® – data not shown.) Analysis of the individual data by linear regression indicated that the observed C values for DBSF were consistent with a direct linear relationship between C and max max nominal dose, while the observed C values for Diastat ® appeared to be linearly related to dose to the 2/3 power."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.4.2",
+    "section_title": "Study 162013 – Dose Proportionality",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.4 Diazepam Buccal Soluble Film > 6.4.2 Study 162013 – Dose Proportionality",
+    "page_start": 26,
+    "page_end": 27,
+    "char_count": 1252,
+    "text": "Study 162013 was conducted to assess dose-proportionality of DBSF at doses of 5, 10, and 15 mg. Preliminary analysis of the pharmacokinetic data confirms that DBSF is dose- proportional over the dose range 5 mg to 15 mg (Table 1). These preliminary results are consistent with the data from studies 1899 and 1900, which suggest that DBSF is dose proportional over the 5 to 20 mg dose range. Table 1. Preliminary PK Data from Study 162013 – Dose-Proportionality of DBSF at Doses of 5, 10, and 15 mg (N = 25) Geometric Dose 5mg 10mg Mean Ratio 90% Confidence Interval C (ng/ml) 177.86 337.92 105.27% 0.988 1.122 AUC (ng.h/ml) 4201.00 8104.12 103.68% 0.996 1.08 t AUC (ng.h/ml) 4774.80 9170.95 104.13% 0.997 1.088 inf Geometric Dose 15mg 10mg Mean Ratio 90% Confidence Interval C (ng/ml) 499.27 337.92 98.50% 0.923 1.051 AUC (ng.h/ml) 12431.71 8104.12 102.27% 0.980 1.067 t AUC (ng.h/ml) 14316.04 9170.95 104.07% 0.990 1.094 inf Preliminary PK data from Study 162013 (n = 25 subjects who completed all three treatments). Values are geometric means. Pair-wise comparisons of 5 mg and 15 mg to the 10 mg dose (ratios of the geometric means for parameters dose-normalized to the 10 mg dose) meet bioequivalence standards consistent with dose-proportionality."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.4.3",
+    "section_title": "Study 162021 – Pivotal Bioavailability Study",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.4 Diazepam Buccal Soluble Film > 6.4.3 Study 162021 – Pivotal Bioavailability Study",
+    "page_start": 27,
+    "page_end": 28,
+    "char_count": 725,
+    "text": "The ongoing pivotal relative bioavailability study is designed as a four-period, four- sequence randomized crossover in 36 healthy adult males and females. The four treatments are DBSF 15 mg and three doses of Diastat ® : 5 mg, 12.5 mg, and 20 mg. These Diastat ® doses bracket the full dose range for Diastat ® . The objective of this study is to gain a thorough and precise understanding of the comparative exposure to diazepam and nordiazepam (both AUC and C ) after administration of DBSF or Diastat ® . Overall, the study is expected to provide data that will allow identification of a dose of DBSF that will match the C , AUC , or AUC at any selected time interval for max (0-inf) (0-t) any marketed dose of Diastat ® ."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.4.4",
+    "section_title": "Study 162022 – Food Effect Study",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.4 Diazepam Buccal Soluble Film > 6.4.4 Study 162022 – Food Effect Study",
+    "page_start": 28,
+    "page_end": 28,
+    "char_count": 311,
+    "text": "Study 162022 (formal analysis ongoing) was designed as a standard open-label, randomized, two-period, two-sequence crossover study with DBSF 15 mg administered under fasted conditions and following a high-fat meal. The study was conducted with 16 healthy male and female subjects aged 18 to 65 years, inclusive."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.5",
+    "section_title": "Rationale for Dose Levels of Diazepam Buccal Soluble Film",
+    "breadcrumb": "6 BACKGROUND AND PHARMACOKINETICS > 6.5 Rationale for Dose Levels of Diazepam Buccal Soluble Film",
+    "page_start": 28,
+    "page_end": 28,
+    "char_count": 849,
+    "text": "As described above, the available data indicate that DBSF is dose proportional over the studied dose-range, while Diastat ® is less than dose proportional with respect to C . The data suggest that DBSF and Diastat ® are approximately bioequivalent at the 5 mg dose, but are not bioequivalent at doses above 5 mg. It is clear from Figure 1 that C values for DBSF exceed C from Diastat ® as the dose increases beyond 5 mg. While it is premature to propose labeling at this point in development, the Sponsor has used simple linear modeling of the data from Studies 1899 and 1900 to construct a table identifying the dose of DBSF expected to produce C values equivalent to the C max max values expected after a given dose of Diastat ® (Table 2). Table 2. Dose of DBSF Expected to Provide C Equivalent to Diastat ® Diastat Dose (mg) DBSF Equivalent* (mg)"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "20",
+    "section_title": "12.5",
+    "breadcrumb": "20 12.5",
+    "page_start": 28,
+    "page_end": 29,
+    "char_count": 586,
+    "text": "Table gives the nominal dose of DBSF expected to provide C equivalent to given dose of Diastat ® . These values are based on linear regression models using the data from Studies 1899 and 1900. C following DBSF was linearly related to dose. C following Diastat ® was linearly related to Dose to the 2/3 power. In the current adult study, all subjects will receive a single dose of 12.5 mg of DBSF in each treatment period. Based on the projections in Table 2, this dose is expected to match the C expected from a 20 mg dose of Diastat ® , or to exceed that C by no more than max max 20%."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.6",
+    "section_title": "Safety",
+    "breadcrumb": "20 12.5 > 6.6 Safety",
+    "page_start": 29,
+    "page_end": 29,
+    "char_count": 237,
+    "text": "It is anticipated that the adverse event (AE) profile from systemic exposure observed with DBSF will resemble the already well-known profile for diazepam in general and the reference therapy, Diastat ® AcuDial™ rectal gel, in particular."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.6.1",
+    "section_title": "Diastat ® AcuDial™ Rectal Gel",
+    "breadcrumb": "20 12.5 > 6.6 Safety > 6.6.1 Diastat ® AcuDial™ Rectal Gel",
+    "page_start": 29,
+    "page_end": 30,
+    "char_count": 2141,
+    "text": "Diazepam rectal gel was administered to 573 patients with epilepsy during Diastat ® clinical trials, only some of which were placebo-controlled (Diastat ® AcuDial™ rectal gel prescribing information December 2016). The controlled trials of Diastat ® AcuDial™ rectal gel included children two years of age and older. Clinical studies have not been conducted to establish the efficacy and safety of Diazepam rectal gel in children under two years of age. Most AEs were mild-to-moderate in severity and transient in nature. The most frequent AE reported with diazepam rectal gel in the two double-blind, placebo-controlled studies was somnolence (23%). Less frequent AE were headache (≤5%), diarrhea (≤4%), ataxia (≤3%), dizziness (≤3%), euphoria (≤3%), incoordination (≤3%), rash (≤3%), vasodilatation (≤2%), and asthma (≤2%). Table 3 below lists treatment-emergent signs and symptoms that occurred in >1% of patients enrolled in parallel-group, placebo-controlled trials and that were numerically more common in the diazepam rectal gel group. Table 3. Treatment-Emergent Signs and Symptoms That Occurred in >1% of Patients Enrolled in Parallel-Group, Placebo-Controlled Trials and were Numerically More Common in the Diazepam Rectal Group Diastat Placebo n=101 n=104 Body System COSTART Term % % Body as a Whole Headache 5% 4% Cardiovascular Vasodilatation 2% 0% Digestive Diarrhea 4% <1% Ataxia 3% <1% Dizziness 3% 2% Nervous Euphoria 3% 0% Incoordination 3% 0% Somnolence 23% 8% Respiratory Asthma 2% 0% Skin and Appendages Rash 3% 0% Source: (Diastat ® AcuDial™ rectal gel prescribing information December 2016) Approximately 1.4% of the 573 patients who received diazepam rectal gel in clinical trials of epilepsy discontinued treatment because of an AE. The AE most frequently associated with discontinuation (occurring in three patients) was somnolence. Other AEs most commonly associated with discontinuation and occurring in two patients were hypoventilation and rash. AEs occurring in one patient were asthenia, hyperkinesia, incoordination, vasodilation, and urticaria. These events were judged to be related to diazepam rectal gel."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.6.2",
+    "section_title": "Diazepam Buccal Soluble Film",
+    "breadcrumb": "20 12.5 > 6.6 Safety > 6.6.2 Diazepam Buccal Soluble Film",
+    "page_start": 30,
+    "page_end": 32,
+    "char_count": 2588,
+    "text": "Diazepam Buccal Soluble Film was administered to 23 healthy male and female adult volunteers during the two pilot trials (11 subjects in Study 1899 and 12 subjects in Study 1900). Table 4 lists the treatment-emergent AEs (TEAEs). Table 4. Treatment-Emergent Adverse Events that Occurred in Study 1899 and Study 1900 DBSF DBSF Diastat ® Diastat ® Preferred 5 mg 20mg rectal gel rectal gel Body System Term n=11 n=12 5 mg n=11 20 mg n=12 n (%) n (%) n (%) n (%) Somnolence 7 (63.6) 12 (100) 10 (83.3) 11 (91.7) Headache 1 (8.3) Nervous Asthenia 1 (8.3) System Weak 1 (8.3) Disorders Hiccups 1 (8.3) Dizziness 1 (8.3) Cardiovascular Hypotension 2 (16.7) Disorders Gastrointestinal Disorders Musculoskeletal Unsteady System 1 (8.3) Gait Disorders All AEs in the two pilot studies were mild and transient in nature, and there were no Serious Adverse Events (SAEs). Inspections of the oral cavity were conducted before application and after disintegration/dissolution of DBSF, without evidence of local irritation or AEs related to the application noted. The other studies mentioned above have not been completed as of the time of this writing. However, it should be noted that a serious adverse event (SAE) was reported in the pivotal pharmacokinetics study (Study 162021). A healthy 28-year-old male subject with no significant medical history experienced decreased heart rate (37 bpm), decreased respiratory rate, and drowsiness after administration of 15 mg of DBSF. Telemetry showed sinus bradycardia. The investigator administered multiple doses of flumazenil as well as a single dose of atropine in the clinical research unit. The patient was hospitalized overnight for observation and bradycardia resolved with no further treatment. The onset of symptoms occurred near the expected time of peak concentration of the study drug, and symptoms were consistent with known effects of diazepam. Plasma concentrations of diazepam were available until 2 hours after dosing and again at 48 hours. The maximum concentration (C ) for diazepam in this subject (T 1.5 h) was 482.37 ng/mL. This max max value is in line with the mean C observed following 15 mg DBSF in the dose- proportionality study (Study162013): mean C 492.21, median T 1.268 h (N = 30). max max Similarly, the diazepam plasma concentration at 48 hours (112.68 ng/mL) was also in the expected range. Based on this information, the principal investigator judged that the event was attributable to an unusual sensitivity to diazepam and not specific to DBSF. The reason for this subject’s unusual sensitivity to diazepam is unknown."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6.6.3",
+    "section_title": "Overdosage",
+    "breadcrumb": "20 12.5 > 6.6 Safety > 6.6.3 Overdosage",
+    "page_start": 32,
+    "page_end": 32,
+    "char_count": 1694,
+    "text": "According to the prescribing information for Diastat® AcuDial™ rectal gel (December 2016), previous reports of diazepam overdosage have shown that manifestations of diazepam overdosage include somnolence, confusion, coma, and diminished reflexes. Respiration, pulse, and blood pressure should be monitored, as in all cases of drug overdosage, although, in general, these effects have been minimal. General supportive measures should be employed, along with intravenous fluids, and an adequate airway maintained. Hypotension may be combated by the use of levarterenol or metaraminol. Dialysis is of limited value. Flumazenil, a specific benzodiazepine-receptor antagonist, is indicated for the complete or partial reversal of the sedative effects of benzodiazepines and may be used in situations when an overdose with a benzodiazepine is known or suspected. Prior to the administration of flumazenil, necessary measures should be instituted to secure airway, ventilation, and intravenous access. Flumazenil is intended as an adjunct to, not as a substitute for, proper management of benzodiazepine overdose. Patients treated with flumazenil should be monitored for resedation, respiratory depression and other residual benzodiazepine effects for an appropriate period after treatment. The prescriber should be aware of a risk of seizure in association with flumazenil treatment, particularly in long- term benzodiazepine users and in cyclic antidepressant overdose. Caution should be observed in use of flumazenil in epileptic patients treated with benzodiazepines. The complete flumazenil package insert, including CONTRAINDICATIONS, WARNINGS, and PRECAUTIONS, should be consulted prior to use."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "7",
+    "section_title": "STUDY OBJECTIVE",
+    "breadcrumb": "7 STUDY OBJECTIVE",
+    "page_start": 33,
+    "page_end": 33,
+    "char_count": 1401,
+    "text": "The primary objective is to assess the pharmacokinetics of DBSF in adult subjects with epilepsy in (A) the interictal state and (B) the ictal/peri-ictal state. (A) Subjects are considered to be in an interictal state if an interval of at least 3 hours has elapsed since any clinical observable postictal signs or symptoms (from the last observed seizure) and the subject has been seizure free over this period. Subjects on EEG monitoring can be considered to be in an interictal state if an interval of at least 3 hours has elapsed since any postictal electrical findings on EEG. (B) For the purposes of this study, the ictal state is defined as an ongoing clinically observable seizure or seizure activity as verified via EEG. The peri-ictal state is defined clinically as the subject’s immediate postictal state following a generalized tonic-clonic (GTC) seizure or focal seizure with impaired awareness, and within 5 minutes following the last clonic jerk. For subjects on EEG monitoring, the peri-ictal state may be defined as less than 5 minutes after cessation of seizure activity as verified via EEG. Secondary objectives include: • Evaluate the safety/tolerability of DBSF following single-dose administration in subjects with epilepsy • Evaluate the usability of DBSF in Period A and Period B Data from this study are intended to support a 505(b)(2) New Drug Application for the test product."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.1",
+    "section_title": "Study Design",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.1 Study Design",
+    "page_start": 33,
+    "page_end": 34,
+    "char_count": 720,
+    "text": "This study uses a multicenter, open-label, crossover design with the following periods: Screening, Treatment Period A (interictal DBSF dosing and pharmacokinetic evaluation), minimum washout period of 14 days, Treatment Period B (ictal/peri-ictal DBSF dosing and pharmacokinetic evaluation), and Follow-up 14 (±2) days after treatment. Definitions of the interictal and ictal/peri-ictal states are given in Section 7. If the subject must remain in the Epilepsy Monitoring Unit (EMU) or General Clinical Research Center (GCRC) for medical reasons after the end of Treatment Period A or B, this time will be designated as Post-treatment. The treatment periods may occur in either order depending on occurrence of seizures."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.2",
+    "section_title": "Screening Period (Section 9.1)",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.2 Screening Period (Section 9.1)",
+    "page_start": 34,
+    "page_end": 34,
+    "char_count": 437,
+    "text": "The Screening Period will occur 7 to 28 days prior to the first treatment period. The subject or subject’s legally authorized representative must provide written informed consent prior to the initiation of any screening procedures. Subjects under the age of 18 must provide oral assent as required by the IRB. During the Screening Period, the subject will be evaluated for study participation as described in Section 9.1 and Section 9.2."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.3",
+    "section_title": "Treatment Periods (Section 11.2)",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.3 Treatment Periods (Section 11.2)",
+    "page_start": 34,
+    "page_end": 36,
+    "char_count": 4856,
+    "text": "The treatment periods will begin at a time of day consistent with usual EMU/GCRC protocol. Subjects will arrive at the EMU, GCRC or similar facility on their scheduled day and time. Subjects are to continue taking their regular AEDs prior to and throughout each treatment period. Check-in Procedures: Subjects will undergo standard admission procedures, including the placement of an indwelling cannula for intravenous access, assessment of medical history, medications, vital signs, 12-lead ECG, and the Columbia Suicide Severity Rating scale (C SSRS). Urine drug tests and a breath alcohol test will be performed on all subjects. Urine pregnancy tests will also be performed for women of child bearing potential. The Investigator or medical staff will review results from the Screening Period and, if applicable, results from the previous treatment period, including vital signs (respiratory rate [RR], heart rate [HR], blood pressure [BP], temperature), 12-lead ECG, clinical laboratory tests, and AEs. The subject’s informed consent, medical history, medications, use of restricted substances, and results from the current visit assessments will be reviewed for eligibility and safety. If this is a first treatment visit, subjects who do not meet the inclusion and exclusion criteria will not be enrolled. Subjects who meet inclusion and exclusion criteria will be enrolled. If enrolled subjects who have completed a previous treatment visit no longer meet inclusion and exclusion criteria, they will be discontinued from the study. A study drug kit will be assigned by the Interactive Web Response System (IWRS). All subjects will receive one dose of 12.5 mg DBSF in Period A and one dose of 12.5 mg DBSF in Period B. Clinical monitoring will be initiated. Continuous video EEG monitoring for seizure detection will be initiated as indicated by EMU or GCRC protocol. Sites will maintain the EEG recordings with the study documents, but data from the EEG recordings will not be collected for the study dataset. Treatment Period A. Subjects will enter Treatment Period A as scheduled if an interval of at least 3 hours has elapsed since any clinical postictal signs or symptoms (from the last observed seizure) have been observed and the subject has been seizure free over this period. If clinical assessment (and EEG monitoring, if applicable) show no seizure activity, the subject will receive a single dose of 12.5 mg DBSF (see placement diagram in Appendix A). Safety and PK assessments will be performed as described below. Clinical monitoring will continue until the end of the treatment period (8 hours), and video EEG monitoring will continue as specified by EMU or GCRC protocol. If the subject experiences a seizure before dosing during Treatment Period A, and if it has been determined that the subject meets the inclusion and exclusion criteria, the Investigator may regard this visit as Treatment Period B, and Treatment Period A will be rescheduled. If no seizure occurs and Treatment Period A is completed, the subject will be scheduled for Treatment Period B. Treatment Period B: Monitoring for the occurrence of seizures as per EMU or GCRC protocol will continue until the subject experiences a qualifying (GTC seizure or focal seizure with impaired awareness). If the subject’s AEDs are to be tapered (e.g., if per EMU or GCRC protocol), the Investigator will determine and record the time to begin tapering the AEDs, including the doses administered or prescribed, percent dose reduction, and tapering rate. Seizure management and the required intervention will be determined by the Investigator. Subjects with a GTC seizure or focal seizure with impaired awareness who are determined to be medically appropriate to receive study drug (DBSF) will receive a single-dose of 12.5 mg DBSF • during the seizure, OR • within 5 minutes after the last clonic jerk, AND/OR • within 5 minutes after cessation of the seizure as verified via EEG. If the subject’s seizure persists after the single dose of DBSF, an alternative AED medication (rescue medication) may be administered as medically required according to the standard-of-care EMU or GCRC treatment protocol. Any alternative AED medications will be recorded in the study CRF. The physician in charge will be encouraged but not required to use intravenous lorazepam for rescue in preference to intravenous diazepam. The Investigator will be permitted to discontinue the subject from the study protocol at any time throughout the study protocol. At the end of the treatment period, clinical seizure assessment, AEDs and concomitant medication, and AEs will be reviewed. If AEDs were tapered previously, the Investigator will determine and record the time to restart the subject’s AED medications, including the doses administered or prescribed and the schedule for percent dose increase."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.4",
+    "section_title": "Post-treatment",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.4 Post-treatment",
+    "page_start": 36,
+    "page_end": 36,
+    "char_count": 402,
+    "text": "If the subject remains in the EMU, GCRC, or similar facility following the end of the treatment period, that time will be regarded as a post-treatment period. While the subject remains in the EMU, GCRC, or similar facility, general seizure activity, administration of additional AEDs, surgical treatment of their epilepsy, and AEs will be recorded. The subject will be discharged when medically stable."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.5",
+    "section_title": "Follow-up Visit",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.5 Follow-up Visit",
+    "page_start": 36,
+    "page_end": 36,
+    "char_count": 348,
+    "text": "Safety data (including concomitant medication, vital signs, clinical laboratory tests, AEs, comprehensive physical and neurological examinations, C-SSRS, and inspection of oral mucosa) will be obtained at a follow-up visit in an outpatient setting (to be determined by Investigator or Staff) at 14 ± 2 days after the last treatment period (A or B)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.1.6",
+    "section_title": "PK and Safety Assessments",
+    "breadcrumb": "8 STUDY DESIGN > 8.1 Discussion of Study Design > 8.1.6 PK and Safety Assessments",
+    "page_start": 36,
+    "page_end": 37,
+    "char_count": 1974,
+    "text": "The following assessments will be performed (see Section 11.4 for details): Diazepam PK (Sectio n 11.4.1). In both treatment periods, plasma samples for diazepam and the active metabolite desmethyldiazepam PK will be obtained before DBSF administration and post dose at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), and 4 hours (240 minutes). In Treatment Period A, a plasma sample will also be taken at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional plasma samples will be collected at 24, 48, 96, 144, 192, and 240 hours after DBSF administration in an outpatient setting (either at the EMU, GCRC or similar facility, or via home visits). Collection of plasma samples will continue regardless of whether another AED is administered for rescue. Vital Signs. The subject’s BP, HR, RR, and temperature will be recorded at Screening, during the treatment visits predose and post dose, and at Follow-up as described in Section 11.6. Oral Mucosal Inspection. As described in Section 11.9, to check for any mucosal irritation, an illumination-assisted visual inspection of the DBSF application site will be performed at Screening; at each treatment visit prior to study drug administration and approximately 0.25 hours (15 minutes), 0.5 hours (30 minutes), and 1 hour (60 minutes) after application of the film (±5 minutes for all time points); and at Follow-up. Usability. The usability of DBSF will be evaluated by assessing oral cavity insertion, retention, and placement after each administration during the treatment periods as described in Section 11.10. Laboratory Safety. Blood samples will be collected for laboratory safety at Screening and at Follow-up or upon early termination (Section 11.4.2). ECG. A 12-lead ECG will be obtained at Screening, and at each treatment period both predose and 4 hours after dosing (Section 11.7)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.2",
+    "section_title": "Study Duration and Washout",
+    "breadcrumb": "8 STUDY DESIGN > 8.2 Study Duration and Washout",
+    "page_start": 37,
+    "page_end": 37,
+    "char_count": 366,
+    "text": "The study includes the Screening Period 7 to 28 days before Day 1; Treatment Period A (interictal) 1 day; a minimum washout period of 14 days; Treatment Period B (ictal/peri- ictal) 1 day; and Follow-up 14 days (±2 days) after the second treatment period. Thus, the minimum study duration will be approximately 35 days, and the maximum will be approximately 58 days."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8.3",
+    "section_title": "Randomization and Blinding",
+    "breadcrumb": "8 STUDY DESIGN > 8.3 Randomization and Blinding",
+    "page_start": 37,
+    "page_end": 37,
+    "char_count": 176,
+    "text": "This is an open-label study. Neither subjects nor clinic staff will be blinded. The treatment order (order of Treatment Period A and Treatment Period B) will not be randomized."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.1",
+    "section_title": "Screening Procedures",
+    "breadcrumb": "9 SUBJECT SELECTION > 9.1 Screening Procedures",
+    "page_start": 38,
+    "page_end": 38,
+    "char_count": 519,
+    "text": "Screening procedures will be conducted within 7 to 28 days prior to the first treatment period. Screening procedures can be performed after signing of the Study Informed Consent Form (ICF). The following screening procedures will be conducted for each potential subject: • Obtain written informed consent for screening as evidenced by potential subject or subject’s legally authorized representative (or parent[s], if the subject is under the age of 18) signing an ICF. Obtain oral assent from subjects under the age of"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "18",
+    "section_title": "as required by the IRB. Subjects and legally authorized representatives (or",
+    "breadcrumb": "18 as required by the IRB. Subjects and legally authorized representatives (or",
+    "page_start": 38,
+    "page_end": 39,
+    "char_count": 1871,
+    "text": "parents, if applicable) will be given an opportunity to ask questions about the study before giving consent. • Register subject in IWRS. • Record medical/medication history (including diazepam or benzodiazepines, smoking history, etc), and demographic information based on existing medical records and an interview with the potential subject. • Administer the Columbia-Suicide Severity Rating Scale (see Section 11.5). • Collect urine samples for urinalysis and drug screening (see Section 11.4.2). • If the subject reports having received any dosage form of diazepam within the past 2 weeks, then the clinic admission for the first treatment should be deferred for at least 2 weeks. If the subject reports taking no diazepam and the urine test is positive for benzodiazepines, then the Investigator should review the medication history to determine whether it is consistent with the positive urine test for benzodiazepines. Use of a benzodiazepine other than diazepam in the past two weeks and/or a positive urine test for benzodiazepines is not a basis for rescheduling admission to the clinic. • Obtain height and body weight. • Obtain vital signs (temperature, respiratory rate (RR), heart rate (HR), blood pressure (BP), and electrocardiogram (ECG). • Collect blood samples for hematology, chemistry, and pregnancy testing (for women of childbearing potential). For a complete listing of all tests to be performed, please refer to Section 11.4.2. • Perform breath alcohol test in subjects as per EMU/GCRC protocol. • Perform a physical and neurological examination. • Dispense seizure diaries, with instructions to subjects or legally authorized representatives to record the number of seizures, AED dosing, use of rescue, and any AEs • Investigator reviews inclusion/exclusion criteria and all screening results/data to assess eligibility of each potential subject."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.2.1",
+    "section_title": "Inclusion Criteria",
+    "breadcrumb": "18 as required by the IRB. Subjects and legally authorized representatives (or > 9.2 Inclusion/Exclusion Criteria > 9.2.1 Inclusion Criteria",
+    "page_start": 39,
+    "page_end": 39,
+    "char_count": 86,
+    "text": "Potential subjects meeting all of the following criteria may be included in the study:"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "1",
+    "section_title": "Subjects have a clinical diagnosis of epilepsy (GTC seizures or focal seizures with",
+    "breadcrumb": "1 Subjects have a clinical diagnosis of epilepsy (GTC seizures or focal seizures with",
+    "page_start": 39,
+    "page_end": 39,
+    "char_count": 104,
+    "text": "impaired awareness) and are scheduled for admission to an EMU, GCRC, or similar facility for evaluation."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "4",
+    "section_title": "Subjects have an average frequency of ≥1 seizure every 3 days or ≥10 seizures /",
+    "breadcrumb": "4 Subjects have an average frequency of ≥1 seizure every 3 days or ≥10 seizures /",
+    "page_start": 39,
+    "page_end": 39,
+    "char_count": 192,
+    "text": "month as documented by reliable subject report, personal seizure diary records, and/or by seizure diaries dispensed at Screening and verified prior to Treatment Period A or Treatment Period B."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "5",
+    "section_title": "Female subjects of childbearing potential (i.e., are not surgically sterile or are 2",
+    "breadcrumb": "5 Female subjects of childbearing potential (i.e., are not surgically sterile or are 2",
+    "page_start": 39,
+    "page_end": 39,
+    "char_count": 579,
+    "text": "years postmenopausal) must have a negative serum pregnancy test ( ß-hCG ) at screening and a negative urine pregnancy test on Day 1 prior to drug dosing. Female subjects of childbearing potential must agree to abstinence, have a partner who is sterile, or be practicing double barrier contraception or have been using an FDA-approved contraceptive (e.g., licensed hormonal or barrier methods) for greater than 2 months prior to screening visit, and must commit to an acceptable form of birth control for the duration of the study and for 30 days after participation in the study."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "7",
+    "section_title": "Subjects or subject’s legally authorized representative must be willing and able to",
+    "breadcrumb": "7 Subjects or subject’s legally authorized representative must be willing and able to",
+    "page_start": 39,
+    "page_end": 39,
+    "char_count": 57,
+    "text": "complete informed consent/assent and HIPAA authorization."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8",
+    "section_title": "Subject must agree to be available or subject’s legally authorized representative",
+    "breadcrumb": "8 Subject must agree to be available or subject’s legally authorized representative",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 201,
+    "text": "must agree to have the subject be available for both treatment periods and the follow-up visit, and must be willing to comply with all required study procedures and adhere to all protocol requirements."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9",
+    "section_title": "Subject or subject’s legally authorized representative must be able to comprehend",
+    "breadcrumb": "9 Subject or subject’s legally authorized representative must be able to comprehend",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 76,
+    "text": "and be informed of the nature of the study, as assessed by the Investigator."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.2.2",
+    "section_title": "Exclusion Criteria",
+    "breadcrumb": "9 Subject or subject’s legally authorized representative must be able to comprehend > 9.2.2 Exclusion Criteria",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 74,
+    "text": "Potential subjects meeting any of the following criteria will be excluded:"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "1",
+    "section_title": "Subjects with a progressive neurological disorder such as brain tumor,",
+    "breadcrumb": "1 Subjects with a progressive neurological disorder such as brain tumor,",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 125,
+    "text": "demyelinating disease, or degenerative central nervous system (CNS) disease that is likely to progress in the next 12 months."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "2",
+    "section_title": "Subjects with respiratory failure (or is at risk for respiratory failure) or other",
+    "breadcrumb": "2 Subjects with respiratory failure (or is at risk for respiratory failure) or other",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 132,
+    "text": "severe cardiorespiratory disease with New York Heart Association Class III or IV functional status, or requires supplemental oxygen."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "3",
+    "section_title": "Female subjects who are lactating, have a positive serum pregnancy test (ß-hCG)",
+    "breadcrumb": "3 Female subjects who are lactating, have a positive serum pregnancy test (ß-hCG)",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 88,
+    "text": "at screening, or have a positive urine pregnancy test at Check-in for treatment periods."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "4",
+    "section_title": "Subjects with psychiatric disease (including Type 4 or Type 5 suicidal ideation on",
+    "breadcrumb": "4 Subjects with psychiatric disease (including Type 4 or Type 5 suicidal ideation on",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 111,
+    "text": "the C-SSRS) that in the Investigator's judgment would prevent the subject’s successful completion of the study."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "5",
+    "section_title": "Subjects with known history or presence of any clinically significant hepatic (e.g.,",
+    "breadcrumb": "5 Subjects with known history or presence of any clinically significant hepatic (e.g.,",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 464,
+    "text": "hepatic impairment), renal/genitourinary (renal impairment, kidney stones), psychiatric, dermatological, or hematological disease or condition unless determined as not clinically significant by the Investigator and confirmed by Sponsor via written communication prior to subject enrollment. Abnormal laboratory results considered clinically significant by the Investigator or designee will be evaluated by the Investigator in consultation with the Medical Monitor."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "6",
+    "section_title": "Subjects with any clinically significant illness other than epilepsy within 30 days",
+    "breadcrumb": "6 Subjects with any clinically significant illness other than epilepsy within 30 days",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 57,
+    "text": "prior to first dosing, as determined by the Investigator."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "7",
+    "section_title": "Subjects with any significant physical or organ abnormality or other condition",
+    "breadcrumb": "7 Subjects with any significant physical or organ abnormality or other condition",
+    "page_start": 40,
+    "page_end": 40,
+    "char_count": 110,
+    "text": "that would interfere with study participation or constitute a safety risk in the judgment of the Investigator."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "8",
+    "section_title": "Subjects with any significant lesion of the oral cavity or having oral prophylactic",
+    "breadcrumb": "8 Subjects with any significant lesion of the oral cavity or having oral prophylactic",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 71,
+    "text": "or dental procedures within 30 days prior to study drug administration."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9",
+    "section_title": "Subjects with a QTc interval QTcF>450 msec for males and QTcF>470 msec for",
+    "breadcrumb": "9 Subjects with a QTc interval QTcF>450 msec for males and QTcF>470 msec for",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 94,
+    "text": "females on screening ECG, unless determined as not clinically significant by the Investigator."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10",
+    "section_title": "Subjects with a positive test result for any of the following: drugs of abuse:",
+    "breadcrumb": "10 Subjects with a positive test result for any of the following: drugs of abuse:",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 191,
+    "text": "amphetamines, cocaine, opiates, phencyclidine, or tetrahydrocannabinol [THC] (unless legal in state where subject resides and obtained with a prescription); or a positive breath alcohol test."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11",
+    "section_title": "Subjects with a known history or presence of:",
+    "breadcrumb": "11 Subjects with a known history or presence of:",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 405,
+    "text": "a. Substance abuse or dependence (including alcohol) within 1 year prior to first study drug administration b. Hypersensitivity or idiosyncratic reaction to diazepam, its excipients, sodium phosphates, and/or related substances, e.g., benzodiazepines c. Glaucoma (open or acute narrow angle) d. Severe allergic reactions (e.g., anaphylactic reactions, angioedema) to investigational product and excipients"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12",
+    "section_title": "Subjects who have participated in another clinical trial or who received an",
+    "breadcrumb": "12 Subjects who have participated in another clinical trial or who received an",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 152,
+    "text": "investigational drug within 30 days prior to first study drug administration or 5 half-lives of the investigational drug—whichever is the longer period."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "13",
+    "section_title": "Subjects with presence of mouth jewelry, dentures, oral implants, braces, or",
+    "breadcrumb": "13 Subjects with presence of mouth jewelry, dentures, oral implants, braces, or",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 155,
+    "text": "piercings in the mouth or tongue that, in the opinion of the Investigator, would be likely to interfere with successful completion of the dosing procedure."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "16",
+    "section_title": "Consumption of alcohol within 48 hours before dosing; or food or beverages",
+    "breadcrumb": "16 Consumption of alcohol within 48 hours before dosing; or food or beverages",
+    "page_start": 41,
+    "page_end": 41,
+    "char_count": 169,
+    "text": "containing grapefruit, star fruit, Seville oranges, and/or pomelo, or their derived products (e.g., fruit juice) within 10 days prior to first study drug administration."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "17",
+    "section_title": "Use of any enzyme-modifying drugs, including strong inhibitors of cytochrome",
+    "breadcrumb": "17 Use of any enzyme-modifying drugs, including strong inhibitors of cytochrome",
+    "page_start": 41,
+    "page_end": 42,
+    "char_count": 733,
+    "text": "(CYP) P450 enzymes (e.g. cimetidine, fluoxetine, quinidine, erythromycin, ciprofloxacin, fluconazole, ketoconazole, diltiazem, or HIV antivirals) and strong inducers of CYP enzymes (e.g. glucocorticoids, St. John´s Wort, or rifampicin) in the previous 30 days before first study drug administration. (Barbiturates, carbamazepine, phenytoin, and other enzyme-modifying AEDs that are medically needed are permitted.). 18. Use of any monoamine oxidase (MAO) inhibitors (e.g., phenelzine, tranylcypromine), phenothiazines (chlorpromazine) within 30 days prior to first study drug administration. 19. Employee or immediate relative of an employee of the Investigator, MonoSol Rx LLC, any of its affiliates or partners, or inVentiv Health."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.3",
+    "section_title": "Permitted and Restricted Items",
+    "breadcrumb": "17 Use of any enzyme-modifying drugs, including strong inhibitors of cytochrome > 9.3 Permitted and Restricted Items",
+    "page_start": 42,
+    "page_end": 43,
+    "char_count": 1199,
+    "text": "Study restrictions are summarized in Table 5. If any subject does not comply with these restrictions, at any time prior to or during the study, continued eligibility will be re- assessed by the Investigator in consultation with the Sponsor. Subjects may take concomitant drug or non-drug treatment as needed during study participation, unless specified within the protocol as excluded or restricted. Any excluded or restricted concomitant drug or non-drug treatment taken will be reported as soon as possible to the Sponsor or designee and will be reviewed on a case by case basis to determine the subject’s further participation in the study. All cases of concomitant medication, herbal/dietary supplement administration, or consumption of restricted food or beverages from Screening through Follow-up will be documented in the CRF. Table 5 Study Restrictions Restriction Period Item Restricted Examples Strong inhibitors of CYP enzymes (e.g. cimetidine, fluoxetine, quinidine, erythromycin, ciprofloxacin, fluconazole, ketoconazole, diltiazem, or HIV antivirals); Strong inducers of CYP enzymes (e.g. Enzyme-modifying drugs barbiturates, carbamazepine, glucocorticoids, phenytoin, St. John´s Wort,"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "30",
+    "section_title": "days prior to first drug or rifampicin) Barbiturates, carbamazepine,",
+    "breadcrumb": "30 days prior to first drug or rifampicin) Barbiturates, carbamazepine,",
+    "page_start": 43,
+    "page_end": 43,
+    "char_count": 310,
+    "text": "administration until the last phenytoin, and other AEDs affecting CYP blood draw in the final enzymes are allowed if medically indicated. study period Monoamine oxidase (MAO) Phenelzine, tranylcypromine inhibitors Phenothiazines Chlorpromazine Note: Spermicidal/barrier contraceptive products may be permitted."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10",
+    "section_title": "days prior to first drug Grapefruit, grapefruit juice, grapefruit",
+    "breadcrumb": "10 days prior to first drug Grapefruit, grapefruit juice, grapefruit",
+    "page_start": 43,
+    "page_end": 43,
+    "char_count": 211,
+    "text": "administration until the last Foods and/or beverages candies, star fruit, Seville oranges, and/or blood draw in the final containing grapefruit, pomelo, or their derived products (e.g., fruit study period juice)"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "48",
+    "section_title": "hours prior to drug",
+    "breadcrumb": "48 hours prior to drug",
+    "page_start": 43,
+    "page_end": 43,
+    "char_count": 118,
+    "text": "administration until after Alcohol of any kind Wine, beer, liquor, cocktails the last blood draw in each study period."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.4",
+    "section_title": "Sample Size",
+    "breadcrumb": "1 hour after dosing Food and water intake > 9.4 Sample Size",
+    "page_start": 43,
+    "page_end": 43,
+    "char_count": 115,
+    "text": "Approximately forty (40) subjects with epilepsy will be recruited to attain a sample size of at least 30 completed."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "9.5",
+    "section_title": "Dropout and Withdrawal/Termination",
+    "breadcrumb": "1 hour after dosing Food and water intake > 9.5 Dropout and Withdrawal/Termination",
+    "page_start": 43,
+    "page_end": 44,
+    "char_count": 1485,
+    "text": "Subjects whose participation in the study is discontinued (for any reason) will not be replaced. A subject is free to withdraw at any time, for any reason. Every attempt will be made to record reasons for withdrawal. Enrolled subjects who have an episode of status epilepticus at any time during either treatment period may be excluded from further study participation at the Investigator’s discretion in consultation with the Sponsor. Subjects experiencing emesis after dosing will be evaluated (to assess subject safety) on a case-by-case basis by the Investigator and the Sponsor, and they will decide on the subject's continued participation. A subject may also be removed if necessary to protect the subject’s health or the integrity of the study. This determination will be made by the Investigator in consultation with the Medical Monitor. Removal of a subject from the study will only be permitted prior to commencement of bioanalysis. If an enrolled subject’s participation is terminated prematurely or the subject withdraws from the study, the cause, date, and time of the early termination or withdrawal will be documented on the source documents and in the final study report. Efforts will be made to obtain an early termination visit at which clinical seizure assessment will be done, vital signs will be recorded, clinical laboratory tests will be performed, an oral mucosal inspection will be performed, and any concomitant medications, including AEDs, will be recorded."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10.1",
+    "section_title": "Drug Information",
+    "breadcrumb": "10 INVESTIGATIONAL PRODUCT > 10.1 Drug Information",
+    "page_start": 44,
+    "page_end": 44,
+    "char_count": 226,
+    "text": "Information on the study drug is given in Table 6. Table 6 Study Drug Information Drug Name: Diazepam Strength: 12.5 mg Dosage form: Buccal Soluble Film Manufacturer: MonoSol Rx LLC Dose: 1 x 12.5 mg (fasting or fed condition)"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10.1.1",
+    "section_title": "Controlled Substance Documentation",
+    "breadcrumb": "10 INVESTIGATIONAL PRODUCT > 10.1 Drug Information > 10.1.1 Controlled Substance Documentation",
+    "page_start": 45,
+    "page_end": 45,
+    "char_count": 631,
+    "text": "Diazepam Buccal Soluble Film is designated as a Schedule IV controlled substance with abuse potential by the US Controlled Substances Act (21 Code of Federal Regulations [CFR] §1308). Because the study drug is a controlled substance, drug supplies must be kept in a secure, double-locked, substantially constructed enclosure with restricted access. Prior to shipment of study drug, the Investigator must provide the Sponsor with a copy of a controlled substance license that clearly identifies the registrant and address of the registrant. Study drug supplies will be shipped to the registrant and address noted on the certificate."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10.1.2",
+    "section_title": "Description of Investigational Product",
+    "breadcrumb": "10 INVESTIGATIONAL PRODUCT > 10.1 Drug Information > 10.1.2 Description of Investigational Product",
+    "page_start": 45,
+    "page_end": 45,
+    "char_count": 1509,
+    "text": "Diazepam Buccal Soluble Film (DBSF) contains the active ingredient diazepam incorporated into a polymer-based film matrix utilizing MonoSol Rx’s PharmFilm ® technology. For the purposes of this pediatric study, the investigational product will be provided at the following strengths: 5 mg, 7.5 mg, 10 mg, and 12.5 mg. The film is intended for application to the inner aspect of the cheek where the film immediately adheres and begins to hydrate. During the hydration process, the drug, along with associated solubility enhancers, are rapidly released onto the buccal mucosa for dissolution and absorption. The DBSF doses up to 20 mg were tested in a pilot clinical study. The inactive ingredient composition, the film dimensions, and the manufacturing process selected for this drug product are based on the information gained from the development of the DBSF and other film products produced by MonoSol Rx (ZUPLENZ ® 4 and 8 mg and SUBOXONE ® 2 mg/0.5 mg, 4 mg/1 mg, 8 mg/2 mg, and 12 mg/3mg Sublingual Films). The DBSF product is a green rectangular film. The primary package used for DBSF is a polyester/foil laminate provided by Amcor Flexibles (Madison, WI). The material (product code RFE-013) is a multi-layer composite consisting of (1) a 12.2-micron layer of polyethylene phthalate, (2) a 25.4- micron layer of low-density polyethylene, (3) an 8.9-micron layer of aluminum foil, and (4) a 38.1-micron layer of low-density polyethylene, and is heat sealed at the edges . Each pouch contains one DBSF ."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "10.2",
+    "section_title": "Labeling, Maintenance, and Retention of Study Drugs",
+    "breadcrumb": "10 INVESTIGATIONAL PRODUCT > 10.2 Labeling, Maintenance, and Retention of Study Drugs",
+    "page_start": 45,
+    "page_end": 46,
+    "char_count": 2195,
+    "text": "It is the responsibility of the Sponsor to ensure that all drug supplies provided for the study are manufactured under current Good Manufacturing Practices and are suitable for human use. The Sponsor will supply an authorized clinical supplies vendor with a sufficient quantity of the study formulation(s) to allow completion of this study, including some spares for replacement drugs. The clinical supply vendor will ship the packaged and labeled study drugs for each participating investigator to the Pharmacy or Investigator at the address specified on the DEA Controlled Substance certificate. The study drugs will be sent to the Site Pharmacy already packed in individual unit-dose packages. Each unit-dose package will be labeled in English containing at minimum the Investigation site, Investigator, Protocol Number, Subject Number, Drug Name, Strength and Treatment Code/Kit Identification Number, Route of Administration, Quantity of Dosage Units, Sponsor’s Name, Address, and Phone Number, and a statement “For clinical trial use only.” Upon receipt of the study drugs, the Investigator, Pharmacist, or designee will inspect the shipment to ensure study drugs are received in good condition. Study drug receipt and condition will be promptly registered in the IWRS. The Investigator, Pharmacist, or designee will ensure records of receipt and dispensing of study drugs supplied are maintained for the duration of the study. An inventory record of the drugs received and dispensed will be maintained by the Investigator. The Investigator or designee will log into the IWRS to register the subject’s visit and have the study drug kit number assigned to the subject. Only this kit will be removed from inventory. In Period B, the study drug kit assigned by the study IWR system will be secured in close proximity to the subject’s room when the subject is admitted to the EMU, GCRC or similar facility so that the medication can be administered within 5 minutes of clinical confirmed seizure activity. At the completion of the study, all unused study drugs, including the spares, will be retained by the Study Site until the authorization to return or destroy is received from the Sponsor."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.1",
+    "section_title": "Schedule of Events",
+    "breadcrumb": "11 STUDY PROCEDURES > 11.1 Schedule of Events",
+    "page_start": 46,
+    "page_end": 49,
+    "char_count": 3629,
+    "text": "The schedule of study events is given in Table 7. Table 7. Schedule of Events Screening (-28 days to -7 Period A/B a Period A/B a Follow-up days to Period Check-in Dosing / (14 ±2 d Procedure/Activity A/B, Day1) (Predose) Postdose post dose) ICF X Register subject status X X X in IWRS/ update status Medical history/ X X demographics Concomitant X X X X medication review Date/time of the subject’s last meal X before DBSF dose Review of restrictions X X b X b Columbia-Suicide X X X Severity Rating Scale Height and body weight X c X Blood pressure X X d X d X Heart rate X X d X d X Respiratory rate X X d X d X Temperature X X d X d X Physical/neurological X e X e examination ECG X X f X f Pregnancy test X g X g X g Clinical laboratory tests X X Drug screen (urine) X h X h Screening (-28 days to -7 Period A/B a Period A/B a Follow-up days to Period Check-in Dosing / (14 ±2 d Procedure/Activity A/B, Day1) (Predose) Postdose post dose) Breath alcohol test X X Oral mucosal inspection X i X i X i X i Inclusion/exclusion X X assessment Dispense/collect seizure X X diaries Continuous video EEG X j X j Study drug dosing X PK sampling X k X k Assessment of usability X l Adverse event reporting X m X m X m C-SSRS = Columbia-Suicide Severity Rating Scale; DBSF = Diazepam Buccal Soluble Film; ECG = electrocardiogram; EEG = electroencephalogram; ICF = informed consent form; PK = pharmacokinetics. a. Treatment Periods A and B may occur in either order, depending on seizure occurrence, e.g., if a subject experiences a seizure during the first visit to the EMU or GCRC. In such cases, if feasible after IWRS registration, dose determination, and review of inclusion/exclusion criteria, the Investigator may regard that period as Treatment Period B and schedule another visit for Treatment Period A. b. Confirmed at each follow-up visit blood draw, if applicable. c. Height collected at Screening only. d. At both treatment visits, vital signs (BP, HR, RR, and temperature) will be recorded predose and post dose at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), 3 hours (180 minutes), and 4 hours (240 minutes). In Treatment Period A, vital signs will also be measured at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional vital sign measurements will be made at 24, 48, 96, 144, 192, and 240 hours (± 2 hours) after DBSF administration in an outpatient setting (either at EMU, GCRC or similar facility, or via home visits). The subject’s position may be seated or supine, but should be consistent throughout. e. Physical/neurological examination will be performed at Screening and at Follow-up or at an early discontinuation visit. f. A 12-lead ECG will be obtained at Screening, at the beginning of each Treatment Period, and at 4 hours after dose administration. g. Serum pregnancy test will be performed for females of childbearing potential at Screening; urine pregnancy test will be performed at Check-in for both treatment periods and at Follow-up. h. Screening: If the subject reports taking any dosage form of diazepam within the 2 weeks before screening, the clinic admission for the first treatment should be deferred for at least 2 weeks. If the subject reports taking no diazepam and the urine test is positive for benzodiazepines, then the Investigator should review the medication history to determine whether it is consistent with the positive urine test for benzodiazepines. Treatment periods: If the subject reports having received any dosage form of diazepam within the"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "2",
+    "section_title": "weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the",
+    "page_start": 49,
+    "page_end": 49,
+    "char_count": 1744,
+    "text": "subject reports taking no diazepam and the urine test is positive for benzodiazepines, then the Investigator will make a judgment as to whether to reschedule the visit. i. The Investigator will make an illumination-assisted visual inspection of the oral mucosa during Screening and during each treatment period prior to study drug administration and at approximately 15 minutes, 30 minutes, and 60 minutes after placement of the film. A further inspection of oral mucosa will be made at Follow-up. j. If indicated by EMU or GCRC protocol, continuous video EEG monitoring for seizure detection will be performed throughout each Treatment Period. Sites will maintain the EEG recordings with the study documents, but data from the EEG recordings will not be collected for the study dataset. k. For both treatment periods, plasma samples for determination of diazepam and desmethyldiazepam PK will be obtained predose and post dose at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), and 4 hours (240 minutes). In Treatment Period A, a plasma sample will also be taken at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional plasma samples will be collected post DBSF administration at 24, 48, 96, 144, 192, and 240 hours (±2 hours) in an outpatient setting (either at EMU, GCRC or similar facility, or via home visits). Collection of plasma samples will continue even if the administration of another AED is needed for rescue. l. The study staff will evaluate the insertion process to determine usability of the film as described in Section 11.10. m. AEs are to be collected from time of consent throughout the study."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.2.1",
+    "section_title": "Check-in Procedures",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.2 Treatment Periods A and B > 11.2.1 Check-in Procedures",
+    "page_start": 49,
+    "page_end": 50,
+    "char_count": 2405,
+    "text": "For each treatment period, subjects will undergo standard admission procedures as described below, including the placement of an indwelling cannula for intravenous access, assessment of medical history, medications, date/time of the subject’s last meal before the DBSF dose, vital signs, urine pregnancy and drug tests, breath tests, 12-lead ECG, and the Columbia Suicide Severity Rating scale (C SSRS), as age appropriate. Subjects or their legally authorized representatives will be questioned about whether they have complied with the study restrictions. If a restricted drug or non-drug therapy specified in the protocol was used, a decision to continue or discontinue the subject’s participation will be made by the Investigator and/or by the Sponsor. If the subject reports having received any dosage form of diazepam within the past 2 weeks, then the visit should be deferred for at least two weeks. If the subject reports taking no diazepam, and the urine test is positive for benzodiazepines, then the Investigator will make a judgment as to whether to reschedule the visit. At each period check-in, the Investigator will review results from the Screening Period and, if applicable, results from the previous treatment period, including vital signs (BP, HR, RR, temperature), 12-lead ECG, and clinical laboratory tests, informed consent, medical history, medications, seizure diaries, use of restricted substances, results of drug tests, breath alcohol test, and pregnancy test. Results from the current visit assessments will also be reviewed for eligibility and safety. If this is a first treatment visit, subjects who do not meet the inclusion and exclusion criteria will not be enrolled. Subjects who meet inclusion and exclusion criteria will be enrolled. If enrolled subjects who have completed a previous treatment visit no longer meet inclusion and exclusion criteria, they will be discontinued from the study. A study drug kit will be assigned by the Interactive Web Response System (IWRS). All subjects will receive one dose of 12.5 mg DBSF in Period A and one dose of 12.5 mg DBSF in Period B. Clinical monitoring will be initiated. Continuous video EEG monitoring for seizure detection will be initiated as indicated by EMU or GCRC protocol. Sites will maintain the EEG recordings with the study documents, but data from the EEG recordings will not be collected for the study dataset."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.2.2",
+    "section_title": "Treatment Period A",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.2 Treatment Periods A and B > 11.2.2 Treatment Period A",
+    "page_start": 50,
+    "page_end": 51,
+    "char_count": 1006,
+    "text": "Subjects will enter Treatment Period A as scheduled if at least a 3-hour interval has elapsed since any clinical postictal signs or symptoms (from the last observed seizure) have been observed and the subject has been seizure free over this period. If clinical and/or EEG monitoring show no seizure activity, the subject will receive a single dose of 12.5 mg DBSF (see placement diagram in Appendix A). Safety and PK assessments will be performed as described below. Clinical monitoring will continue until the end of the treatment period (8 hours), and video EEG monitoring will continue as specified by EMU or GCRC protocol. If the subject experiences a seizure before dosing during Treatment Period A, and if it has been determined that the subject meets the inclusion and exclusion criteria, the Investigator may regard this visit as Treatment Period B, and Treatment A will be rescheduled. If no seizure occurs and Treatment Period A is completed, the subject will be scheduled for Treatment Period B."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.2.3",
+    "section_title": "Treatment Period B:",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.2 Treatment Periods A and B > 11.2.3 Treatment Period B:",
+    "page_start": 51,
+    "page_end": 51,
+    "char_count": 1251,
+    "text": "Monitoring for the occurrence of seizures will continue until the subject experiences a GTC seizure or focal seizure with impaired awareness. If the subject’s AEDs are to be tapered as per EMU or GCRC protocol, and the Investigator will determine and record the time to begin tapering the AEDs, including the percent dose reduction and tapering rate. Seizure management and the required intervention will be determined by the Investigator. Subjects with a GTC seizure or focal seizure with impaired awareness who are determined to be medically appropriate to receive study drug (DBSF) will receive a single-dose of 12.5 mg DBSF during the seizure or within 5 minutes after the last clonic jerk or within 5 minutes after cessation of the seizure as verified via EEG. If the subject’s seizure persists after the single dose of DBSF, an alternative AED medication (rescue medication) can be administered as medically required and according to the standard-of-care EMU or GCRC treatment protocol. The physician in charge will be encouraged but not required to use intravenous lorazepam for rescue and to avoid using intravenous diazepam. The Investigator will be allowed to discontinue the subject from the study protocol at any time throughout the study."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.2.4",
+    "section_title": "Dosing",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.2 Treatment Periods A and B > 11.2.4 Dosing",
+    "page_start": 51,
+    "page_end": 52,
+    "char_count": 2671,
+    "text": "Before administration of the DBSF, the Investigator will perform an oral safety inspection as described in Section 11.9. The dosing process will consist of the following steps: • When opening the foil pouch containing the study drug, staff are to use scissors to carefully cut along the wide edge of the pouch and use gloves when handling and administering the study drug to the subject. • Subjects will be instructed to swallow saliva and then open their mouth. • If the predose oral safety assessment reveals evidence of mucosal injury or irritation (e.g., a cheek bite resulting from a seizure), care should be taken to avoid placement of DBSF in that area. • Staff will place the film on the tip of a finger and then use the finger to insert the film into the subject’s mouth. • The film is to be centered against the inner aspect of the right or left cheek, so that it adheres to the buccal mucosa (refer to Appendix A for a diagram of film placement). The film may be placed without regard to the location of the parotid duct. • The subject will be instructed to close his/her mouth in a natural way, without swallowing, chewing, biting, or breaking the DBSF. • As soon as the film has been placed on the buccal mucosa, the subject should be instructed to lie on his or her side. The subject should lie on the right side (right side down) if the DBSF has been placed on the right buccal surface, or on the left side (left side down) if the DBSF has been placed on the left buccal surface. It is recommended that the subject should remain in position (lying on the appropriate side) for 15 minutes. Subjects should be instructed that during this time they should not chew, bite, or manipulate the side of the oral cavity to which the DBSF was applied . • Staff will observe the patient during this 15-minute period. It should be noted whether the subject chews, talks, moves the film, spits it out, or blows it out of his or her mouth. If the subject spits the film out or blows it out of his or her mouth, Staff should try to reinsert the film, if possible. No second film should be applied. • Dosing time will be set to the time the film is placed on the buccal mucosa. At 15 minutes after film placement, the subject will be asked to swallow any remaining film remnants, and the subject’s hands will be inspected to check whether the subject had removed the film (or a part of the film) from the mouth. The study staff will evaluate the insertion process to determine usability of the film as described in Section 11.10. As noted in Section 11.9 the Investigator will again perform post-dose oral safety assessments at 15, 30, and 60 minutes after film placement."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.2.5",
+    "section_title": "Post-treatment",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.2 Treatment Periods A and B > 11.2.5 Post-treatment",
+    "page_start": 52,
+    "page_end": 52,
+    "char_count": 405,
+    "text": "If the subject remains in the EMU, GCRC, or similar facility following the end of treatment period A or B, that time will be regarded as a post-treatment period. While the subject remains in the EMU, GCRC, or similar facility, general seizure activity, administration of additional AEDs, surgical treatment of their epilepsy, and AEs will be recorded. The subject will be discharged when medically stable."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.3",
+    "section_title": "Follow-up",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.3 Follow-up",
+    "page_start": 53,
+    "page_end": 53,
+    "char_count": 535,
+    "text": "Safety data including concomitant medication, vital signs, clinical laboratory tests (hematology, serum chemistry, urinalysis, including urine pregnancy test, as described in Section 11.4.2), AEs, comprehensive physical and neurological examinations, C-SSRS, and inspection of oral mucosa) will be obtained at a follow-up visit in an outpatient setting (to be determined by Investigator or Staff) at 14 ± 2 days after the last treatment period (A or B), or after withdrawal/discontinuation of a subject from the study (where possible)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.4",
+    "section_title": "Blood Sampling Schedule, Sample Collection, Processing, and",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.4 Blood Sampling Schedule, Sample Collection, Processing, and",
+    "page_start": 53,
+    "page_end": 53,
+    "char_count": 510,
+    "text": "Storage Blood will be obtained by direct venipuncture in the arm, or via an indwelling cannula. Subjects may use up to a total of 2 indwelling cannulas in each study period. A third indwelling cannula may only be used upon authorization by the Investigator or Qualified Designate. If the cannula fails to work (i.e. it becomes clogged), the remaining samples will be taken by direct venipuncture. Blood sample collection times will be recorded on the appropriate source documents and reported for each subject."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.4.1",
+    "section_title": "Pharmacokinetic Assessments",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.4 Blood Sampling Schedule, Sample Collection, Processing, and > 11.4.1 Pharmacokinetic Assessments",
+    "page_start": 53,
+    "page_end": 54,
+    "char_count": 2139,
+    "text": "During both treatment periods, plasma samples for diazepam and the active metabolite desmethyldiazepam PK will be obtained before DBSF administration and post dose at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), and 4 hours (240 minutes). In Treatment Period A, a plasma sample will also be taken at 8 hours (480 minutes) in the EMU, GCRC, or similar facility, and additional plasma samples will be collected (±2 hours), at 24, 48, 96, 144, 192, and 240 hours after DBSF administration in an outpatient setting (either at the EMU, GCRC or similar facility, or via home visits). Collection of plasma samples will continue regardless of the administration or whether another AED is administered for rescue. Blood PK samples will be placed in a refrigerated centrifuge within 30 minutes from the time of collection and centrifuged at approximately 3000 revolutions per minute (RPM) for 10 minutes under refrigerated (approximately 4°C) conditions. After centrifugation, the plasma will be aspirated and aliquoted into 2 pre-chilled clear polypropylene tubes. A minimum of 1 mL plasma will be transferred to the first tube, and the remaining plasma (if any) will be aliquoted into a second tube. Samples that are disturbed during the separation process will be re-spun under the same conditions in an attempt to obtain the maximum amount of plasma from each sample. Polypropylene tubes will be pre-chilled and pre-labeled with at least the following information: Time point, Protocol Number, Study Period, Aliquot Number, Matrix, and Subject Number. The samples will be stored at -20°C or colder) in a freezer pending shipment. Samples must be placed in the freezer within 70 minutes from the start of centrifugation. Throughout sample collection and following centrifugation, the samples will be maintained in an ice-bath until stored in the freezer. Details regarding the proper collection, preparation, labeling, storage, and shipment of plasma samples for PK analysis will be provided by the central laboratory in a lab manual."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.4.2",
+    "section_title": "Clinical Laboratory Assessment",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.4 Blood Sampling Schedule, Sample Collection, Processing, and > 11.4.2 Clinical Laboratory Assessment",
+    "page_start": 54,
+    "page_end": 55,
+    "char_count": 1748,
+    "text": "Blood samples will be collected for laboratory safety tests at Screening and at Follow-up or upon early termination. Blood and urine specimens will be collected by qualified study center personnel at all visits and sent to a central laboratory for analysis of the parameters specified in Table 8. Abnormal laboratory test results will be flagged by the central laboratory. Detailed instructions of sample collection, storage, and shipping will be provided by the central laboratory in a lab manual. All clinically important abnormal laboratory tests occurring during the study will be repeated and followed until they resolve (return to normal or baseline values) or stabilize, or until they are considered by the Investigator to be no longer clinically significant. Table 8 Clinical Laboratory Assessments TYPE OF COMPONENTS TEST • Hemoglobin • RBC • RBC morphology and MCV Hematology • Hematocrit • Platelet count • WBC and differential • BUN • Albumin • AST • Glucose • Uric acid • Protein • ALT Serum • Calcium • Creatinine • Bilirubin • Potassium chemistry • Sodium • Creatine kinase • Lactate • Alkaline chloride • Pregnancy Dehydrogenase Phosphatase a (ß-hCG) • Bilirubin • pH • Nitrites • Specific gravity Urinalysis • Blood • Ketones • Protein • UBG • • a Glucose Leukocytes • Pregnancy Additional Breath alcohol test tests Urine Tests for Drugs of Amphetamines, Phencyclidine, Cocaine, Opiates, Benzodiazepines, THC Abuse Diazepam & desmethyl- Active drug and metabolite in DBSF formulation diazepam ALT = alanine aminotransferase; AST = aspartate aminotransferase; BUN = blood urea nitrogen; RBC = red blood cells; UBG = urobilinogen; WBC = white blood cells. a Serum and urine pregnancy tests for females of child bearing potential only"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.4.3",
+    "section_title": "Number and Volume of Blood Samples",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.4 Blood Sampling Schedule, Sample Collection, Processing, and > 11.4.3 Number and Volume of Blood Samples",
+    "page_start": 55,
+    "page_end": 56,
+    "char_count": 1422,
+    "text": "The number and volume of blood samples is shown for the individual study visits and total volumes over the course of the study in Table 9. Table 9 Number and Volume of Blood Samples and Total Blood Volume Collected per Subject Maximum # Samples Volume TOTAL (mL) per Screening Period A Period B Follow-up Blood (mL) sample Clinical Chemistry a 8.5 1 - - 1 17 Hematology a 4 1 - - 1 8 PK b, c 6 14 b 7 b 126 Maximum Blood Volume (mL) TOTAL (mL) 12.5 84 42 12.5 151 PK – pre-chilled K EDTA Vacutainer ® , 6 mL 2 Type of Vacutainer ® Chemistry – Vacutainer ® , 8.5 mL Hematology – Vacutainer ® , 4 mL a. Samples for the clinical laboratory tests will be obtained at Screening and at Follow-up (or at early termination). b. Plasma samples for diazepam and desmethyldiazepam PK will be obtained during both Treatment Periods at predose and at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), and 4 hours (240 Blood sampling time points minutes) after dosing (total of 7 samples per period). In Treatment Period A, a plasma sample will be taken at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional plasma samples will be collected at 24, 48, 96, 144, 192, and 240 hours post dose (7 additional samples). c. The actual time of blood sample collection will be used for PK and statistical analysis."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.5",
+    "section_title": "Columbia- Suicide Severity Rating Scale (C-SSRS)",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.5 Columbia- Suicide Severity Rating Scale (C-SSRS)",
+    "page_start": 56,
+    "page_end": 56,
+    "char_count": 591,
+    "text": "The C-SSRS, which assesses suicidal behavior and ideation, will be administered at each study visit. Qualified, trained staff will administer the C-SSRS, Baseline-Screening version at Screening, and the C-SSRS, Since Last Visit version will be administered at Treatment Period A and B check-in, and at Follow-up. Subjects with Type 4 (active suicidal ideation with some intent to act, without specific plan) or Type 5 (active suicidal ideation with specific plan and intent) suicidal ideation during the study will be discontinued from the study and referred to a mental health professional."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.6",
+    "section_title": "Vital Signs",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.6 Vital Signs",
+    "page_start": 57,
+    "page_end": 57,
+    "char_count": 1488,
+    "text": "The subject’s vital signs (BP, HR, RR, and temperature) will be recorded at Screening and during both treatment periods pre-dose and post dose at the following time points (±5 minutes): 0.25 hours (15 minutes), 0.5 hours (30 minutes), 1 hour (60 minutes), 1.5 hours (90 minutes), 2 hours (120 minutes), 3 hours (180 minutes), and 4 hours (240 minutes). The subject’s position may be seated or supine, but should be consistent throughout. In Treatment Period A, vital signs will also be measured at 8 hours (480 minutes) in the EMU, GCRC or similar facility, and additional vital sign measurements will be made at 24, 48, 96, 144, 192, and 240 hours after DBSF administration in an outpatient setting (either at EMU, GCRC or similar facility, or via home visits). Vital signs will also be recorded at Follow-up. For subjects with pre- or post-dose vital signs outside of the acceptable range of systolic blood pressure between 90-140 mmHg, inclusive; diastolic blood pressure between 50- 90 mmHg, inclusive; or heart rate between 50-100 bpm, inclusive, the measurement will be repeated up to two times. If vital signs are still outside of the acceptable range, the Investigator will determine the appropriate course of action. Additional vital signs measurements will be taken if deemed necessary by the Investigator. Should a timing conflict arise, blood draws will take precedence over vital signs measurements and other scheduled activities, unless deemed otherwise by the Investigator."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.7",
+    "section_title": "12-Lead Electrocardiogram",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.7 12-Lead Electrocardiogram",
+    "page_start": 57,
+    "page_end": 57,
+    "char_count": 112,
+    "text": "A 12-lead ECG will be obtained at Screening, and at each treatment period both predose and 4 hours after dosing."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.8",
+    "section_title": "Physical/Neurological Examination",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.8 Physical/Neurological Examination",
+    "page_start": 57,
+    "page_end": 57,
+    "char_count": 119,
+    "text": "A physical and neurological examination will be performed at Screening and at Follow- up or prior to early termination."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.9",
+    "section_title": "Oral Safety Assessment",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.9 Oral Safety Assessment",
+    "page_start": 57,
+    "page_end": 58,
+    "char_count": 712,
+    "text": "The Investigator will make an illumination-assisted visual inspection of the oral mucosa, including the DBSF application site, at the following times: • At Screening; • During Treatment Periods A and B prior to dosing and at approximately 0.25 hours (15 minutes), 0.5 hours (30 minutes), and 1 hour (60 minutes) after application of the film (±5 minutes for all time points); and • At Follow-up. Mucosal irritation and any injuries to the oral cavity (e.g., tongue or mucosa laceration, broken tooth, bleeding) will be recorded using criteria specified in a checklist in the CRF. Any de novo post dose mucosal irritation or other abnormalities will be reported as AEs and followed as described in Section 12.1.2."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.10",
+    "section_title": "Usability",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.10 Usability",
+    "page_start": 58,
+    "page_end": 58,
+    "char_count": 1370,
+    "text": "To assess usability of DBSF, oral cavity insertion, retention, and placement will also be evaluated for each administration. The following usability endpoints will be reported: • Whether successful placement was achieved (Placement is judged to be successful when the film adheres to the center of the buccal mucosa of either the right or the left cheek, as shown in Appendix A). • Location of film placement (right or left) • Time of successful film placement. • Number of attempts needed to successfully insert the film (An attempt is defined as inserting the finger with the film into the subject’s mouth.) • Whether any remnant of the film remained 15 minutes after placement. (If yes, the subject should be instructed to swallow the remaining film and 15 minutes will be the time of complete film disintegration/dissolution that is reported in the CRF.) • Whether the subject spit or blew the film out of their mouth. If yes, whether an attempt was made to reinsert it. • Whether any saliva exited the subject’s mouth. If yes, time of exit and estimated total amount (in mL). • Whether a check of the subject’s hands at 15 minutes after film placement revealed that the film (or a part of the film) was removed by subject. Where applicable, categorical explanations of the circumstances will be given (e.g., uncooperative or confused patient in a peri-ictal state)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.11",
+    "section_title": "Food and Fluid Intake",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.11 Food and Fluid Intake",
+    "page_start": 59,
+    "page_end": 59,
+    "char_count": 228,
+    "text": "The date/time of the patient’s last meal before DBSF dose (both treatment periods) will be recorded. Food and water intake will be restricted for 1 hour after dosing. Food and water will be allowed ad libitum at all other times."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "11.12",
+    "section_title": "Physical Activity",
+    "breadcrumb": "2 weeks before a treatment visit, then the visit should be deferred for at least 2 weeks. If the > 11.12 Physical Activity",
+    "page_start": 59,
+    "page_end": 59,
+    "char_count": 101,
+    "text": "Subjects will be required to abstain from strenuous activities for the duration of each study period."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12",
+    "section_title": "ADVERSE EVENTS",
+    "breadcrumb": "12 ADVERSE EVENTS",
+    "page_start": 59,
+    "page_end": 59,
+    "char_count": 199,
+    "text": "The CRO, inVentiv Health, has established standard operating procedures (SOPs) in conformity with regulatory requirements to ensure the timely, accurate, and complete reporting of safety information."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1",
+    "section_title": "Adverse Event Recording and Follow-up",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up",
+    "page_start": 59,
+    "page_end": 59,
+    "char_count": 460,
+    "text": "Subjects will be instructed to inform clinic personnel of any untoward medical symptoms and/or events that may arise during the course of the study. Seizures will be recorded as AEs. At the treatment periods and follow-up visit, subjects will be questioned concerning symptoms that may have occurred after the previous administration of the study drug. The incidence, seriousness, severity, duration, and relationship to study drug of all AEs will be recorded."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1.1",
+    "section_title": "Serious Adverse Events",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up > 12.1.1 Serious Adverse Events",
+    "page_start": 59,
+    "page_end": 60,
+    "char_count": 1073,
+    "text": "An SAE is an AE that meets one or more of the following criteria: • Results in death • Is life-threatening (places the subject at immediate risk of death from the event as it occurred; this does not include an event that, had it occurred in a more severe form or was allowed to continue, might have caused death) • Results in inpatient hospitalization or prolongation of existing hospitalization • Results in a persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions • Is a congenital anomaly or birth defect (in the child of a subject who was exposed to the study drug) An important medical event that may not result in death, be life threatening, or require hospitalization may be considered an SAE when, based upon appropriate medical judgment, the event may jeopardize the subject and may require medical or surgical intervention to prevent one of the outcomes listed in this definition. Medical and scientific judgment should be exercised in deciding whether expedited reporting is appropriate in such situations."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1.2",
+    "section_title": "Evaluation of Severity of AEs",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up > 12.1.2 Evaluation of Severity of AEs",
+    "page_start": 60,
+    "page_end": 60,
+    "char_count": 581,
+    "text": "Severity will be evaluated according to the following scale: Mild Adverse event resulting in discomfort, but not sufficient to cause interference in normal daily activities. Moderate Adverse event resulting in discomfort that is sufficient to cause interference in daily activities. Severe Adverse event resulting in discomfort causing an inability to carry out normal daily activities. Adverse Event monitoring and reporting will be followed-up until resolution or for up to 2 weeks following completion of the study, after which the Investigator will decide the course of action."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1.3",
+    "section_title": "Assessing Relationship to Study Drug",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up > 12.1.3 Assessing Relationship to Study Drug",
+    "page_start": 60,
+    "page_end": 61,
+    "char_count": 1221,
+    "text": "The Investigator will assess the relationship of all AEs to the drug, using the following scale: Probable A clinical event, including laboratory test abnormality, with a reasonable time sequence to drug administration, unlikely to be attributed to concurrent disease or other drugs or chemicals, and which follows a clinically reasonable response on withdrawal. Possible A clinical event, including laboratory test abnormality, with a reasonable time sequence to drug administration, but which could also be explained by concurrent disease or other drugs or chemicals. Information on drug withdrawal may be lacking or unclear. Unlikely A clinical event, including laboratory test abnormality, with a temporal relationship to drug administration which makes a causal relationship improbable, and which other drugs, chemicals or underlying disease provide plausible explanation. Unrelated This category is applicable to AEs which are judged to be clearly and incontrovertibly due to extraneous causes (diseases, environment, etc.) and do not meet the criteria for drug relationship listed for the above-mentioned conditions. All AEs will be evaluated by the Investigator, who must approve the subject for subsequent dosing."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1.4",
+    "section_title": "Investigator Presence",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up > 12.1.4 Investigator Presence",
+    "page_start": 61,
+    "page_end": 61,
+    "char_count": 479,
+    "text": "The Investigator or designee will be present from approximately 30 minutes prior to dosing until at least 2 hours post dose for each subject. The Investigator or designee will remain on-call throughout the duration of each study subject’s treatment visit. The Investigator will be responsible for ensuring that a study subject is sufficiently medically stable to be safely discharged from the clinical unit (EMU or GCRC) regardless of whether the subject has received study drug."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.1.5",
+    "section_title": "Follow-up of AEs",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.1 Adverse Event Recording and Follow-up > 12.1.5 Follow-up of AEs",
+    "page_start": 61,
+    "page_end": 61,
+    "char_count": 225,
+    "text": "All AEs, whether serious or non-serious, will be monitored throughout the study and followed to resolution or for up to 2 weeks following completion of the study, after which the Investigator will decide the course of action."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "12.2",
+    "section_title": "Procedures for Reporting Adverse Events",
+    "breadcrumb": "12 ADVERSE EVENTS > 12.2 Procedures for Reporting Adverse Events",
+    "page_start": 62,
+    "page_end": 63,
+    "char_count": 3392,
+    "text": "Subjects will be instructed to inform clinic personnel of any AEs that may arise during the course of the study. Treatment of AEs will be administered under the direction of the Investigator. All symptoms will be recorded by clinic staff and will be reviewed by the Investigator prior to any subsequent dosing. When appropriate, medical tests and examinations will be performed to document resolution of the event(s). Adverse events will be coded into the Preferred Term (PT), classified according to the current version of Medical Dictionary for Regulatory Activities (MedDRA) with System Organ Classification (SOC) and reported with severity, duration, onset time and relationship to study drug and action taken. Female subjects of child-bearing potential must have a negative pregnancy test before study drug administration at each Treatment Visit. Any cases of pregnancy in female subjects that become known after administration of study drug will be reported immediately by phone and by faxing/emailing a completed Pregnancy Report to the Sponsor (or designee) within 24 hours of knowledge of the event. The pregnancy will not be processed as an SAE; however, the Investigator will follow the subject until completion of the pregnancy and must assess the outcome in the shortest possible time but not more than 30 days after completion of the pregnancy. The Investigator should notify the Sponsor (or designee) of the pregnancy outcome by submitting a follow-up Pregnancy Report. If the outcome of the pregnancy meets the criteria for immediate classification of an SAE (e.g., spontaneous or therapeutic abortion [any congenital anomaly detected in an aborted fetus is to be documented], stillbirth, neonatal death, or congenital anomaly), the Investigator will report the event by phone and by faxing a completed SAE form to the Sponsor (or designee) within 24 hours of knowledge of the event. All SAEs, whether or not the event is deemed drug-related, will be reported on the SAE Report Form by email or fax to the designated Clinical Research Organization, inVentiv Health within twenty-four hours (24 hours) of the Investigator or site staff becoming aware of the SAE. The safety address where SAE report forms and other SAE related documents should be sent is: Fax No. +1 866 856 1649 Email. In case of emergency or fax failure the report can also be submitted by email to saereceipt.international@inventivhealth.com If notification cannot be made via these means due to technical delivery problems, initial notification may be made by phone, using the inVentiv Health GSPV “SAE Hotline” number. A telephone call to the SAE Hotline does not substitute for the site’s responsibility to submit a written SAE Report Form to inVentiv Health SAEs reported via the Hotline number must be followed with the SAE report the same day. Hotline No.: 888-750-8020 In the event of any fatal or life-threatening SAE, the Investigator must also inform a Medical Monitor at inVentiv Health by telephone or email: Dr. Nermina Nakas Dr. Marcel Reichert Sr. Medical Director Medical Director Tel: 804-270-6074 Tel: 650-554-1706 Cellular: 804-837-6101 Cellular: 650-550-1706 Email: Email: nermina.nakas@inventivhealth.com marcel.reichert@inventivhealth.com The Investigator will be responsible for notifying the IRB. The Sponsor will be responsible for notifying the regulatory agencies, as appropriate."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "13.1",
+    "section_title": "Analytical Procedures",
+    "breadcrumb": "13 BIOANALYTICAL ANALYSIS > 13.1 Analytical Procedures",
+    "page_start": 63,
+    "page_end": 63,
+    "char_count": 252,
+    "text": "Data management, quality review and reporting of study data pertaining to laboratory analysis of study data will be the responsibility of the following facility: inVentiv Health 2500, rue Einstein Québec City, Québec G1P 0A2 Canada Tel.: 1-418-527-4000"
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "13.2",
+    "section_title": "Samples to be Assayed",
+    "breadcrumb": "13 BIOANALYTICAL ANALYSIS > 13.2 Samples to be Assayed",
+    "page_start": 64,
+    "page_end": 64,
+    "char_count": 93,
+    "text": "Samples from all subjects dosed in this bioavailability/observational study will be analyzed."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "13.3",
+    "section_title": "Analyte(s) in Biological Matrix",
+    "breadcrumb": "13 BIOANALYTICAL ANALYSIS > 13.3 Analyte(s) in Biological Matrix",
+    "page_start": 64,
+    "page_end": 64,
+    "char_count": 158,
+    "text": "Plasma samples will be assayed for diazepam and desmethyldiazepam using a validated analytical method according to the principles of Good Laboratory Practice."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.1",
+    "section_title": "Pharmacokinetic Analysis Data Set",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.1 Pharmacokinetic Analysis Data Set",
+    "page_start": 64,
+    "page_end": 64,
+    "char_count": 925,
+    "text": "The data from the following subjects will be included in the final PK and statistical analysis: • Subjects who complete at least one study period. • Subjects who have missed samples but for whom it has been predicted prior to the start of bioanalytical analysis that reliable estimates of the PK parameters should be possible. Data from subjects who were dismissed/withdrawn (for any reason other than non- compliance) or who withdrew will be evaluated by a Medical Monitor and/or the Sponsor for inclusion in the PK and statistical analysis. If reliable estimation of PK parameters will be judged possible, the data will be included in the analysis. If removed from the analysis, the data will be presented separately. Any decision for excluding data from the final data set will be provided with a detailed explanation and will be properly recorded and dated. The final PK data set will be defined prior to sample analysis."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.2",
+    "section_title": "Data Analyzed",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.2 Data Analyzed",
+    "page_start": 64,
+    "page_end": 65,
+    "char_count": 583,
+    "text": "Pharmacokinetic and statistical analysis will be performed by inVentiv Health. Summary statistics will be reported for pharmacokinetic, safety, and usability endpoints. Pharmacokinetic and statistical analysis will be performed on all data from all subjects in the final PK data set (Intent-to-Treat population). The actual time of blood samples collection will be used for PK and statistical analysis. The PK and/or statistical analyses outlined in this protocol may be altered with appropriate justification. A final Statistical Analysis Plan will be issued prior to database lock."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.2.1",
+    "section_title": "Pharmacokinetic Endpoints",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.2 Data Analyzed > 14.2.1 Pharmacokinetic Endpoints",
+    "page_start": 65,
+    "page_end": 66,
+    "char_count": 2041,
+    "text": "For Treatment Period A, the following PK parameters will be estimated (where possible) for diazepam and included in the PK and statistical analysis for the subjects in the final data set: C The maximal observed plasma concentration. T Time when the maximal plasma concentration is observed. AUC Area under the concentration-time curve from time zero until the last t measurable concentration or last sampling time t, whichever occurs first. AUC t is estimated using the trapezoidal method. AUC Area under the concentration-time curve from time zero to infinity, calculated inf as AUC + C /λ, where C is the last measurable concentration. t last last λ Terminal elimination rate constant, estimated by linear regression analysis of the terminal portion of the ln-concentration vs. time plot. T Terminal elimination half-life, estimated as ln(2)/λ. 1/2 Cl Clearance (L/hr) estimated from Dose/AUC inf Cl/kg Clearance/kg (L/hr/kg) estimated from Dose/kg/AUC inf Vdβ Volume of distribution (L) estimated from Cl/ λ(β) For PK and statistical analyses, drug concentrations below the lower limit of quantitation (BLQ) of an assay will be considered as zero except when they occur between two non- BLQ concentrations, where they will be considered as missing during PK calculations and estimations. Missed samples and non-reportable concentrations (e.g., quantity not sufficient) from the analytical laboratory will be treated as missing in the PK analysis. The λ, T , and AUC parameters will not be estimated for plasma concentration-time 1/2 inf profiles where the terminal linear phase is not clearly defined. For subjects with missing or non-reportable diazepam concentrations for three or more of the last samples, only the C and T will be presented and included in the statistical max max analysis. Other PK parameters will not be reported. For Period B, C , T , and AUC will be estimated. max max (0-4h) Descriptive statistics (min, max, median, mean, standard deviation and coefficient of variability) will be provided for all PK parameters."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.2.2",
+    "section_title": "Safety Endpoints",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.2 Data Analyzed > 14.2.2 Safety Endpoints",
+    "page_start": 66,
+    "page_end": 66,
+    "char_count": 709,
+    "text": "The following safety endpoints will be reported: • Type, incidence, and severity of AEs • TEAEs related to study drug • TEAEs leading to discontinuation • SAEs • Columbia Suicide Severity Rating scale (age-appropriate versions) • Vital signs (blood pressure, heart rate, respiratory rate, and temperature) • Physical and neurological examinations • Vital signs (blood pressure, respiratory rate, pulse rate, and temperature) • 12-lead ECG • Clinical laboratory tests (hematology, serum chemistry, and urinalysis) For purposes of the analysis, seizures that occur during Period A (within 8 hours after dosing) or during Period B (within 4 hours after dosing) will be handled as AEs unrelated to the study drug."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.2.3",
+    "section_title": "Usa bility Endpoints",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.2 Data Analyzed > 14.2.3 Usa bility Endpoints",
+    "page_start": 66,
+    "page_end": 67,
+    "char_count": 1252,
+    "text": "Frequency of the following usability endpoints will be reported for each treatment period: • Oral cavity placement assessment - Whether placement was successfully achieved - Time of successful film placement. - Placement location (right or left side) • Oral cavity insertion and retention assessment - Number of attempts needed to achieve successful placement  An attempt is defined as inserting the finger with the film into the subject’s mouth. Placement is judged to be successful when the film adheres to the center of the buccal mucosa of either the right or the left cheek, as shown in Appendix A.)  Categorical explanations will be captured for attempt failures - Whether any remnant of the film remained 15 minutes after placement. - Number of occurrences of DBSF being spit out or blown out by the subject after adherence to the buccal mucosa  Categorical explanations will be provided for each occurrence  Whether film was reinserted - Number of occurrences of saliva exiting the subject’s mouth  Recorded time and estimated amount of saliva (in mL)  Categorical explanations will be recorded for each occurrence - Whether subject had removed film or parts of film from the subject’s mouth (as revealed by check of the subject’s hands)."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "14.3",
+    "section_title": "Statistical Analyses",
+    "breadcrumb": "14 PHARMACOKINETIC AND STATISTICAL ANALYSIS > 14.3 Statistical Analyses",
+    "page_start": 67,
+    "page_end": 68,
+    "char_count": 1551,
+    "text": "No formal statistical tests will be performed to compare Period A vs. Period B on pharmacokinetic, safety, or usability endpoints. For Period A only, summary statistics will be reported for mean and geometric mean values of AUC , AUC , C , Cl, Cl/kg, V , and V /kg, as well as mean and median 0-t inf max d d T for diazepam. For Period B, summary statistics will be reported for mean and geometric mean C and AUC , and for mean and median T for diazepam. The max (0-4h) max 90% confidence intervals (CI) for the ratios (period A compared with period B) of geometric means for C and AUC will be reported. T will be compared (period max (0-4h) max A and B) with an appropriate non-parametric test. Summary statistics for desmethyldiazepam shall be limited to C and AUC for Period max t A and to C and AUC for Period B. max (0-4h) A descriptive comparison will also be performed to assess plasma concentration data for diazepam and desmethyldiazepam reported in subjects having true epileptic events in this study (Period B) compared to the data from the non-seizure period (Period A) and to data reported in the Phase 1 healthy volunteer studies who are in the DBSF clinical development program. Summary statistics will also include an evaluation of subjects’ age, concomitant medications, and treatment with DBSF for epileptic vs non-epileptic events. No efficacy analysis will be performed. Additional statistical and alternate tests will be performed if necessary. The PK and statistical analysis will be performed using an appropriate SAS ® Version."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "15.1",
+    "section_title": "Basic Principles",
+    "breadcrumb": "15 ETHICAL CONSIDERATIONS > 15.1 Basic Principles",
+    "page_start": 69,
+    "page_end": 69,
+    "char_count": 433,
+    "text": "This research will be carried out in accordance with Good Clinical Practice (GCP) as set out by the International Council for Harmonization (ICH), the basic principles defined in the U.S. Code of Federal Regulations (21 CFR Part 312), the Belmont Report, Directive 2001/20/EC (Europe), The Tri-Council Policy Statement and the principles enunciated in the most recent version of the World Medical Association Declaration of Helsinki."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "15.2",
+    "section_title": "Informed Consent",
+    "breadcrumb": "15 ETHICAL CONSIDERATIONS > 15.2 Informed Consent",
+    "page_start": 69,
+    "page_end": 69,
+    "char_count": 1452,
+    "text": "Informed consent will be obtained by the site PI and/or their IRB-approved designee. As noted in Section 8.1.2 and Section 9.1, written informed consent will be obtained from each potential subject or their legally authorized representative, or parent(s) if the subject is under the age of 18, before any study-specific procedures or assessments are performed and after the aims, methods, anticipated benefits, and potential hazards are explained. Willingness to participate in the study will be documented in writing in a consent form, approved by the IRB, which will be signed by the subject or their legally authorized representative, or parent(s), as applicable, and by the Investigator or designee, with the date of signature indicated. Subjects under the age of 18 must provide oral assent as required by the IRB. The Investigator will keep the original consent forms and copies will be given to the subject or their legally authorized representative or parent(s). It will also be explained to the subject or their legally authorized representative or parent(s) that the subject is free to refuse entry into the study and free to withdraw from the study at any time without prejudice to future treatment. Written and/or oral information about the study will be given to all subjects and legally authorized representatives or parent(s). HIPAA guidelines for confidentiality and the principles of medical ethics will be adhered to during the study."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "15.3",
+    "section_title": "Revisions and/or Amendments to the Protocol",
+    "breadcrumb": "15 ETHICAL CONSIDERATIONS > 15.3 Revisions and/or Amendments to the Protocol",
+    "page_start": 69,
+    "page_end": 70,
+    "char_count": 899,
+    "text": "Revisions and/or amendments to the protocol must be documented and approved by the Investigator and Sponsor. If the revision/amendment will affect subject safety and/or study design, then the amendment will be re-submitted to the IRB for approval. Administrative changes (i.e., change of analytical facility, typographical errors, discrepancies, clarifications) will also be submitted to the IRB, but may not require approval. A copy of the IRB’s approval documents will be included in the final report. For revisions or amendments to the protocol that substantially alter the study design after initiation of the study, the Investigator and Sponsor will decide whether a revised ICF will be needed for continued participation. It is the Sponsor’s responsibility to submit, or to assign responsibility to submit, all revisions and amendments to the appropriate regulatory authorities when necessary."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "15.4",
+    "section_title": "Delegation of Investigator Tasks",
+    "breadcrumb": "15 ETHICAL CONSIDERATIONS > 15.4 Delegation of Investigator Tasks",
+    "page_start": 70,
+    "page_end": 70,
+    "char_count": 347,
+    "text": "The Investigator may delegate tasks as appropriate to individuals who are qualified by education, training, and experience (and state licensure where relevant) to perform the delegated task, as described in the FDA Guidance for Industry on Investigator Responsibilities — Protecting the Rights, Safety, and Welfare of Study Subjects, October 2009."
+  },
+  {
+    "doc_id": "NCT03179891_Prot_000",
+    "section_number": "16",
+    "section_title": "REFERENCES",
+    "breadcrumb": "16 REFERENCES",
+    "page_start": 71,
+    "page_end": 73,
+    "char_count": 3534,
+    "text": "Bergen DC. Do seizures harm the brain? Epilepsy Curr . 2006;6(4):117-118. Calcaterra NE, Barrow JC. Classics in chemical neuroscience: diazepam (valium). ACS Chem Neurosci . 2014;5(4):253-260. Cereghino JJ. Identification and treatment of acute repetitive seizures in children and adults. Curr Treat Options Neurol . 2007;9(4):249-255. Dean L. Diazepam Therapy and CYP2C19 Genotype In: Pratt V, McLeod H, Dean L, editors. Medical Genetics Summaries [Internet] . Bethesda MD: National Center for Biotechnology Information (US); 2016. Accessed 22 May 2017. Available from: https://www.ncbi.nlm.nih.gov/books/NBK379740/ Diastat ® AcuDial™ rectal gel prescribing information. December 2016. Accessed 2 May 2017. Available from: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=A84A73A7-8E3A-4985- 8BE0-04B3028F5E49 Fisgin T, Gurer Y, Tezic T, Senbil N, Zorlu P, Okuyaz C, Akgun D. Effects of intranasal midazolam and rectal diazepam on acute convulsions in children: prospective randomized study. J Child Neurol . 2002;17(2):123-126. Glauser TA. Designing practical evidence-based treatment plans for children with prolonged seizures and status epilepticus. J Child Neurol . 2007;22(5 Suppl):38S-46S. Haut SR. Seizure clustering. Epilepsy & Behavior . 2006;8(1):50-55. Kapur J, Macdonald RL. Rapid seizure-induced reduction of benzodiazepine and Zn2+ sensitivity of hippocampal dentate granule cell GABAA receptors. J Neurosci . 1997;17(19):7532-7540. Lowenstein DH, Alldredge BK. Status epilepticus. N Engl J Med . 1998;338(14):970-976. Matheson AJ, Lowe MN, Palmer KJ, Wilde MI. Management of Acute Repetitive Seizures. Disease Management and Health Outcomes . 2000;8(6):355-368. Riss J, Cloyd J, Gates J, Collins S. Benzodiazepines in epilepsy: pharmacology and pharmacokinetics. Acta Neurol Scand . 2008;118(2):69-86. Sankar R, Rho JM. Do seizures affect the developing brain? Lessons from the laboratory. J Child Neurol . 2007;22(5 Suppl):21S-29S. Tan KR, Rudolph U, Lüscher C. Hooked on benzodiazepines: GABAA receptor subtypes and addiction. Trends Neurosci . 2011;34(4):188-197. Tatum WO. Adult patient perceptions of emergency rectal medications for refractory seizures. Epilepsy Behav . 2002;3(6):535-538. Waterhouse EJ, Garnett LK, Towne AR, Morton LD, Barnes T, Ko D, DeLorenzo RJ. Prospective population-based study of intermittent and continuous convulsive status epilepticus in Richmond, Virginia. Epilepsia . 1999;40(6):752-758. Appendix A Placement Diagram for MonoSol Rx Buccal Soluble Film Test Drug: Placement against the buccal mucosa (either side of film can be placed against the buccal mucosa): MonoSol Rx film is to be centered against the inner aspect of the right or left cheek, as illustrated by the Figure below. The film may be placed without regard to the location of the parotid duct. Ensure film is completely adhered to the mucosal surface. Note: Figure is for illustrative purposes and not drawn to scale. As soon as the film has been placed on the buccal mucosa, the subject should be instructed to lie on his or her side. The subject should lie on the right side (right side down) if the DBSF has been placed on the right buccal surface, or on the left side (left side down) if the DBSF has been placed on the left buccal surface. It is recommended that the subject should remain in position (lying on the appropriate side) for 15 minutes. Subjects should be instructed that during this time they should not chew, bite, or manipulate the side of the oral cavity to which the DBSF was applied ."
+  }
+]
