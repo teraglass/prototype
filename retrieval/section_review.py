@@ -160,7 +160,14 @@ class SectionReview:
 
 def retrieve_guidelines(client: chromadb.ClientAPI, protocol_text: str, top_k: int) -> dict:
     collection = client.get_collection("guideline")
-    return collection.query(query_embeddings=[embed_query(protocol_text)], n_results=top_k)
+    return collection.query(
+        query_embeddings=[embed_query(protocol_text)],
+        n_results=top_k,
+        # 용어 정의(GLOSSARY) 청크는 "검토 포인트"가 아니라서 후보에서 제외한다.
+        # eval로 확인한 문제: 정의 청크가 실제 요구사항 조항과 순위 경쟁을 해서
+        # top_k 안에서 밀어낸다 (retrieval/build_vectorstore.py의 is_definition 참고).
+        where={"is_definition": False},
+    )
 
 
 def is_substring_grounded(quote: str, source_text: str) -> bool:
@@ -208,22 +215,39 @@ def build_review_prompt(protocol_chunk: dict, guideline_docs: list[str], guideli
 """
 
 
+REQUIRED_RESULT_KEYS = {"flag", "rationale", "confidence", "citations"}
+MAX_LLM_ATTEMPTS = 2
+
+
 @traceable(run_type="llm", name="claude_section_review")
 def call_review_llm(anthropic_client: Anthropic, prompt: str) -> tuple[dict, dict]:
-    response = anthropic_client.messages.create(
-        model=MODEL_NAME,
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        tools=[REVIEW_TOOL],
-        tool_choice={"type": "tool", "name": "submit_section_review"},
-        messages=[{"role": "user", "content": prompt}],
+    # tool_choice로 강제해도 모델이 required 필드를 다 채운다는 보장은 없다 — 실제로
+    # citations가 길어져 max_tokens에 걸리면서 confidence가 통째로 빠진 응답을 받은
+    # 적이 있다. 필수 키 검증 후 비어있으면 한 번 재시도한다.
+    last_result = None
+    for attempt in range(MAX_LLM_ATTEMPTS):
+        response = anthropic_client.messages.create(
+            model=MODEL_NAME,
+            max_tokens=1536,
+            system=SYSTEM_PROMPT,
+            tools=[REVIEW_TOOL],
+            tool_choice={"type": "tool", "name": "submit_section_review"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        tool_use = next(b for b in response.content if b.type == "tool_use")
+        usage = {
+            "input_tokens": response.usage.input_tokens,
+            "output_tokens": response.usage.output_tokens,
+        }
+        last_result = tool_use.input
+
+        if REQUIRED_RESULT_KEYS.issubset(last_result.keys()):
+            return last_result, usage
+
+    missing = REQUIRED_RESULT_KEYS - last_result.keys()
+    raise ValueError(
+        f"LLM 응답에 필수 키 누락 ({MAX_LLM_ATTEMPTS}회 시도 후에도): {missing}, result={last_result}"
     )
-    tool_use = next(b for b in response.content if b.type == "tool_use")
-    usage = {
-        "input_tokens": response.usage.input_tokens,
-        "output_tokens": response.usage.output_tokens,
-    }
-    return tool_use.input, usage
 
 
 def build_citations(

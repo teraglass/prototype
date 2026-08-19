@@ -1,6 +1,9 @@
 # 로컬 도구 설정
 .claude/
 
+# 개인 메모 (구직 관련, 공개 저장소에 올리지 않음)
+INTERVIEW_PREP.md
+
 # 비밀값
 .env
 
