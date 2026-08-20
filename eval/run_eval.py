@@ -60,10 +60,10 @@ def _target_hit(case: dict, citations: list) -> bool:
     return False
 
 
-def run():
+def run(use_hyde: bool = True):
     anthropic_client = Anthropic()
     chroma_client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
-    graph = build_review_graph(anthropic_client, chroma_client)
+    graph = build_review_graph(anthropic_client, chroma_client, use_hyde=use_hyde)
 
     results = []
     for case in EVAL_CASES:
@@ -162,9 +162,39 @@ def _render_report(results: list, n: int, recall: float, compliant_hit_rate: flo
         "중 14위로 밀려나 있었다. `retrieval/build_vectorstore.py`에 `is_definition`",
         "메타데이터를 추가해 GLOSSARY 청크를 retrieval 후보에서 제외하도록 고치자, 같은",
         "쿼리에서 타겟 조항이 top_k=4 안 3위로 올라왔고, 재실행 결과 recall이 83%(5/6)로",
-        "올랐다. 아래 케이스별 결과와 실패 분석은 이 수정을 반영한 최신 실행 기준이다.",
+        "올랐다.",
         "",
-        "## 케이스별 상세",
+        "## HyDE 실험 (기본값 off로 결론)",
+        "",
+        "남은 실패 케이스(`trial_injury_compensation`)를 고치려고 HyDE(Hypothetical",
+        "Document Embeddings)를 시도했다 — 프로토콜 원문 대신 \"이 주제라면 가이드라인이",
+        "이렇게 쓰여있을 것이다\"라는 가상 문장을 LLM으로 만들어 그걸로 retrieval.",
+        "",
+        "1. HyDE만 단독 적용: 특정 케이스는 고쳐졌지만 잘 되던 `data_audit_trail`이",
+        "   깨졌다. 원인: HyDE로 만든 상세한 문장은 코퍼스 대다수 청크에 대해 절대",
+        "   거리값 자체가 구조적으로 낮게 나오는 경향이 있어서(가이드라인 특유의",
+        "   격식체 문장과 어휘가 겹치는 게 많아서), 원문 쿼리가 정확히 하나만 콕",
+        "   집었어도 순위표가 흔들렸다.",
+        "2. 원문+HyDE 쿼리를 합쳐서 검색(거리값 기준 병합)했더니 오히려 더 나빠졌다",
+        "   (recall 50%). 서로 다른 쿼리의 절대 거리값은 스케일이 달라 직접 비교하면",
+        "   안 된다는 걸 뒤늦게 확인 — HyDE 쪽이 절대 거리 경쟁에서 항상 유리해서",
+        "   원문 쿼리의 결과를 통째로 밀어냈다.",
+        "3. 병합 방식을 절대 거리 대신 순위 기반(Reciprocal Rank Fusion, RRF)으로",
+        "   바꾸자 retrieval만 따로 테스트했을 때 recall이 92%(11/12)까지 올라갔다.",
+        "4. 하지만 compare 단계까지 포함한 end-to-end eval에서는 오히려 67%(4/6)로,",
+        "   HyDE를 안 쓴 baseline(83%)보다 낮았다. 3회 반복 모두 정확히 재현되는",
+        "   안정적인 수치였다 (baseline도 3회 모두 83%로 안정적이었음 — 우연이",
+        "   아니라는 뜻). retrieval 후보 집합이 매번 조금씩 달라지면서, compare",
+        "   LLM이 최종적으로 인용하는 조항도 같이 흔들린 것으로 보인다.",
+        "",
+        "**결론**: retrieval만 떼어놓고 보면 HyDE+RRF가 분명히 더 낫다(67%→92%).",
+        "하지만 실제로 배포되는 건 retrieval이 아니라 전체 파이프라인이고, 거기서는",
+        "오히려 더 나쁜 결과가 3회 연속 재현됐다. 그래서 `agent/graph.py`의",
+        "`use_hyde` 기본값을 `False`로 두고, 코드는 옵트인으로 남겨뒀다. 기법이",
+        "이론적으로 맞다는 것과 이 파이프라인에서 실제로 이득이라는 건 다른",
+        "질문이라는 걸 확인한 케이스.",
+        "",
+        "## 케이스별 상세 (아래는 기본 설정 — use_hyde=False 기준)",
         "",
     ]
 
@@ -187,6 +217,9 @@ def _render_report(results: list, n: int, recall: float, compliant_hit_rate: flo
     lines.extend(
         [
             "## 남은 실패 케이스 원인 분석",
+            "",
+            "(이 섹션은 use_hyde=False 기본 설정 기준. HyDE로 이 케이스를 고쳐보려던",
+            "시도와 그 결과는 위 'HyDE 실험' 섹션 참고.)",
             "",
             "**trial_injury_compensation (redacted만)** — 흥미로운 지점이다: redacted 텍스트",
             "(\"참가자에게 절차 비용을 청구하지 않는다\")가 그 자체로 너무 일반적이라 5.8",
@@ -212,4 +245,9 @@ def _render_report(results: list, n: int, recall: float, compliant_hit_rate: flo
 
 
 if __name__ == "__main__":
-    run()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-hyde", action="store_true", help="HyDE 쿼리 확장 없이 원문만으로 retrieval")
+    args = parser.parse_args()
+    run(use_hyde=not args.no_hyde)

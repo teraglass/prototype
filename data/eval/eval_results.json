@@ -30,6 +30,11 @@
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "4 INVESTIGATOR > 4.4 Communication with IRB/IEC",
               "grounded": true
+            },
+            {
+              "doc_id": "ICH_E6R2_GCP",
+              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.1 Responsibilities",
+              "grounded": true
             }
           ]
         }
@@ -42,7 +47,7 @@
         "redacted": {
           "text": "The study will enroll a total of 120 participants across all sites.",
           "flag": "review_needed",
-          "confidence": 0.75,
+          "confidence": 0.9,
           "target_hit": true,
           "citations": [
             {
@@ -55,7 +60,7 @@
         "compliant": {
           "text": "The study will enroll a total of 120 participants across all sites. This sample size was determined using a power analysis assuming a two-sided alpha of 0.05 and 80% power to detect a between-group difference of 0.5 standard deviations, based on effect sizes observed in prior trials of this intervention.",
           "flag": "aligned",
-          "confidence": 0.85,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
@@ -139,7 +144,7 @@
         "compliant": {
           "text": "Adverse events will be recorded at each study visit using a structured case report form. Serious adverse events (SAEs) will be reported to the sponsor within 24 hours of the site becoming aware of the event, followed by a detailed written report within 5 business days; the sponsor will in turn notify the IRB and applicable regulatory authorities per local requirements.",
           "flag": "aligned",
-          "confidence": 0.85,
+          "confidence": 0.8,
           "target_hit": true,
           "citations": [
             {
@@ -150,6 +155,11 @@
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "4 INVESTIGATOR > 4.11 Safety Reporting",
+              "grounded": true
+            },
+            {
+              "doc_id": "ICH_E6R2_GCP",
+              "breadcrumb": "5 SPONSOR > 5.17 Adverse Drug Reaction Reporting",
               "grounded": true
             }
           ]
@@ -163,14 +173,9 @@
         "redacted": {
           "text": "Study data will be collected and stored using a web-based electronic data capture (EDC) system.",
           "flag": "review_needed",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "target_hit": true,
           "citations": [
-            {
-              "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "5 SPONSOR > 5.5 Trial Management, Data Handling, and Record Keeping",
-              "grounded": true
-            },
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "5 SPONSOR > 5.5 Trial Management, Data Handling, and Record Keeping",
@@ -208,6 +213,11 @@
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "5 SPONSOR > 5.5 Trial Management, Data Handling, and Record Keeping",
               "grounded": true
+            },
+            {
+              "doc_id": "ICH_E6R2_GCP",
+              "breadcrumb": "5 SPONSOR > 5.5 Trial Management, Data Handling, and Record Keeping",
+              "grounded": true
             }
           ]
         }
@@ -220,20 +230,14 @@
         "redacted": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol.",
           "flag": "review_needed",
-          "confidence": 0.55,
+          "confidence": 0.4,
           "target_hit": false,
-          "citations": [
-            {
-              "doc_id": "ICH_E8R1_General_Considerations",
-              "breadcrumb": "6 CONDUCT, SAFETY MONITORING, AND REPORTING > 6.2 Participant Safety during Study Conduct > 6.2.2 Withdrawal Criteria",
-              "grounded": true
-            }
-          ]
+          "citations": []
         },
         "compliant": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol. In the event a participant experiences an injury that is directly related to study participation, the sponsor will cover the cost of medically necessary treatment for that injury in accordance with applicable regulatory requirements.",
           "flag": "aligned",
-          "confidence": 0.85,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
