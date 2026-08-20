@@ -38,6 +38,19 @@ GROUNDEDNESS_MATCH_RATIO = 0.85  # difflib 유사도 기준 — OCR/공백 차�
 
 MODEL_NAME = os.environ.get("COMPARE_MODEL", "claude-sonnet-5")
 
+HYDE_SYSTEM_PROMPT = """\
+당신은 임상시험 프로토콜 섹션이 어떤 규제 요구사항과 관련되는지 파악하는 보조 도구입니다.
+주어진 프로토콜 섹션을 읽고, 이 섹션이 다루는 주제에 대해 ICH GCP 같은 규제 가이드라인이
+전형적으로 어떻게 요구사항을 서술하는지 1~3문장으로 작성하세요.
+
+중요:
+- 프로토콜 원문을 요약하거나 반복하지 마세요.
+- "Sponsors should ensure that...", "The protocol should specify..." 처럼 실제
+  규제 가이드라인 조항과 같은 어휘·문체로 쓰세요.
+- 여러 주제가 섞여 있다면 가장 핵심적인 것 1~2개만 다루세요.
+- 영어로 작성하세요 (가이드라인 코퍼스가 영어라 검색 품질에 유리합니다).
+"""
+
 SYSTEM_PROMPT = """\
 당신은 임상시험 프로토콜을 규제 가이드라인과 대조해 검토 포인트를 찾아주는 보조 도구입니다.
 
@@ -158,9 +171,74 @@ class SectionReview:
         )
 
 
-def retrieve_guidelines(client: chromadb.ClientAPI, protocol_text: str, top_k: int) -> dict:
+@traceable(run_type="llm", name="claude_hyde_query")
+def build_hyde_query(anthropic_client: Anthropic, protocol_text: str) -> str:
+    # HyDE (Hypothetical Document Embeddings): 프로토콜 원문을 그대로 검색 쿼리로
+    # 쓰면, 요구사항이 빠져서 문제인 섹션일수록 그 결함 때문에 텍스트가 모호해져
+    # 오히려 관련 가이드라인을 못 찾는 역설이 있다 (eval로 실측: trial_injury_
+    # compensation 케이스가 top_k=4는커녕 top-30에도 안 잡힘). 그래서 원문 대신
+    # "이 주제를 다루는 가이드라인 조항이라면 이렇게 쓰여있을 것이다"라는 가상의
+    # 문장을 LLM으로 만들어서, 그걸로 검색한다. 실제 대조(compare_node)는 여전히
+    # 프로토콜 원문을 본다 — 이 함수는 retrieval 쿼리 품질만 개선하는 전처리 단계.
+    response = anthropic_client.messages.create(
+        model=MODEL_NAME,
+        max_tokens=256,
+        system=HYDE_SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": f"프로토콜 섹션:\n\n{protocol_text}"}],
+    )
+    return "".join(block.text for block in response.content if block.type == "text").strip()
+
+
+def retrieve_guidelines(client: chromadb.ClientAPI, query_text: str, top_k: int) -> dict:
     collection = client.get_collection("guideline")
-    return collection.query(query_embeddings=[embed_query(protocol_text)], n_results=top_k)
+    return collection.query(
+        query_embeddings=[embed_query(query_text)],
+        n_results=top_k,
+        # 용어 정의(GLOSSARY) 청크는 "검토 포인트"가 아니라서 후보에서 제외한다.
+        # eval로 확인한 문제: 정의 청크가 실제 요구사항 조항과 순위 경쟁을 해서
+        # top_k 안에서 밀어낸다 (retrieval/build_vectorstore.py의 is_definition 참고).
+        where={"is_definition": False},
+    )
+
+
+RRF_K = 60  # Reciprocal Rank Fusion의 관례적 상수 (Elasticsearch 등에서 흔히 쓰는 기본값)
+
+
+def retrieve_guidelines_ensemble(client: chromadb.ClientAPI, query_texts: list[str], top_k: int) -> dict:
+    # HyDE 쿼리 하나만 믿으면 실행마다 문구가 달라지면서 결과가 흔들린다 — 실제로
+    # 확인한 문제: HyDE 텍스트가 살짝 다르게 나올 때마다, 서로 의미가 가까운
+    # SPONSOR 섹션들(5.0/5.1/5.15/5.18/5.5) 사이에서 어느 게 이길지가 뒤바뀌었다.
+    # 반면 프로토콜 원문 검색은 이 케이스에서 이미 잘 맞았다. 그래서 원문과 HyDE
+    # 쿼리를 각각 검색해서 결과를 합친다.
+    #
+    # 처음엔 "거리가 더 가까운 쪽 채택"으로 합쳤다가 실제로 더 나쁜 결과가 나왔다 —
+    # 원인을 보니, 문장이 길고 가이드라인 문체에 가까운 HyDE 쿼리는 코퍼스 전체에
+    # 대해 절대 거리값 자체가 구조적으로 낮게(=가깝게) 나오는 경향이 있어서, 원문
+    # 쿼리가 정확한 조항 하나만 콕 집었어도 절대 거리값 경쟁에서 밀려 통째로
+    # 묻혀버렸다. 서로 다른 쿼리의 거리값은 스케일이 다르므로 직접 비교하면 안 된다
+    # — 그래서 절대 거리 대신 각 쿼리 안에서의 순위(rank)만 보는 RRF로 합친다.
+    collection = client.get_collection("guideline")
+    candidates: dict[str, tuple[str, dict]] = {}
+    rrf_scores: dict[str, float] = {}
+
+    for query_text in query_texts:
+        result = collection.query(
+            query_embeddings=[embed_query(query_text)],
+            n_results=top_k,
+            where={"is_definition": False},
+        )
+        for rank, (doc_id, doc, meta) in enumerate(
+            zip(result["ids"][0], result["documents"][0], result["metadatas"][0]), start=1
+        ):
+            candidates[doc_id] = (doc, meta)
+            rrf_scores[doc_id] = rrf_scores.get(doc_id, 0.0) + 1.0 / (RRF_K + rank)
+
+    ranked_ids = sorted(rrf_scores, key=lambda d: rrf_scores[d], reverse=True)[:top_k]
+    return {
+        "documents": [[candidates[d][0] for d in ranked_ids]],
+        "metadatas": [[candidates[d][1] for d in ranked_ids]],
+        "distances": [[1.0 - rrf_scores[d] for d in ranked_ids]],  # 참고용 — 실제 임베딩 거리 아님
+    }
 
 
 def is_substring_grounded(quote: str, source_text: str) -> bool:
@@ -208,22 +286,39 @@ def build_review_prompt(protocol_chunk: dict, guideline_docs: list[str], guideli
 """
 
 
+REQUIRED_RESULT_KEYS = {"flag", "rationale", "confidence", "citations"}
+MAX_LLM_ATTEMPTS = 2
+
+
 @traceable(run_type="llm", name="claude_section_review")
 def call_review_llm(anthropic_client: Anthropic, prompt: str) -> tuple[dict, dict]:
-    response = anthropic_client.messages.create(
-        model=MODEL_NAME,
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        tools=[REVIEW_TOOL],
-        tool_choice={"type": "tool", "name": "submit_section_review"},
-        messages=[{"role": "user", "content": prompt}],
+    # tool_choice로 강제해도 모델이 required 필드를 다 채운다는 보장은 없다 — 실제로
+    # citations가 길어져 max_tokens에 걸리면서 confidence가 통째로 빠진 응답을 받은
+    # 적이 있다. 필수 키 검증 후 비어있으면 한 번 재시도한다.
+    last_result = None
+    for attempt in range(MAX_LLM_ATTEMPTS):
+        response = anthropic_client.messages.create(
+            model=MODEL_NAME,
+            max_tokens=1536,
+            system=SYSTEM_PROMPT,
+            tools=[REVIEW_TOOL],
+            tool_choice={"type": "tool", "name": "submit_section_review"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        tool_use = next(b for b in response.content if b.type == "tool_use")
+        usage = {
+            "input_tokens": response.usage.input_tokens,
+            "output_tokens": response.usage.output_tokens,
+        }
+        last_result = tool_use.input
+
+        if REQUIRED_RESULT_KEYS.issubset(last_result.keys()):
+            return last_result, usage
+
+    missing = REQUIRED_RESULT_KEYS - last_result.keys()
+    raise ValueError(
+        f"LLM 응답에 필수 키 누락 ({MAX_LLM_ATTEMPTS}회 시도 후에도): {missing}, result={last_result}"
     )
-    tool_use = next(b for b in response.content if b.type == "tool_use")
-    usage = {
-        "input_tokens": response.usage.input_tokens,
-        "output_tokens": response.usage.output_tokens,
-    }
-    return tool_use.input, usage
 
 
 def build_citations(

@@ -10,6 +10,9 @@ class ReviewState(TypedDict, total=False):
     protocol_chunk: dict
     top_k: int
 
+    # hyde_node가 채움
+    hyde_query: str
+
     # retrieve_node가 채움
     guideline_docs: list[str]
     guideline_metas: list[dict]

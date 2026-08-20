@@ -44,16 +44,28 @@ def _load_chunks(corpus_dir: Path) -> list[dict]:
     return chunks
 
 
+def _is_definition(breadcrumb: str) -> bool:
+    # ICH E6(R2)는 청크의 41%(65/159)가 "1 GLOSSARY > ..." 아래 용어 정의다. 이
+    # 정의 청크들이 "audit trail", "validated" 같은 흔한 단어를 하나씩 담고 있어서
+    # 실제 요구사항 조항(예: 5.5 Trial Management)과 retrieval 순위를 놓고 경쟁하며
+    # top-k에서 밀어내는 걸 eval로 실제 확인했다 (target이 top-30 중 14위로 밀림).
+    # 정의 자체는 "검토 포인트"가 아니라서 대조용 retrieval 후보에서는 제외한다.
+    top_level = breadcrumb.split(">")[0].strip().upper()
+    return top_level.endswith("GLOSSARY")
+
+
 def _to_metadata(chunk: dict) -> dict:
     # Chroma 메타데이터는 str/int/float/bool만 허용 — None은 넣을 수 없다.
+    breadcrumb = chunk["breadcrumb"] or ""
     return {
         "doc_id": chunk["doc_id"],
         "source_org": _source_org(chunk["doc_id"]),
         "section_number": chunk["section_number"] or "",
         "section_title": chunk["section_title"] or "",
-        "breadcrumb": chunk["breadcrumb"] or "",
+        "breadcrumb": breadcrumb,
         "page_start": chunk["page_start"] or 0,
         "page_end": chunk["page_end"] or 0,
+        "is_definition": _is_definition(breadcrumb),
     }
 
 
@@ -88,13 +100,21 @@ def build_collection(client: chromadb.ClientAPI, name: str, corpus_dir: Path) ->
 def main():
     parser = argparse.ArgumentParser(description="가이드라인/프로토콜 청크를 Chroma에 적재")
     parser.add_argument("--vectorstore-dir", default=str(VECTORSTORE_DIR))
+    parser.add_argument(
+        "--only",
+        choices=["guideline", "protocol"],
+        help="지정하면 해당 컬렉션만 다시 빌드한다 (다른 쪽은 그대로 둠)",
+    )
     args = parser.parse_args()
 
     Path(args.vectorstore_dir).mkdir(parents=True, exist_ok=True)
     client = chromadb.PersistentClient(path=args.vectorstore_dir)
 
-    n_guidelines = build_collection(client, "guideline", CHUNKS_DIR / "guidelines")
-    n_protocols = build_collection(client, "protocol", CHUNKS_DIR / "protocols")
+    n_guidelines = n_protocols = None
+    if args.only in (None, "guideline"):
+        n_guidelines = build_collection(client, "guideline", CHUNKS_DIR / "guidelines")
+    if args.only in (None, "protocol"):
+        n_protocols = build_collection(client, "protocol", CHUNKS_DIR / "protocols")
 
     print(
         f"완료: guideline={n_guidelines}건, protocol={n_protocols}건 -> {args.vectorstore_dir}",

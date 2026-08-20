@@ -1,0 +1,253 @@
+"""
+결함 주입 eval harness 실행기.
+
+cases.py의 각 케이스마다 redacted(요구사항 문장 뺀 버전)/compliant(포함 버전)
+두 변형을 만들어 LangGraph 리뷰 파이프라인에 그대로 태운다. 핵심 지표는
+"redacted 버전을 돌렸을 때, 우리가 뺀 요구사항에 해당하는 가이드라인 조항이
+실제로 citations에 잡히는가" — recall이다.
+
+flag(aligned/review_needed/conflict) 자체는 참고용으로만 같이 찍는다. 실제로
+돌려본 결과 이 시스템은 사소한 이유로도 review_needed를 꽤 자주 준다는 걸
+확인했기 때문에(Phase 4/5 노트), flag 하나만 보고 "적중/실패"를 가르면 노이즈가
+크다. citations에 정확한 조항이 잡히는지가 더 깨끗한 신호다.
+"""
+
+import json
+import sys
+from pathlib import Path
+
+import chromadb
+from anthropic import Anthropic
+from dotenv import load_dotenv
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+load_dotenv()
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from agent.graph import build_review_graph
+from eval.cases import EVAL_CASES, build_variants
+
+ROOT = Path(__file__).resolve().parent.parent
+VECTORSTORE_DIR = ROOT / "data" / "vectorstore"
+OUTPUT_PATH = ROOT / "data" / "eval" / "eval_results.json"
+REPORT_PATH = ROOT / "data" / "eval" / "eval_report.md"
+
+TOP_K = 4
+
+
+def _make_chunk(case: dict, variant: str, text: str) -> dict:
+    return {
+        "doc_id": "eval_synthetic",
+        "section_number": case["id"],
+        "section_title": case["topic"],
+        "breadcrumb": f"[EVAL:{variant}] {case['topic']}",
+        "page_start": 0,
+        "page_end": 0,
+        "char_count": len(text),
+        "text": text,
+    }
+
+
+def _target_hit(case: dict, citations: list) -> bool:
+    for c in citations:
+        if c.doc_id != case["target_doc_id"]:
+            continue
+        haystack = f"{c.breadcrumb} {c.guideline_ref}"
+        if any(kw in haystack for kw in case["target_section_keywords"]):
+            return True
+    return False
+
+
+def run(use_hyde: bool = True):
+    anthropic_client = Anthropic()
+    chroma_client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
+    graph = build_review_graph(anthropic_client, chroma_client, use_hyde=use_hyde)
+
+    results = []
+    for case in EVAL_CASES:
+        redacted_text, compliant_text = build_variants(case)
+        print(f"[{case['id']}] {case['topic']}", file=sys.stderr)
+
+        case_result = {"id": case["id"], "topic": case["topic"], "variants": {}}
+
+        for variant, text in [("redacted", redacted_text), ("compliant", compliant_text)]:
+            chunk = _make_chunk(case, variant, text)
+            state = graph.invoke({"protocol_chunk": chunk, "top_k": TOP_K})
+            citations = state["citations"]
+            hit = _target_hit(case, citations)
+
+            print(
+                f"    {variant:10s} flag={state['llm_result']['flag']:14s} "
+                f"conf={state['llm_result']['confidence']:.2f} target_hit={hit}",
+                file=sys.stderr,
+            )
+
+            case_result["variants"][variant] = {
+                "text": text,
+                "flag": state["llm_result"]["flag"],
+                "confidence": state["llm_result"]["confidence"],
+                "target_hit": hit,
+                "citations": [
+                    {"doc_id": c.doc_id, "breadcrumb": c.breadcrumb, "grounded": c.grounded}
+                    for c in citations
+                ],
+            }
+
+        results.append(case_result)
+
+    n = len(results)
+    recall = sum(1 for r in results if r["variants"]["redacted"]["target_hit"]) / n
+    compliant_hit_rate = sum(1 for r in results if r["variants"]["compliant"]["target_hit"]) / n
+
+    summary = {
+        "n_cases": n,
+        "redacted_target_recall": recall,
+        "compliant_target_hit_rate": compliant_hit_rate,
+        "cases": results,
+    }
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    n_flag_correct = sum(
+        1
+        for r in results
+        if r["variants"]["redacted"]["flag"] != "aligned"
+        and r["variants"]["compliant"]["flag"] == "aligned"
+    )
+    REPORT_PATH.write_text(
+        _render_report(results, n, recall, compliant_hit_rate, n_flag_correct), encoding="utf-8"
+    )
+
+    print(
+        f"\n완료: {n}건 중 redacted recall={recall:.0%}, "
+        f"compliant hit rate={compliant_hit_rate:.0%} -> {OUTPUT_PATH}, {REPORT_PATH}",
+        file=sys.stderr,
+    )
+
+
+def _render_report(results: list, n: int, recall: float, compliant_hit_rate: float, n_flag_correct: int) -> str:
+    lines = [
+        "# Eval 리포트 — 결함 주입 테스트",
+        "",
+        "## 방법론",
+        "",
+        "실제 프로토콜 문장을 사람이 \"이건 위반이다\"라고 라벨링하는 대신, ICH E6(R2)/E8(R1)에",
+        "실존하는 요구사항 6개를 골라 그 요구사항을 충족하는 문단(compliant)과 핵심 문장만 뺀",
+        "문단(redacted)을 한 쌍씩 만들었다. 정답은 우리가 직접 통제해서 만들었으므로 라벨",
+        "신뢰도는 100%다. 다만 텍스트는 실제 프로토콜에서 발췌한 게 아니라 요구사항 하나만",
+        "깨끗하게 격리하려고 새로 쓴 합성 문단이다 — 실제 프로토콜 문장은 여러 요구사항이",
+        "뒤섞여 있어 최소 쌍을 만들기 어렵다.",
+        "",
+        "핵심 지표는 두 가지다.",
+        "- **target recall**: redacted 버전을 돌렸을 때, 뺀 요구사항에 해당하는 가이드라인",
+        "  조항이 실제로 citations에 잡히는가.",
+        "- **flag 정합성**: redacted는 aligned가 아닌 플래그를, compliant는 aligned를 받는가.",
+        "",
+        "## 결과 요약",
+        "",
+        f"- 케이스 수: {n}",
+        f"- redacted target recall: **{recall:.0%}**",
+        f"- compliant target hit rate: {compliant_hit_rate:.0%} (참고용 — 정상 텍스트에서도",
+        "  같은 조항이 걸리는지)",
+        f"- flag 정합성(redacted≠aligned & compliant=aligned): **{n_flag_correct}/{n}**",
+        "",
+        "## 개선 이력",
+        "",
+        "1차 실행에서는 target recall이 67%(4/6)였다. `data_audit_trail` 케이스를 까보니",
+        "GLOSSARY 용어정의 청크(ICH E6R2 전체 청크의 41%, 65/159)가 실제 요구사항 조항과",
+        "retrieval 순위를 놓고 경쟁해서 밀어내는 게 원인이었다 — 타겟 조항(5.5)이 top-30",
+        "중 14위로 밀려나 있었다. `retrieval/build_vectorstore.py`에 `is_definition`",
+        "메타데이터를 추가해 GLOSSARY 청크를 retrieval 후보에서 제외하도록 고치자, 같은",
+        "쿼리에서 타겟 조항이 top_k=4 안 3위로 올라왔고, 재실행 결과 recall이 83%(5/6)로",
+        "올랐다.",
+        "",
+        "## HyDE 실험 (기본값 off로 결론)",
+        "",
+        "남은 실패 케이스(`trial_injury_compensation`)를 고치려고 HyDE(Hypothetical",
+        "Document Embeddings)를 시도했다 — 프로토콜 원문 대신 \"이 주제라면 가이드라인이",
+        "이렇게 쓰여있을 것이다\"라는 가상 문장을 LLM으로 만들어 그걸로 retrieval.",
+        "",
+        "1. HyDE만 단독 적용: 특정 케이스는 고쳐졌지만 잘 되던 `data_audit_trail`이",
+        "   깨졌다. 원인: HyDE로 만든 상세한 문장은 코퍼스 대다수 청크에 대해 절대",
+        "   거리값 자체가 구조적으로 낮게 나오는 경향이 있어서(가이드라인 특유의",
+        "   격식체 문장과 어휘가 겹치는 게 많아서), 원문 쿼리가 정확히 하나만 콕",
+        "   집었어도 순위표가 흔들렸다.",
+        "2. 원문+HyDE 쿼리를 합쳐서 검색(거리값 기준 병합)했더니 오히려 더 나빠졌다",
+        "   (recall 50%). 서로 다른 쿼리의 절대 거리값은 스케일이 달라 직접 비교하면",
+        "   안 된다는 걸 뒤늦게 확인 — HyDE 쪽이 절대 거리 경쟁에서 항상 유리해서",
+        "   원문 쿼리의 결과를 통째로 밀어냈다.",
+        "3. 병합 방식을 절대 거리 대신 순위 기반(Reciprocal Rank Fusion, RRF)으로",
+        "   바꾸자 retrieval만 따로 테스트했을 때 recall이 92%(11/12)까지 올라갔다.",
+        "4. 하지만 compare 단계까지 포함한 end-to-end eval에서는 오히려 67%(4/6)로,",
+        "   HyDE를 안 쓴 baseline(83%)보다 낮았다. 3회 반복 모두 정확히 재현되는",
+        "   안정적인 수치였다 (baseline도 3회 모두 83%로 안정적이었음 — 우연이",
+        "   아니라는 뜻). retrieval 후보 집합이 매번 조금씩 달라지면서, compare",
+        "   LLM이 최종적으로 인용하는 조항도 같이 흔들린 것으로 보인다.",
+        "",
+        "**결론**: retrieval만 떼어놓고 보면 HyDE+RRF가 분명히 더 낫다(67%→92%).",
+        "하지만 실제로 배포되는 건 retrieval이 아니라 전체 파이프라인이고, 거기서는",
+        "오히려 더 나쁜 결과가 3회 연속 재현됐다. 그래서 `agent/graph.py`의",
+        "`use_hyde` 기본값을 `False`로 두고, 코드는 옵트인으로 남겨뒀다. 기법이",
+        "이론적으로 맞다는 것과 이 파이프라인에서 실제로 이득이라는 건 다른",
+        "질문이라는 걸 확인한 케이스.",
+        "",
+        "## 케이스별 상세 (아래는 기본 설정 — use_hyde=False 기준)",
+        "",
+    ]
+
+    for r in results:
+        red = r["variants"]["redacted"]
+        comp = r["variants"]["compliant"]
+        lines.append(f"### {r['id']} — {r['topic']}")
+        lines.append("")
+        lines.append(
+            f"| variant | flag | confidence | target hit |\n|---|---|---|---|\n"
+            f"| redacted | {red['flag']} | {red['confidence']:.2f} | {'✓' if red['target_hit'] else '✗'} |\n"
+            f"| compliant | {comp['flag']} | {comp['confidence']:.2f} | {'✓' if comp['target_hit'] else '✗'} |"
+        )
+        lines.append("")
+        if not red["target_hit"]:
+            cited = ", ".join(f"{c['breadcrumb']}" for c in red["citations"]) or "(인용 없음)"
+            lines.append(f"- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: {cited}")
+            lines.append("")
+
+    lines.extend(
+        [
+            "## 남은 실패 케이스 원인 분석",
+            "",
+            "(이 섹션은 use_hyde=False 기본 설정 기준. HyDE로 이 케이스를 고쳐보려던",
+            "시도와 그 결과는 위 'HyDE 실험' 섹션 참고.)",
+            "",
+            "**trial_injury_compensation (redacted만)** — 흥미로운 지점이다: redacted 텍스트",
+            "(\"참가자에게 절차 비용을 청구하지 않는다\")가 그 자체로 너무 일반적이라 5.8",
+            "Compensation 조항과 의미적으로 충분히 가깝지 않았다 (top_k=4 안에 안 들어옴).",
+            "반면 compliant 버전은 상해 보상이라는 구체적 표현이 들어가면서 바로 잡혔다.",
+            "즉 **결함이 있는 텍스트일수록 그 결함 때문에 오히려 관련 조항을 retrieval하기",
+            "어려워지는 경향**이 있다는 뜻 — RAG 기반 검토 도구의 구조적 약점 중 하나로",
+            "보인다. top_k를 늘리거나, 결측 항목을 추정하는 키워드 기반 보조 검색을",
+            "곁들이는 방향으로 개선할 수 있다.",
+            "",
+            "## 한계",
+            "",
+            "- N=6으로 표본이 작다. 통계적으로 유의미한 수치라기보다 파이프라인의 약점을",
+            "  찾아내는 진단 도구에 가깝다.",
+            "- 합성 문단은 요구사항 하나만 깨끗하게 격리한 최소 쌍이라, 여러 이슈가 섞여",
+            "  있는 실제 프로토콜 문장보다 판별이 쉬운 편이다. 그래서 flag 정합성이",
+            "  6/6으로 실제 프로토콜 리뷰(Phase 4/5 기록상 confidence가 훨씬 들쭉날쭉했음)",
+            "  보다 깨끗하게 나왔을 가능성이 있다.",
+        ]
+    )
+
+    return "\n".join(lines) + "\n"
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-hyde", action="store_true", help="HyDE 쿼리 확장 없이 원문만으로 retrieval")
+    args = parser.parse_args()
+    run(use_hyde=not args.no_hyde)
