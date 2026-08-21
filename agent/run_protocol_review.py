@@ -19,7 +19,7 @@ load_dotenv()
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from agent.graph import build_review_graph
-from observability.tracing import configure_tracing
+from observability.tracing import configure_tracing, flush_tracing
 from retrieval.section_review import SectionReview
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -101,6 +101,7 @@ def main():
         f"{n_escalated}건 사람 검토 필요 -> {out_path}",
         file=sys.stderr,
     )
+    flush_tracing()
 
 
 if __name__ == "__main__":

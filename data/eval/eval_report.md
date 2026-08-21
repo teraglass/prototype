@@ -2,12 +2,14 @@
 
 ## 방법론
 
-실제 프로토콜 문장을 사람이 "이건 위반이다"라고 라벨링하는 대신, ICH E6(R2)/E8(R1)에
-실존하는 요구사항 6개를 골라 그 요구사항을 충족하는 문단(compliant)과 핵심 문장만 뺀
-문단(redacted)을 한 쌍씩 만들었다. 정답은 우리가 직접 통제해서 만들었으므로 라벨
-신뢰도는 100%다. 다만 텍스트는 실제 프로토콜에서 발췌한 게 아니라 요구사항 하나만
-깨끗하게 격리하려고 새로 쓴 합성 문단이다 — 실제 프로토콜 문장은 여러 요구사항이
-뒤섞여 있어 최소 쌍을 만들기 어렵다.
+실제 프로토콜 문장을 사람이 "이건 위반이다"라고 라벨링하는 대신, 가이드라인에
+실존하는 요구사항 8개(ICH E6(R2)/E8(R1) 6개 + FDA 1개 + MFDS 1개)를 골라 그
+요구사항을 충족하는 문단(compliant)과 핵심 문장만 뺀 문단(redacted)을 한 쌍씩
+만들었다. 정답은 우리가 직접 통제해서 만들었으므로 라벨 신뢰도는 100%다. 다만
+텍스트는 실제 프로토콜에서 발췌한 게 아니라 요구사항 하나만 깨끗하게 격리하려고
+새로 쓴 합성 문단이다 — 실제 프로토콜 문장은 여러 요구사항이 뒤섞여 있어 최소
+쌍을 만들기 어렵다. FDA/MFDS 케이스는 ICH 6개로 검증된 방식이 다른 문서
+스타일·언어(MFDS는 한글)에서도 통하는지 확인하려고 나중에 추가했다.
 
 핵심 지표는 두 가지다.
 - **target recall**: redacted 버전을 돌렸을 때, 뺀 요구사항에 해당하는 가이드라인
@@ -16,11 +18,11 @@
 
 ## 결과 요약
 
-- 케이스 수: 6
-- redacted target recall: **83%**
+- 케이스 수: 8
+- redacted target recall: **75%**
 - compliant target hit rate: 100% (참고용 — 정상 텍스트에서도
   같은 조항이 걸리는지)
-- flag 정합성(redacted≠aligned & compliant=aligned): **6/6**
+- flag 정합성(redacted≠aligned & compliant=aligned): **8/8**
 
 ## 개선 이력
 
@@ -117,6 +119,23 @@ PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들�
 방식을 바꾸는 접근, 또는 애초에 결측되기 쉬운 항목(보상·보험 등)을
 유형별로 미리 정의해두고 규칙 기반으로 보조 검색하는 방향이다.
 
+## FDA/MFDS 커버리지 확장
+
+ICH 6개 케이스로만 검증한 방식이 다른 문서에서도 통하는지 보려고 FDA,
+MFDS 요구사항을 하나씩 추가했다.
+
+- **FDA** (`pediatric_safety_study_size`, D. Safety Considerations —
+  소아 안전성 연구는 최소 100명·6개월 이상 노출): redacted/compliant
+  둘 다 정확히 잡힘.
+- **MFDS** (`mfds_development_plan_rationale`, 1 개발계획 — 이론적
+  근거·적응증·위험성 기술): compliant는 잡혔지만 redacted는 놓쳤다.
+  실제로 뭘 인용했는지 보니 타겟이 아니라 인접 섹션인 `5
+  임상시험계획서`(더 포괄적인 "프로토콜에 뭘 담아야 하는지" 섹션)를
+  인용했다 — ICH SPONSOR 이웃 조항 혼동, `trial_injury_compensation`의
+  모호한 텍스트 문제와 같은 계열의 실패 패턴이 한글 코퍼스에서도
+  똑같이 나타난다는 뜻이다. 언어를 바꿔도 근본 원인은 같다는
+  추가 증거로 남긴다.
+
 ## 케이스별 상세 (아래는 기본 설정 — use_hyde=False, contextual embedding + is_low_content 필터 기준)
 
 ### irb_approval_of_consent — 동의서는 사용 전 IRB/IEC 승인을 받아야 한다
@@ -124,27 +143,27 @@ PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들�
 | variant | flag | confidence | target hit |
 |---|---|---|---|
 | redacted | review_needed | 0.75 | ✓ |
-| compliant | aligned | 0.85 | ✓ |
+| compliant | aligned | 0.90 | ✓ |
 
 ### sample_size_justification — 표본수 산출 근거(power analysis)를 명시해야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.85 | ✓ |
+| redacted | review_needed | 0.90 | ✓ |
 | compliant | aligned | 0.85 | ✓ |
 
 ### withdrawal_criteria — 치료/시험절차 중단을 위한 명확한 기준이 있어야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.75 | ✓ |
-| compliant | aligned | 0.70 | ✓ |
+| redacted | review_needed | 0.85 | ✓ |
+| compliant | aligned | 0.65 | ✓ |
 
 ### sae_reporting_timeline — 중대한 이상반응(SAE)은 즉시 스폰서에 보고해야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.75 | ✓ |
+| redacted | conflict | 0.75 | ✓ |
 | compliant | aligned | 0.85 | ✓ |
 
 ### data_audit_trail — 전자데이터 시스템은 밸리데이션·감사추적·접근통제가 있어야 한다
@@ -161,7 +180,23 @@ PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들�
 | redacted | review_needed | 0.55 | ✗ |
 | compliant | aligned | 0.75 | ✓ |
 
-- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants, 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
+- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
+
+### pediatric_safety_study_size — 소아 안전성 연구는 최소 규모·기간 기준을 충족해야 한다 (FDA)
+
+| variant | flag | confidence | target hit |
+|---|---|---|---|
+| redacted | review_needed | 0.85 | ✓ |
+| compliant | aligned | 0.90 | ✓ |
+
+### mfds_development_plan_rationale — 개발계획에 이론적 근거·적응증·위험성을 기술해야 한다 (MFDS)
+
+| variant | flag | confidence | target hit |
+|---|---|---|---|
+| redacted | review_needed | 0.75 | ✗ |
+| compliant | aligned | 0.75 | ✓ |
+
+- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 5 임상시험계획서, 5 임상시험계획서
 
 ## 남은 실패 케이스 원인 분석
 
@@ -177,11 +212,16 @@ Compensation 조항과 의미적으로 충분히 가깝지 않았다 (top_k=4 �
 보인다. top_k를 늘리거나, 결측 항목을 추정하는 키워드 기반 보조 검색을
 곁들이는 방향으로 개선할 수 있다.
 
+**mfds_development_plan_rationale (redacted만)** — 같은 계열의 실패다.
+타겟(`1 개발계획`) 대신 인접 섹션(`5 임상시험계획서`)이 인용됐다 —
+위의 ICH SPONSOR 이웃 조항 혼동과 정확히 같은 패턴이 한글 코퍼스에서도
+재현된다는 뜻. 자세한 건 위 'FDA/MFDS 커버리지 확장' 섹션 참고.
+
 ## 한계
 
-- N=6으로 표본이 작다. 통계적으로 유의미한 수치라기보다 파이프라인의 약점을
+- N=8로 표본이 작다. 통계적으로 유의미한 수치라기보다 파이프라인의 약점을
   찾아내는 진단 도구에 가깝다.
 - 합성 문단은 요구사항 하나만 깨끗하게 격리한 최소 쌍이라, 여러 이슈가 섞여
   있는 실제 프로토콜 문장보다 판별이 쉬운 편이다. 그래서 flag 정합성이
-  6/6으로 실제 프로토콜 리뷰(Phase 4/5 기록상 confidence가 훨씬 들쭉날쭉했음)
-  보다 깨끗하게 나왔을 가능성이 있다.
+  실제 프로토콜 리뷰(Phase 4/5 기록상 confidence가 훨씬 들쭉날쭉했음)보다
+  깨끗하게 나왔을 가능성이 있다.

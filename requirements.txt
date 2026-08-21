@@ -9,3 +9,4 @@ langgraph
 langsmith
 opentelemetry-api
 opentelemetry-sdk
+pytest
