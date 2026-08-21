@@ -137,8 +137,8 @@ PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들�
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.75 | ✓ |
-| compliant | aligned | 0.70 | ✓ |
+| redacted | review_needed | 0.80 | ✓ |
+| compliant | aligned | 0.75 | ✓ |
 
 ### sae_reporting_timeline — 중대한 이상반응(SAE)은 즉시 스폰서에 보고해야 한다
 
@@ -158,10 +158,10 @@ PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들�
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.55 | ✗ |
+| redacted | review_needed | 0.60 | ✗ |
 | compliant | aligned | 0.75 | ✓ |
 
-- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants, 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
+- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
 
 ## 남은 실패 케이스 원인 분석
 

@@ -28,6 +28,7 @@ load_dotenv()
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from agent.graph import build_review_graph
 from eval.cases import EVAL_CASES, build_variants
+from observability.tracing import configure_tracing, flush_tracing
 
 ROOT = Path(__file__).resolve().parent.parent
 VECTORSTORE_DIR = ROOT / "data" / "vectorstore"
@@ -64,6 +65,7 @@ def run(use_hyde: bool = True):
     anthropic_client = Anthropic()
     chroma_client = chromadb.PersistentClient(path=str(VECTORSTORE_DIR))
     graph = build_review_graph(anthropic_client, chroma_client, use_hyde=use_hyde)
+    tracer = configure_tracing()
 
     results = []
     for case in EVAL_CASES:
@@ -74,7 +76,15 @@ def run(use_hyde: bool = True):
 
         for variant, text in [("redacted", redacted_text), ("compliant", compliant_text)]:
             chunk = _make_chunk(case, variant, text)
-            state = graph.invoke({"protocol_chunk": chunk, "top_k": TOP_K})
+            # agent/run_protocol_review.py의 review_protocol_section과 같은 이유로
+            # 감싼다 — 부모 span이 없으면 retrieve/compare/groundedness가 각자
+            # 별개의 trace_id로 흩어져서 observability/analyze_traces.py가 하나의
+            # 리뷰로 못 묶는다 (실제로 이 버그 때문에 eval 트레이스가 전부 조각나
+            # 있었다).
+            with tracer.start_as_current_span("eval_case") as case_span:
+                case_span.set_attribute("eval.case_id", case["id"])
+                case_span.set_attribute("eval.variant", variant)
+                state = graph.invoke({"protocol_chunk": chunk, "top_k": TOP_K})
             citations = state["citations"]
             hit = _target_hit(case, citations)
 
@@ -126,6 +136,7 @@ def run(use_hyde: bool = True):
         f"compliant hit rate={compliant_hit_rate:.0%} -> {OUTPUT_PATH}, {REPORT_PATH}",
         file=sys.stderr,
     )
+    flush_tracing()
 
 
 def _render_report(results: list, n: int, recall: float, compliant_hit_rate: float, n_flag_correct: int) -> str:

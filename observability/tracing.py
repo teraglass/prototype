@@ -11,6 +11,14 @@ retrieval hit·miss, groundedness score, token 사용량만 심는다. 대시보
 — exporter를 ConsoleSpanExporter(로컬 JSONL 파일로 리다이렉트)로 뒀는데, OTLP
 exporter로 바꾸기만 하면 Jaeger/Honeycomb/Grafana Tempo 등 어디로든 그대로
 보낼 수 있다. "벤더 중립"이라는 설계 결정이 실제로 한 줄 교체로 증명되는 지점.
+
+BatchSpanProcessor는 백그라운드 스레드가 주기적으로(기본 5초 간격) span을
+내보낸다 — 실시간으로 콘솔에 찍는 게 아니다. observability/analyze_traces.py로
+실제 트레이스를 분석하다가, 짧게 끝나는 스크립트(eval 실행 등)의 span 중 93%가
+파일에 아예 안 남아있는 걸 발견했다: 프로세스가 다음 예약 flush보다 먼저
+종료되면 버퍼에 있던 span이 그대로 유실된다. `flush_tracing()`을 만들어서 각
+CLI가 종료 직전에 명시적으로 flush하도록 고쳤다 — 이게 없으면 짧게 실행되는
+스크립트일수록 계측 데이터가 조용히 사라진다는 걸 실제로 겪었다.
 """
 
 from pathlib import Path
@@ -24,17 +32,24 @@ ROOT = Path(__file__).resolve().parent.parent
 TRACE_LOG_PATH = ROOT / "data" / "traces" / "spans.jsonl"
 
 _configured = False
+_provider: TracerProvider | None = None
 
 
 def configure_tracing(service_name: str = "protocheck") -> trace.Tracer:
-    global _configured
+    global _configured, _provider
     if not _configured:
         TRACE_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
         out = open(TRACE_LOG_PATH, "a", encoding="utf-8")
 
-        provider = TracerProvider(resource=Resource.create({"service.name": service_name}))
-        provider.add_span_processor(BatchSpanProcessor(ConsoleSpanExporter(out=out)))
-        trace.set_tracer_provider(provider)
+        _provider = TracerProvider(resource=Resource.create({"service.name": service_name}))
+        _provider.add_span_processor(BatchSpanProcessor(ConsoleSpanExporter(out=out)))
+        trace.set_tracer_provider(_provider)
         _configured = True
 
     return trace.get_tracer(service_name)
+
+
+def flush_tracing() -> None:
+    """스크립트 종료 직전에 호출 — 버퍼에 남은 span을 강제로 내보낸다."""
+    if _provider is not None:
+        _provider.force_flush()

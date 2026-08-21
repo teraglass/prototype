@@ -33,7 +33,7 @@
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.3 Procedures",
+              "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
               "grounded": true
             },
             {
@@ -94,7 +94,7 @@
         "redacted": {
           "text": "Participants may discontinue study participation at any time.",
           "flag": "review_needed",
-          "confidence": 0.75,
+          "confidence": 0.8,
           "target_hit": true,
           "citations": [
             {
@@ -112,7 +112,7 @@
         "compliant": {
           "text": "Participants may discontinue study participation at any time. In addition, the investigator will discontinue study treatment for any participant who experiences a Grade 3 or higher adverse event that is possibly, probably, or definitely related to the study drug, or who becomes pregnant during the treatment period; these criteria are provided to the site in writing prior to study initiation.",
           "flag": "aligned",
-          "confidence": 0.7,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
@@ -169,7 +169,7 @@
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "5 SPONSOR > 5.17 Adverse Drug Reaction Reporting",
+              "breadcrumb": "4 INVESTIGATOR > 4.11 Safety Reporting",
               "grounded": true
             }
           ]
@@ -240,14 +240,9 @@
         "redacted": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol.",
           "flag": "review_needed",
-          "confidence": 0.55,
+          "confidence": 0.6,
           "target_hit": false,
           "citations": [
-            {
-              "doc_id": "ICH_E8R1_General_Considerations",
-              "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
-              "grounded": true
-            },
             {
               "doc_id": "ICH_E8R1_General_Considerations",
               "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
