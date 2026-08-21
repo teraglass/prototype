@@ -18,7 +18,7 @@
 
 - 케이스 수: 6
 - redacted target recall: **83%**
-- compliant target hit rate: 83% (참고용 — 정상 텍스트에서도
+- compliant target hit rate: 100% (참고용 — 정상 텍스트에서도
   같은 조항이 걸리는지)
 - flag 정합성(redacted≠aligned & compliant=aligned): **6/6**
 
@@ -83,32 +83,61 @@ HyDE와 다른 점: **end-to-end 수치를 깎아먹지 않으면서** retrieval
 
 `trial_injury_compensation`의 redacted 케이스는 이번에도 못 잡았다 —
 네 가지 다른 설정(baseline/HyDE/HyDE+RRF/contextual embedding) 전부에서
-일관되게 실패하는 유일한 케이스로 확정됐다. 결함 자체가 텍스트를 모호하게
-만드는 구조적 문제라 retrieval 쪽 개선만으로는 한계가 있어 보인다 — 다음
-후보는 cross-encoder 재랭킹이나, 결측 항목을 유형별로 미리 정의해두고
-규칙 기반으로 보조 검색하는 방향.
+일관되게 실패하는 유일한 케이스로 확정됐다.
 
-## 케이스별 상세 (아래는 기본 설정 — use_hyde=False, contextual embedding 기준)
+## 짧은 청크(placeholder) 필터링
+
+이 케이스가 왜 안 잡히는지 원문 랭킹을 직접 까봤다. 타겟인 `5.8
+Compensation to Subjects and Investigators`(847자, 실제 보상/보험 요구사항
+서술) 대신, `6.14 Financing and Insurance`가 계속 더 가깝게 잡히고 있었다
+— 그런데 그 본문 전체가 "Financing and insurance if not addressed in a
+separate agreement." 한 줄, 9단어짜리다. ICH E6(R2) 6장(CLINICAL TRIAL
+PROTOCOL AND PROTOCOL AMENDMENT(S))은 애초에 "프로토콜에 이 항목들을
+넣어라"는 체크리스트라서, 하위 조항 다수가 실제 요구사항이 아니라 이런
+한 줄짜리 프롬프트다 (평균 444자, 15개 중 4개가 100자 미만 — 실제 요구사항이
+담긴 5장 SPONSOR는 평균 845자, 41개 중 1개만 100자 미만).
+
+전체 가이드라인 코퍼스에서 100자 미만 청크를 다 훑어봤다(GLOSSARY, 문서
+서두 제외, 총 11개) — 참고문헌 목록 조각, 헤딩 줄바꿈 파편, 이런 체크리스트
+프롬프트뿐이었고 실질적 요구사항은 하나도 없었다. 그래서 `is_definition`과
+같은 방식으로 `is_low_content`(100자 미만) 메타데이터를 추가해 retrieval
+후보에서 제외했다.
+
+결과: `trial_injury_compensation`의 5.8 순위가 19위→16위로 거의 안
+움직였다 — `6.14`는 사라졌지만 그 자리를 다른 애매한 후보들이 채웠을
+뿐이었다. eval 전체로는 recall 83%로 동일(3회 반복 안정적), 유일한
+실패 케이스도 여전히 `trial_injury_compensation` 그대로다. 이 필터
+자체는 코퍼스 전체의 명백한 노이즈를 없애는 것이라 부작용 없이 채택했지만,
+**이 특정 케이스를 고치기엔 부족했다**는 게 솔직한 결론이다.
+
+**종합**: 다섯 가지 설정(baseline/HyDE/HyDE+RRF/contextual embedding/
++low-content 필터) 전부에서 `trial_injury_compensation`만 일관되게
+실패한다. retrieval 쪽 개선으로는 한계에 도달한 것으로 보이고, 다음
+후보는 cross-encoder 재랭킹처럼 검색 후보 자체가 아니라 순위를 매기는
+방식을 바꾸는 접근, 또는 애초에 결측되기 쉬운 항목(보상·보험 등)을
+유형별로 미리 정의해두고 규칙 기반으로 보조 검색하는 방향이다.
+
+## 케이스별 상세 (아래는 기본 설정 — use_hyde=False, contextual embedding + is_low_content 필터 기준)
 
 ### irb_approval_of_consent — 동의서는 사용 전 IRB/IEC 승인을 받아야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.70 | ✓ |
-| compliant | aligned | 0.90 | ✗ |
+| redacted | review_needed | 0.75 | ✓ |
+| compliant | aligned | 0.85 | ✓ |
 
 ### sample_size_justification — 표본수 산출 근거(power analysis)를 명시해야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
 | redacted | review_needed | 0.85 | ✓ |
-| compliant | aligned | 0.75 | ✓ |
+| compliant | aligned | 0.85 | ✓ |
 
 ### withdrawal_criteria — 치료/시험절차 중단을 위한 명확한 기준이 있어야 한다
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.80 | ✓ |
+| redacted | review_needed | 0.75 | ✓ |
 | compliant | aligned | 0.70 | ✓ |
 
 ### sae_reporting_timeline — 중대한 이상반응(SAE)은 즉시 스폰서에 보고해야 한다
@@ -122,7 +151,7 @@ HyDE와 다른 점: **end-to-end 수치를 깎아먹지 않으면서** retrieval
 
 | variant | flag | confidence | target hit |
 |---|---|---|---|
-| redacted | review_needed | 0.85 | ✓ |
+| redacted | review_needed | 0.75 | ✓ |
 | compliant | aligned | 0.85 | ✓ |
 
 ### trial_injury_compensation — 시험 관련 상해 발생 시 치료비 보상 정책이 있어야 한다
@@ -132,7 +161,7 @@ HyDE와 다른 점: **end-to-end 수치를 깎아먹지 않으면서** retrieval
 | redacted | review_needed | 0.55 | ✗ |
 | compliant | aligned | 0.75 | ✓ |
 
-- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
+- redacted에서 타겟 조항을 못 찾음. 실제로 인용된 것: 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants, 2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants
 
 ## 남은 실패 케이스 원인 분석
 

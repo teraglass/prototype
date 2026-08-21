@@ -189,15 +189,22 @@ def build_hyde_query(anthropic_client: Anthropic, protocol_text: str) -> str:
     return "".join(block.text for block in response.content if block.type == "text").strip()
 
 
+# 두 필터 모두 eval로 실측한 노이즈 청크를 retrieval 후보에서 제외한다:
+# - is_definition: GLOSSARY 용어 정의 (실제 요구사항 조항과 경쟁하며 밀어냄)
+# - is_low_content: "Financing and insurance if not addressed in a separate
+#   agreement." 같은 체크리스트 프롬프트/참고문헌 조각 (모호한 쿼리와 우연히
+#   가깝게 잡힘). 자세한 근거는 retrieval/build_vectorstore.py 참고.
+GUIDELINE_RETRIEVAL_FILTER = {
+    "$and": [{"is_definition": False}, {"is_low_content": False}]
+}
+
+
 def retrieve_guidelines(client: chromadb.ClientAPI, query_text: str, top_k: int) -> dict:
     collection = client.get_collection("guideline")
     return collection.query(
         query_embeddings=[embed_query(query_text)],
         n_results=top_k,
-        # 용어 정의(GLOSSARY) 청크는 "검토 포인트"가 아니라서 후보에서 제외한다.
-        # eval로 확인한 문제: 정의 청크가 실제 요구사항 조항과 순위 경쟁을 해서
-        # top_k 안에서 밀어낸다 (retrieval/build_vectorstore.py의 is_definition 참고).
-        where={"is_definition": False},
+        where=GUIDELINE_RETRIEVAL_FILTER,
     )
 
 
@@ -225,7 +232,7 @@ def retrieve_guidelines_ensemble(client: chromadb.ClientAPI, query_texts: list[s
         result = collection.query(
             query_embeddings=[embed_query(query_text)],
             n_results=top_k,
-            where={"is_definition": False},
+            where=GUIDELINE_RETRIEVAL_FILTER,
         )
         for rank, (doc_id, doc, meta) in enumerate(
             zip(result["ids"][0], result["documents"][0], result["metadatas"][0]), start=1

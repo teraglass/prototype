@@ -1,7 +1,7 @@
 {
   "n_cases": 6,
   "redacted_target_recall": 0.8333333333333334,
-  "compliant_target_hit_rate": 0.8333333333333334,
+  "compliant_target_hit_rate": 1.0,
   "cases": [
     {
       "id": "irb_approval_of_consent",
@@ -10,7 +10,7 @@
         "redacted": {
           "text": "Participants will be approached for informed consent prior to any study procedures. The study team will review the purpose, risks, and benefits of participation with each participant and answer any questions before obtaining a signature.",
           "flag": "review_needed",
-          "confidence": 0.7,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
@@ -23,8 +23,8 @@
         "compliant": {
           "text": "Participants will be approached for informed consent prior to any study procedures. The study team will review the purpose, risks, and benefits of participation with each participant and answer any questions before obtaining a signature. The informed consent form, along with any subsequent amendments, will be submitted to the site's Institutional Review Board (IRB) for review, and no participant will be consented using a version that has not received prior IRB approval.",
           "flag": "aligned",
-          "confidence": 0.9,
-          "target_hit": false,
+          "confidence": 0.85,
+          "target_hit": true,
           "citations": [
             {
               "doc_id": "ICH_E6R2_GCP",
@@ -33,12 +33,12 @@
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
+              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.3 Procedures",
               "grounded": true
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.3 Procedures",
+              "breadcrumb": "4 INVESTIGATOR > 4.4 Communication with IRB/IEC",
               "grounded": true
             }
           ]
@@ -70,7 +70,7 @@
         "compliant": {
           "text": "The study will enroll a total of 120 participants across all sites. This sample size was determined using a power analysis assuming a two-sided alpha of 0.05 and 80% power to detect a between-group difference of 0.5 standard deviations, based on effect sizes observed in prior trials of this intervention.",
           "flag": "aligned",
-          "confidence": 0.75,
+          "confidence": 0.85,
           "target_hit": true,
           "citations": [
             {
@@ -94,7 +94,7 @@
         "redacted": {
           "text": "Participants may discontinue study participation at any time.",
           "flag": "review_needed",
-          "confidence": 0.8,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
@@ -169,7 +169,7 @@
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "4 INVESTIGATOR > 4.11 Safety Reporting",
+              "breadcrumb": "5 SPONSOR > 5.17 Adverse Drug Reaction Reporting",
               "grounded": true
             }
           ]
@@ -183,7 +183,7 @@
         "redacted": {
           "text": "Study data will be collected and stored using a web-based electronic data capture (EDC) system.",
           "flag": "review_needed",
-          "confidence": 0.85,
+          "confidence": 0.75,
           "target_hit": true,
           "citations": [
             {
@@ -243,6 +243,11 @@
           "confidence": 0.55,
           "target_hit": false,
           "citations": [
+            {
+              "doc_id": "ICH_E8R1_General_Considerations",
+              "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
+              "grounded": true
+            },
             {
               "doc_id": "ICH_E8R1_General_Considerations",
               "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
