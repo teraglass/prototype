@@ -54,6 +54,25 @@ def _is_definition(breadcrumb: str) -> bool:
     return top_level.endswith("GLOSSARY")
 
 
+LOW_CONTENT_CHAR_THRESHOLD = 100
+
+
+def _is_low_content(chunk: dict) -> bool:
+    # eval로 "trial_injury_compensation" 케이스가 계속 실패하는 원인을 추적하다
+    # 발견: ICH E6(R2) 6.14 "Financing and Insurance" 같은 청크는 본문이
+    # "Financing and insurance if not addressed in a separate agreement."
+    # 한 줄뿐이다 — 실제 요구사항이 아니라 "프로토콜에 이 항목을 넣어라"는
+    # 체크리스트 프롬프트. 이런 짧은 청크는 그 자체로 모호해서, 결함 때문에
+    # 마찬가지로 모호해진 쿼리와 우연히 가깝게 잡히는 걸 실제로 확인했다.
+    # 전체 가이드라인 코퍼스에서 100자 미만 청크를 다 훑어봤는데(GLOSSARY,
+    # 문서 서두 제외) 참고문헌 목록 조각, 헤딩 줄바꿈 파편, 체크리스트 프롬프트
+    # 뿐이었고 실질적 요구사항은 하나도 없었다 — 그래서 안전하게 제외한다.
+    breadcrumb = chunk["breadcrumb"] or ""
+    if breadcrumb == "(문서 서두)":
+        return False
+    return len(chunk["text"]) < LOW_CONTENT_CHAR_THRESHOLD
+
+
 def _to_metadata(chunk: dict) -> dict:
     # Chroma 메타데이터는 str/int/float/bool만 허용 — None은 넣을 수 없다.
     breadcrumb = chunk["breadcrumb"] or ""
@@ -66,6 +85,7 @@ def _to_metadata(chunk: dict) -> dict:
         "page_start": chunk["page_start"] or 0,
         "page_end": chunk["page_end"] or 0,
         "is_definition": _is_definition(breadcrumb),
+        "is_low_content": _is_low_content(chunk),
     }
 
 
