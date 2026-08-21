@@ -1,7 +1,7 @@
 {
   "n_cases": 6,
   "redacted_target_recall": 0.8333333333333334,
-  "compliant_target_hit_rate": 1.0,
+  "compliant_target_hit_rate": 0.8333333333333334,
   "cases": [
     {
       "id": "irb_approval_of_consent",
@@ -10,7 +10,7 @@
         "redacted": {
           "text": "Participants will be approached for informed consent prior to any study procedures. The study team will review the purpose, risks, and benefits of participation with each participant and answer any questions before obtaining a signature.",
           "flag": "review_needed",
-          "confidence": 0.75,
+          "confidence": 0.7,
           "target_hit": true,
           "citations": [
             {
@@ -23,17 +23,22 @@
         "compliant": {
           "text": "Participants will be approached for informed consent prior to any study procedures. The study team will review the purpose, risks, and benefits of participation with each participant and answer any questions before obtaining a signature. The informed consent form, along with any subsequent amendments, will be submitted to the site's Institutional Review Board (IRB) for review, and no participant will be consented using a version that has not received prior IRB approval.",
           "flag": "aligned",
-          "confidence": 0.85,
-          "target_hit": true,
+          "confidence": 0.9,
+          "target_hit": false,
           "citations": [
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "4 INVESTIGATOR > 4.4 Communication with IRB/IEC",
+              "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
               "grounded": true
             },
             {
               "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.1 Responsibilities",
+              "breadcrumb": "4 INVESTIGATOR > 4.8 Informed Consent of Trial Subjects",
+              "grounded": true
+            },
+            {
+              "doc_id": "ICH_E6R2_GCP",
+              "breadcrumb": "3 INSTITUTIONAL REVIEW BOARD/INDEPENDENT ETHICS COMMITTEE > 3.3 Procedures",
               "grounded": true
             }
           ]
@@ -47,12 +52,17 @@
         "redacted": {
           "text": "The study will enroll a total of 120 participants across all sites.",
           "flag": "review_needed",
-          "confidence": 0.9,
+          "confidence": 0.85,
           "target_hit": true,
           "citations": [
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+              "grounded": true
+            },
+            {
+              "doc_id": "ICH_E8R1_General_Considerations",
+              "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.1 Study Population",
               "grounded": true
             }
           ]
@@ -69,8 +79,8 @@
               "grounded": true
             },
             {
-              "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+              "doc_id": "ICH_E8R1_General_Considerations",
+              "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.1 Study Population",
               "grounded": true
             }
           ]
@@ -84,7 +94,7 @@
         "redacted": {
           "text": "Participants may discontinue study participation at any time.",
           "flag": "review_needed",
-          "confidence": 0.75,
+          "confidence": 0.8,
           "target_hit": true,
           "citations": [
             {
@@ -102,7 +112,7 @@
         "compliant": {
           "text": "Participants may discontinue study participation at any time. In addition, the investigator will discontinue study treatment for any participant who experiences a Grade 3 or higher adverse event that is possibly, probably, or definitely related to the study drug, or who becomes pregnant during the treatment period; these criteria are provided to the site in writing prior to study initiation.",
           "flag": "aligned",
-          "confidence": 0.75,
+          "confidence": 0.7,
           "target_hit": true,
           "citations": [
             {
@@ -113,6 +123,11 @@
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.5 Selection and Withdrawal of Subjects",
+              "grounded": true
+            },
+            {
+              "doc_id": "ICH_E8R1_General_Considerations",
+              "breadcrumb": "4 DRUG DEVELOPMENT PLANNING > 4.3 Clinical Studies > 4.3.3 Special Populations > 4.3.3.1 Investigations in pregnant women",
               "grounded": true
             }
           ]
@@ -144,7 +159,7 @@
         "compliant": {
           "text": "Adverse events will be recorded at each study visit using a structured case report form. Serious adverse events (SAEs) will be reported to the sponsor within 24 hours of the site becoming aware of the event, followed by a detailed written report within 5 business days; the sponsor will in turn notify the IRB and applicable regulatory authorities per local requirements.",
           "flag": "aligned",
-          "confidence": 0.8,
+          "confidence": 0.85,
           "target_hit": true,
           "citations": [
             {
@@ -155,11 +170,6 @@
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "4 INVESTIGATOR > 4.11 Safety Reporting",
-              "grounded": true
-            },
-            {
-              "doc_id": "ICH_E6R2_GCP",
-              "breadcrumb": "5 SPONSOR > 5.17 Adverse Drug Reaction Reporting",
               "grounded": true
             }
           ]
@@ -230,9 +240,15 @@
         "redacted": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol.",
           "flag": "review_needed",
-          "confidence": 0.4,
+          "confidence": 0.55,
           "target_hit": false,
-          "citations": []
+          "citations": [
+            {
+              "doc_id": "ICH_E8R1_General_Considerations",
+              "breadcrumb": "2 GENERAL PRINCIPLES > 2.1 Protection of Clinical Study Participants",
+              "grounded": true
+            }
+          ]
         },
         "compliant": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol. In the event a participant experiences an injury that is directly related to study participation, the sponsor will cover the cost of medically necessary treatment for that injury in accordance with applicable regulatory requirements.",

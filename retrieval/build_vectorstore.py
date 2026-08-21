@@ -69,6 +69,19 @@ def _to_metadata(chunk: dict) -> dict:
     }
 
 
+def _contextualize(chunk: dict) -> str:
+    # Contextual retrieval: 임베딩에는 breadcrumb(섹션 계층 경로)를 본문 앞에
+    # 붙여서 같이 넣는다. eval로 실제 확인한 문제 — SPONSOR 산하의 비슷한 조항들
+    # (5.0/5.1/5.15/5.18/5.5)이 본문만 봐서는 서로 잘 구분이 안 됐는데, 정작
+    # "이게 5.5 Trial Management, Data Handling 조항이다"라는 제목 정보는
+    # 임베딩에 전혀 안 들어가고 있었다. Chroma에 저장하는 documents(citation에
+    # 쓰이는 원문)는 그대로 두고, 임베딩 계산에만 이 컨텍스트를 붙인다.
+    breadcrumb = chunk["breadcrumb"] or ""
+    if not breadcrumb or breadcrumb == "(문서 서두)":
+        return chunk["text"]
+    return f"{breadcrumb}\n\n{chunk['text']}"
+
+
 def build_collection(client: chromadb.ClientAPI, name: str, corpus_dir: Path) -> int:
     chunks = _load_chunks(corpus_dir)
     if not chunks:
@@ -80,16 +93,16 @@ def build_collection(client: chromadb.ClientAPI, name: str, corpus_dir: Path) ->
 
     ids = [f"{c['doc_id']}::{i}" for i, c in enumerate(chunks)]
     texts = [c["text"] for c in chunks]
+    contextualized_texts = [_contextualize(c) for c in chunks]
     metadatas = [_to_metadata(c) for c in chunks]
 
     for start in range(0, len(chunks), EMBED_BATCH_SIZE):
         end = start + EMBED_BATCH_SIZE
-        batch_texts = texts[start:end]
-        embeddings = embed_passages(batch_texts)
+        embeddings = embed_passages(contextualized_texts[start:end])
         collection.add(
             ids=ids[start:end],
             embeddings=embeddings,
-            documents=batch_texts,
+            documents=texts[start:end],
             metadatas=metadatas[start:end],
         )
         print(f"  {name}: {min(end, len(chunks))}/{len(chunks)}", file=sys.stderr)
