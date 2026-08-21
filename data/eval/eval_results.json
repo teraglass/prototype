@@ -1,6 +1,6 @@
 {
-  "n_cases": 6,
-  "redacted_target_recall": 0.8333333333333334,
+  "n_cases": 8,
+  "redacted_target_recall": 0.75,
   "compliant_target_hit_rate": 1.0,
   "cases": [
     {
@@ -23,7 +23,7 @@
         "compliant": {
           "text": "Participants will be approached for informed consent prior to any study procedures. The study team will review the purpose, risks, and benefits of participation with each participant and answer any questions before obtaining a signature. The informed consent form, along with any subsequent amendments, will be submitted to the site's Institutional Review Board (IRB) for review, and no participant will be consented using a version that has not received prior IRB approval.",
           "flag": "aligned",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "target_hit": true,
           "citations": [
             {
@@ -52,7 +52,7 @@
         "redacted": {
           "text": "The study will enroll a total of 120 participants across all sites.",
           "flag": "review_needed",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "target_hit": true,
           "citations": [
             {
@@ -79,6 +79,11 @@
               "grounded": true
             },
             {
+              "doc_id": "ICH_E6R2_GCP",
+              "breadcrumb": "6 CLINICAL TRIAL PROTOCOL AND PROTOCOL AMENDMENT(S) > 6.9 Statistics",
+              "grounded": true
+            },
+            {
               "doc_id": "ICH_E8R1_General_Considerations",
               "breadcrumb": "5 DESIGN ELEMENTS AND DATA SOURCES FOR CLINICAL STUDIES > 5.1 Study Population",
               "grounded": true
@@ -94,7 +99,7 @@
         "redacted": {
           "text": "Participants may discontinue study participation at any time.",
           "flag": "review_needed",
-          "confidence": 0.8,
+          "confidence": 0.85,
           "target_hit": true,
           "citations": [
             {
@@ -112,7 +117,7 @@
         "compliant": {
           "text": "Participants may discontinue study participation at any time. In addition, the investigator will discontinue study treatment for any participant who experiences a Grade 3 or higher adverse event that is possibly, probably, or definitely related to the study drug, or who becomes pregnant during the treatment period; these criteria are provided to the site in writing prior to study initiation.",
           "flag": "aligned",
-          "confidence": 0.75,
+          "confidence": 0.65,
           "target_hit": true,
           "citations": [
             {
@@ -140,7 +145,7 @@
       "variants": {
         "redacted": {
           "text": "Adverse events will be recorded at each study visit using a structured case report form.",
-          "flag": "review_needed",
+          "flag": "conflict",
           "confidence": 0.75,
           "target_hit": true,
           "citations": [
@@ -240,7 +245,7 @@
         "redacted": {
           "text": "Participants will not be charged for any study-related procedures performed as part of this protocol.",
           "flag": "review_needed",
-          "confidence": 0.6,
+          "confidence": 0.55,
           "target_hit": false,
           "citations": [
             {
@@ -259,6 +264,100 @@
             {
               "doc_id": "ICH_E6R2_GCP",
               "breadcrumb": "5 SPONSOR > 5.8 Compensation to Subjects and Investigators",
+              "grounded": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pediatric_safety_study_size",
+      "topic": "소아 안전성 연구는 최소 규모·기간 기준을 충족해야 한다 (FDA)",
+      "variants": {
+        "redacted": {
+          "text": "A safety study in pediatric patients with partial onset seizures will be conducted to characterize the safety profile of the study drug.",
+          "flag": "review_needed",
+          "confidence": 0.85,
+          "target_hit": true,
+          "citations": [
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            },
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            },
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            }
+          ]
+        },
+        "compliant": {
+          "text": "A safety study in pediatric patients with partial onset seizures will be conducted to characterize the safety profile of the study drug. The study will enroll a minimum of 100 pediatric patients 4 years of age and older, each exposed to the study drug for at least 6 months, with dosing at or above levels determined to be effective in this population; blood concentrations of the drug and its active metabolites will be quantified whenever a severe or serious adverse event occurs.",
+          "flag": "aligned",
+          "confidence": 0.9,
+          "target_hit": true,
+          "citations": [
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            },
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            },
+            {
+              "doc_id": "FDA_PartialOnsetSeizures_PediatricExtrapolation",
+              "breadcrumb": "D Safety Considerations",
+              "grounded": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mfds_development_plan_rationale",
+      "topic": "개발계획에 이론적 근거·적응증·위험성을 기술해야 한다 (MFDS)",
+      "variants": {
+        "redacted": {
+          "text": "본 임상시험은 뇌전증 환자를 대상으로 시험약의 유효성 및 안전성을 평가하기 위해 계획되었다.",
+          "flag": "review_needed",
+          "confidence": 0.75,
+          "target_hit": false,
+          "citations": [
+            {
+              "doc_id": "MFDS_Protocol_Approval_Supplement_Cases",
+              "breadcrumb": "5 임상시험계획서",
+              "grounded": true
+            },
+            {
+              "doc_id": "MFDS_Protocol_Approval_Supplement_Cases",
+              "breadcrumb": "5 임상시험계획서",
+              "grounded": true
+            }
+          ]
+        },
+        "compliant": {
+          "text": "본 임상시험은 뇌전증 환자를 대상으로 시험약의 유효성 및 안전성을 평가하기 위해 계획되었다. 개발계획에는 본 임상시험 실시에 대한 이론적 근거, 대상 적응증인 부분발작 뇌전증에 대한 임상평가방법, 그리고 시험약에서 예측되는 중대한 위험성을 기술하였으며, 기존 치료법 대비 이익-위험성 평가를 통해 시험 수행의 타당성을 설명하였다.",
+          "flag": "aligned",
+          "confidence": 0.75,
+          "target_hit": true,
+          "citations": [
+            {
+              "doc_id": "MFDS_Protocol_Approval_Supplement_Cases",
+              "breadcrumb": "1 개발계획",
+              "grounded": true
+            },
+            {
+              "doc_id": "MFDS_Protocol_Approval_Supplement_Cases",
+              "breadcrumb": "1 개발계획",
               "grounded": true
             }
           ]
